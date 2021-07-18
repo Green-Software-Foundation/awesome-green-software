@@ -1,7 +1,8 @@
-# green-software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Green Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> research, tools, code and training to for building applications that emit less carbon into our atomosphere
+> Research, tools, code, libraries and training to for building applications that emit less carbon into our atmosphere.
 
+An [awesome list](https://awesome.re) created and managed by the [Innovation Working Group](https://github.com/Green-Software-Foundation/innovation_wg) in the [greensoftware.foundation](https://greensoftware.foundation).
 
 ## Contents
 
