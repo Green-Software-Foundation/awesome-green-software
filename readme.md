@@ -52,8 +52,14 @@ This section refers to code-based carbon impact measurement tools
 - [Microsoft Sustainability Calculator](https://appsource.microsoft.com/en-us/product/power-bi/coi-sustainability.sustainability_dashboard)
 
 ### AWS
+- [Green Cost Explorer](https://github.com/thegreenwebfoundation/green-cost-explorer) - A climate related spend analysis for AWS.
 
 ### Google
+- [Cloud Jewels](https://github.com/etsy/cloud-jewels)
+    Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
+
+### Multicloud
+- [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) - An open-source cloud energy and carbon emissions measurement tool.
 
 ## Contribute
 
