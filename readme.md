@@ -24,6 +24,8 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 This section refers to code-based carbon impact measurement tools
 
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
+- [energyusage](https://pypi.org/project/energyusage/) Python : package that measures the environmental impact of computation. Provides a function to evaluate the energy usage and related carbon emissions of another function.  
+- [carbontracker](https://github.com/lfwa/carbontracker) Python : Track and predict the energy consumption and carbon footprint of training deep learning models.
 
 
 ## OS based
