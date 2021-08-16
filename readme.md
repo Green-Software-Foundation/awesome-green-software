@@ -6,7 +6,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 
 ## Contents
 
-- [Dev / Tooling](#dev-/-tooling)
+- [Dev / Tooling](#dev--tooling)
     - [AI](#ai)
         - [Carbon](#carbon)
         - [Energy](#energy)
@@ -23,7 +23,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
         - [AWS](#aws)
         - [Google](#google)
         - [Multicloud](#multicloud)
-- [Research / Articles](#research-/-articles)
+- [Research / Articles](#research--articles)
     - [Research](#research)
         - [Artificial Intelligence](#artificial-intelligence)
         - [Computation](#computation)
