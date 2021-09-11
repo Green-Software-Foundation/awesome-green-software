@@ -101,6 +101,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [Quantifying the Cabon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
 - [Energy-Efficient AI | Vivienne Sze | TEDxMIT](https://www.youtube.com/watch?v=Y0XGSnRrWiU&ab_channel=TEDxTalks)
+- [The AI Gambit — Leveraging Artificial Intelligence to Combat Climate Change: Opportunities, Challenges, and Recommendations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3804983)
 
 #### Computation
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
@@ -109,6 +110,8 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [Carbon-Aware Computing for Datacenters](https://arxiv.org/abs/2106.11750)
 - [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
 - [The Case for Energy-Proportional Computin](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
+- [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
+- 
 
 #### Emissions
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
