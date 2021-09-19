@@ -138,6 +138,8 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [SolarWind Foundation](https://solarimpulse.com/)
 - [Climate Action Tech ](https://climateaction.tech)
 - [Climate Change AI](https://www.climatechange.ai/)
+- [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
+- [The Green Grid](https://www.thegreengrid.org/)
 
 ## Contribute
 
