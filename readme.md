@@ -82,6 +82,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [Carbonaluser - TheShiftProject](https://chrome.google.com/webstore/detail/carbonalyser/oblfkaonopplpldppkjdhnlcmkhgbcok)
 - [GreenSpector](http://mobile-efficiency-index.com/en/) 
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator. 
+- [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website
 
 #### Linux
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
@@ -131,6 +132,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 ### Articles
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
+- [How to incorporate carbon free energy for Google Cloud regions] (https://cloud.google.com/sustainability/region-carbon)
 
 ## Organizations
 - [Green Software Foundation](https://greensoftware.foundation)
