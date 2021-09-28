@@ -112,6 +112,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [The Case for Energy-Proportional Computin](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
 - [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
 - [Hiding Greenhouse Gas Emissions in the Cloud](https://www.nature.com/articles/s41558-020-0837-6)
+- [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
 
 #### Emissions
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
