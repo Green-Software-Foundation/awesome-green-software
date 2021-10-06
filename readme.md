@@ -135,6 +135,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 ### Articles
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
 - [How to incorporate carbon free energy for Google Cloud regions] (https://cloud.google.com/sustainability/region-carbon)
 
 ## Organizations
