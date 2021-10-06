@@ -44,7 +44,9 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 
 #### Energy
 - [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
-- [carbontracker](https://github.com/lfwa/carbontracker) [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+- [carbontracker](https://github.com/lfwa/carbontracker) 
+- [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+- [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 
 ### Cloud based
 
@@ -87,6 +89,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity. 
 - [Clickclean.org](http://www.clickclean.org/) Energy footprint of commonly used applications.
 
+
 #### Linux
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
 
@@ -102,30 +105,35 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 
 #### Artificial Intelligence
 - [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
-- [Quantifying the Cabon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
+- [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
 - [Energy-Efficient AI | Vivienne Sze | TEDxMIT](https://www.youtube.com/watch?v=Y0XGSnRrWiU&ab_channel=TEDxTalks)
 - [The AI Gambit — Leveraging Artificial Intelligence to Combat Climate Change: Opportunities, Challenges, and Recommendations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3804983)
 
 #### Computation
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
+- [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
 
 #### Data Centers
 - [Carbon-Aware Computing for Datacenters](https://arxiv.org/abs/2106.11750)
 - [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
-- [The Case for Energy-Proportional Computin](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
+- [The Case for Energy-Proportional Computing](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
 - [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
 - [Hiding Greenhouse Gas Emissions in the Cloud](https://www.nature.com/articles/s41558-020-0837-6)
+- [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
+- [Supporting energy-awareness for cloud users](https://tel.archives-ouvertes.fr/tel-01973083/file/GUYON_David.pdf)
 
 #### Emissions
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
 - [Methodological Guide - Bilan Carbone (French)](https://www.associationbilancarbone.fr/wp-content/uploads/2018/03/bilan-carbone-v8-guide-methodologique-final.pdf)
+- [A Framework For Collective Carbon Neutrality](https://www.carbone4.com/wp-content/uploads/2020/05/Carbone-4-NZI-Guidelines-Executive-Summary-april-2020.pdf)
+- [The energy and carbon footprint of the ICT and E&M sector in Sweden 1990–2015 and beyond](https://download.atlantis-press.com/article/25860385.pdf)
 
 #### Programming Languages
 - [Energy Efficiency Across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
-- [GreenC5: An Adaptiv eenC5: An Adaptive, Ener e, Energy-Aware Collection for Gr e Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
+- [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
 - [Google Apps: Energy Efficiency in the Cloud](https://static.googleusercontent.com/media/www.google.com/en//green/pdf/google-apps.pdf)
 
@@ -136,6 +144,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
 - [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
 
 ## Organizations
 - [Green Software Foundation](https://greensoftware.foundation)
