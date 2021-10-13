@@ -15,9 +15,6 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
         - [Windows](#windows)
         - [Web](#web)
         - [Linux](#linux)
-        - [MacOS](#macos)
-        - [Android](#android)
-        - [iOS](#ios)
     - [Cloud based](#cloud-based)
         - [Azure](#azure)
         - [AWS](#aws)
@@ -88,12 +85,6 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 
 #### Linux
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
-
-#### Android
-
-#### iOS
-
-#### MacOS
 
 ## Research / Articles
 
