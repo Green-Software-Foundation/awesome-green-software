@@ -4,6 +4,8 @@
 
 An [awesome list](https://awesome.re) created and managed by the [Innovation Working Group](https://github.com/Green-Software-Foundation/innovation_wg) in the [greensoftware.foundation](https://greensoftware.foundation).
 
+**Disclaimer**: This list is created for informational purposes only and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations or contributors to the list.
+
 ## Contents
 
 - [Dev / Tooling](#dev--tooling)
@@ -24,6 +26,14 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
         - [Web](#web)
         - [Windows](#windows)
 - [Organizations](#organizations)
+        - [Windows](#windows)
+        - [Web](#web)
+        - [Linux](#linux)
+    - [Cloud based](#cloud-based)
+        - [Azure](#azure)
+        - [AWS](#aws)
+        - [Google](#google)
+        - [Multicloud](#multicloud)
 - [Research / Articles](#research--articles)
     - [Research](#research)
         - [Artificial Intelligence](#artificial-intelligence)
@@ -101,6 +111,19 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [TheShiftProject](https://theshiftproject.org/)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
+- [GreenSpector](http://mobile-efficiency-index.com/en/) 
+- [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator. 
+- [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website.
+- [EcoGrader.com](https://ecograder.com/) An online website carbon estimator. 
+- [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity. 
+- [Clickclean.org](http://www.clickclean.org/) Energy footprint of commonly used applications.
+
+
+#### Linux
+- [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
+- [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
+- [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
+- [PoweerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 
 ## Research / Articles
 
@@ -148,6 +171,20 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
 - [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
+- [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
+- [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
+- [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
+
+## Organizations
+- [Green Software Foundation](https://greensoftware.foundation)
+- [TimeForThePlanet](https://www.time-planet.com/fr)
+- [TheShiftProject](https://theshiftproject.org/)
+- [SolarWind Foundation](https://solarimpulse.com/)
+- [Climate Action Tech ](https://climateaction.tech)
+- [Climate Change AI](https://www.climatechange.ai/)
+- [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
+- [The Green Grid](https://www.thegreengrid.org/)
 
 ## Contribute
 
