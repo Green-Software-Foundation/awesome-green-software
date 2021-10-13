@@ -17,9 +17,6 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
         - [Windows](#windows)
         - [Web](#web)
         - [Linux](#linux)
-        - [MacOS](#macos)
-        - [Android](#android)
-        - [iOS](#ios)
     - [Cloud based](#cloud-based)
         - [Azure](#azure)
         - [AWS](#aws)
@@ -97,12 +94,6 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 - [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [PoweerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
-
-#### Android
-
-#### iOS
-
-#### MacOS
 
 ## Research / Articles
 
