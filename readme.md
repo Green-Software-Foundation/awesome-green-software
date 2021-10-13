@@ -4,6 +4,8 @@
 
 An [awesome list](https://awesome.re) created and managed by the [Innovation Working Group](https://github.com/Green-Software-Foundation/innovation_wg) in the [greensoftware.foundation](https://greensoftware.foundation).
 
+**Disclaimer**: This list is created for informational purposes only and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations or contributors to the list.
+
 ## Contents
 
 - [Dev / Tooling](#dev--tooling)
