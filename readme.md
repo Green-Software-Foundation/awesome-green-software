@@ -92,6 +92,9 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 
 #### Linux
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
+- [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
+- [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
+- [PoweerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 
 #### Android
 
