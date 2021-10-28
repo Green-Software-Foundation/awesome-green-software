@@ -2,9 +2,13 @@
 
 > Research, tools, code, libraries and training to for building applications that emit less carbon into our atmosphere.
 
-An [awesome list](https://awesome.re) created and managed by the [Innovation Working Group](https://github.com/Green-Software-Foundation/innovation_wg) in the [greensoftware.foundation](https://greensoftware.foundation).
+An [awesome list](https://awesome.re) created and managed by the [Innovation Working Group](https://greensoftware.foundation/working-groups/innovation) in the [greensoftware.foundation](https://greensoftware.foundation).
 
-**Disclaimer**: This list is created for informational purposes only and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations or contributors to the list.
+## Disclaimer
+
+This list is created for informational purposes only and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations or contributors to the list.
+
+THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to the materials. The entire risk as to implementing or otherwise using the materials is assumed by the implementer and user. IN NO EVENT WILL THE PARTIES BE LIABLE TO ANY OTHER PARTY FOR LOST PROFITS OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THIS DELIVERABLE OR ITS GOVERNING AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Contents
 
