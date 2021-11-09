@@ -115,6 +115,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
 - [The AI Gambit — Leveraging Artificial Intelligence to Combat Climate Change: Opportunities, Challenges, and Recommendations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3804983)
+- [Climate Change and AI: Recommendations for Government Action](https://www.gpai.ai/projects/climate-change-and-ai.pdf)
 
 #### Computation
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
