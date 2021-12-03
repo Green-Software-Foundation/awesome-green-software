@@ -121,6 +121,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The AI Gambit — Leveraging Artificial Intelligence to Combat Climate Change: Opportunities, Challenges, and Recommendations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3804983)
 - [Unraveling the hidden environmental impacts of AI solutions for environment](https://arxiv.org/abs/2110.11822)
 
+#### Blockchain
+- [Ethereum Emissions: A Bottom-up Estimate](https://arxiv.org/abs/2112.01238)
+
 #### Computation
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
