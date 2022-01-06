@@ -16,6 +16,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [AI](#ai)
         - [Carbon](#carbon)
         - [Energy](#energy)
+    - [Auto Scaling](#auto-scaling)
+        - [Kubernetes](#kubernetes)
     - [Cloud based](#cloud-based)
         - [AWS](#aws)
         - [Azure](#azure)
@@ -49,6 +51,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [carbontracker](https://github.com/lfwa/carbontracker) 
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+
+### Auto Scaling
+
+#### Kubernetes
+- [KEDA](https://keda.sh/) can scale containers based on a wide range of events and supports scaling to zero.
 
 ### Cloud based
 
