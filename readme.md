@@ -56,7 +56,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green Cost Explorer](https://github.com/thegreenwebfoundation/green-cost-explorer) A climate related spend analysis for AWS.
 
 #### Azure
-- [Microsoft Sustainability Calculator](https://appsource.microsoft.com/en-us/product/power-bi/coi-sustainability.sustainability_dashboard)
+- [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
 
 #### Google
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
