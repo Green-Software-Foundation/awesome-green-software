@@ -124,8 +124,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Unraveling the hidden environmental impacts of AI solutions for environment](https://arxiv.org/abs/2110.11822)
 
 #### Blockchain
-- [Ethereum Emissions: A Bottom-up Estimate](https://arxiv.org/abs/2112.01238)
 - [Confronting the Carbon-footprint Challenge of Blockchain](https://arxiv.org/abs/2201.06929)
+- [Ethereum Emissions: A Bottom-up Estimate](https://arxiv.org/abs/2112.01238)
 
 #### Computation
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
