@@ -28,6 +28,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
         - [Linux](#linux)
         - [Web](#web)
         - [Windows](#windows)
+        - [Android](#android)
 - [Organizations](#organizations)
 - [Research / Articles](#research--articles)
     - [Research](#research)
@@ -103,6 +104,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   Blog : [Measuring Your Application Power and Carbon Impact](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/)
 - [WeDeex](https://github.com/Wedeex-DevTeam/WedeexApp)
   Blog : [We need a Yuka for electricity to ease the energy transition](https://devblogs.microsoft.com/sustainable-software/we-need-a-yuka-for-electricity-to-ease-the-energy-transition/)
+  
+#### Android
+- [ecoCode](https://github.com/cnumr/ecoCode/tree/main/sonarqube-plugin-greenit/native-analyzer/android-plugin) A sonarQube plugin for the static detection of android-specific energy smells
+- [powDroid](https://git.univ-pau.fr/powdroid/powdroid) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ## Organizations
 - [Climate Action Tech ](https://climateaction.tech)
