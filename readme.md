@@ -96,6 +96,7 @@ An [awesome list](https://awesome.re) created and managed by the [Innovation Wor
 ## Organizations
 - [Climate Action Tech ](https://climateaction.tech)
 - [Climate Change AI](https://www.climatechange.ai/)
+- [Green Software Design Community](https://www.GreenSoftwareDesign.com)
 - [Green Software Foundation](https://greensoftware.foundation)
 - [SolarWind Foundation](https://solarimpulse.com/)
 - [The Green Grid](https://www.thegreengrid.org/)
