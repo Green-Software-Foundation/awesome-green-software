@@ -83,7 +83,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Android
 - [ecoCode](https://github.com/cnumr/ecoCode/tree/main/sonarqube-plugin-greenit/native-analyzer/android-plugin) A sonarQube plugin for the static detection of android-specific energy smells
-- [powDroid](https://git.univ-pau.fr/powdroid/powdroid) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
+- [powDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 #### Linux
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
