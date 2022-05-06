@@ -82,7 +82,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### OS based
 
 #### Android
-- [ecoCode](https://github.com/cnumr/ecoCode/tree/main/sonarqube-plugin-greenit/native-analyzer/android-plugin) A sonarQube plugin for the static detection of android-specific energy smells
+- [ecoCode](https://github.com/cnumr/ecoCode/tree/main/src/android-plugin) A sonarQube plugin for the static detection of android-specific energy smells
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 #### Linux
