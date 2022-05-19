@@ -52,6 +52,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [carbontracker](https://github.com/lfwa/carbontracker) 
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+- [CO2Scope - a solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/)
 
 ### Cloud based
 
