@@ -159,6 +159,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
 - [Supporting energy-awareness for cloud users](https://tel.archives-ouvertes.fr/tel-01973083/file/GUYON_David.pdf)
 - [The Case for Energy-Proportional Computing](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
+- [The Dirty Secret of SSDs: Embodied Carbon](https://arxiv.org/abs/2207.10793)
 - [Treehouse: A Case For Carbon-Aware Datacenter Software](https://arxiv.org/abs/2201.02120)
 
 #### Emissions
