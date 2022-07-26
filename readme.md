@@ -30,6 +30,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
         - [Web](#web)
         - [Windows](#windows)
 - [Organizations](#organizations)
+- [Educational](#educational)
 - [Research / Articles](#research--articles)
     - [Research](#research)
         - [Artificial Intelligence](#artificial-intelligence)
@@ -123,6 +124,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [TheShiftProject](https://theshiftproject.org/)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
 
+## Educational
+- [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
+- [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
+
 ## Research / Articles
 
 ### Research 
@@ -190,6 +195,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Staggering Ecological Impacts of Computation and the Cloud](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
 - [What Do We Need To Build More Sustainable Ai Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
+- [Starter guide: Sustainable software engineering](https://www.duurzamestudent.nl/2022/05/28/sustainable-software-engineering/)
 
 ## Contribute
 
