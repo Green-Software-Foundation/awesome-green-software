@@ -66,6 +66,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
 
 #### Google
+- [Carbon Footprint](https://cloud.google.com/carbon-footprint)
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
   Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
