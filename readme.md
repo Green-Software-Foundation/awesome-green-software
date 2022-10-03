@@ -40,6 +40,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
       - [Emissions](#emissions)
       - [Programming Languages](#programming-languages)
       - [Streaming](#streaming)
+      - [Quantum Computing](#quantum-computing)
 
 ## Dev / Tooling
 
@@ -202,6 +203,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
+
+#### Quantum Computing
+- [Is quantum computing green? An estimate for an energy-efficiency quantum advantage](https://arxiv.org/abs/2205.12092)
 
 #### Streaming
 - [DImpact](https://dimpact.org)
