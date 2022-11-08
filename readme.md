@@ -110,6 +110,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
+- [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces energy required for page load and protects your privacy. 
 - [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
