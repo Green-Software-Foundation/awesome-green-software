@@ -4,18 +4,21 @@ Please note that this project is released with a
 [Contributor Code of Conduct](code-of-conduct.md). By participating in this
 project you agree to abide by its terms.
 
----
+# Submitting a Pull Request 
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Please point all pull request to the `dev` branch. This is so all changes can be reviewed before merging to main for the next release.  
+- Additions should be added in alphabetical order in the relevant category.
+- New categories or changes to the existing categorization are welcomed.
+- Use [title casing (AP Stylebook)](https://en.wikipedia.org/wiki/Title_case#AP_Stylebook) in the following format: `[List Name](link)`
+- Search previous suggestions to make sure your suggestion isn't a duplicate.
+- Check your spelling and grammar.
+- Annotate your pull request to clarify what you did if the diff is unclear/confusing.
 
-Thank you for your suggestions!
+Thank you for your suggestions and/or contributions!
 
-
-## Updating your PR
+## Updating your Pull Request
 
 A lot of times, making a PR adhere to the standards above can be difficult.
 If the maintainers notice anything that we'd like changed, we'll ask you to

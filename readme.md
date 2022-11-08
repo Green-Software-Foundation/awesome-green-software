@@ -30,15 +30,17 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
         - [Web](#web)
         - [Windows](#windows)
 - [Organizations](#organizations)
-- [Research / Articles](#research--articles)
-    - [Research](#research)
-        - [Artificial Intelligence](#artificial-intelligence)
-        - [Computation](#computation)
-        - [Data Centers](#data-centers)
-        - [Emissions](#emissions)
-        - [Programming Languages](#programming-languages)
-        - [Streaming](#streaming)  
+- [Articles / Books / Research](#articles--books--research) 
     - [Articles](#articles)
+    - [Books](#books)
+    - [Research](#research)
+      - [Artificial Intelligence](#artificial-intelligence)
+      - [Computation](#computation)
+      - [Data Centers](#data-centers)
+      - [Emissions](#emissions)
+      - [Programming Languages](#programming-languages)
+      - [Streaming](#streaming)
+      - [Quantum Computing](#quantum-computing)
 
 ## Dev / Tooling
 
@@ -50,8 +52,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Energy
 - [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker) 
+- [CO2Scope - a solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+
 
 ### Cloud based
 
@@ -63,21 +67,29 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
 
 #### Google
+- [Carbon Footprint](https://cloud.google.com/carbon-footprint)
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
   Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
 #### Multicloud
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
+- [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 
-### code based
+### Code based
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
+- [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 
 ### General purpose
 
 #### Energy
-- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
+
+
+#### Emissions
+- [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 
 ### OS based
 
@@ -98,7 +110,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Clickclean.org](http://www.clickclean.org/) Energy footprint of commonly used applications.
 - [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
+- [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing carbon footprint of websites.
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
+- [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
+- [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces energy required for page load and protects your privacy. 
 - [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
@@ -123,11 +138,29 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [TheShiftProject](https://theshiftproject.org/)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
 
-## Research / Articles
+## Articles / Books / Research
+
+### Articles
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
+- [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
+- [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
+- [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
+- [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
+- [Software Carbon Intensity (Sci): Crafting A Standard](https://greensoftware.foundation/articles/software-carbon-intensity-crafting-a-standard)
+- [The Staggering Ecological Impacts of Computation and the Cloud](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
+- [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
+- [What Do We Need To Build More Sustainable Ai Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
+- [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
+
+### Books
+
+- [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
+- [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 
 ### Research 
 
 #### Artificial Intelligence
+- [Carbon-Neutralized Task Scheduling for Green Computing Networks](https://arxiv.org/abs/2209.02198)
 - [Climate Change and AI: Recommendations for Government Action](https://www.gpai.ai/projects/climate-change-and-ai.pdf)
 - [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
 - [Energy-Efficient AI | Vivienne Sze | TEDxMIT](https://www.youtube.com/watch?v=Y0XGSnRrWiU&ab_channel=TEDxTalks)
@@ -147,6 +180,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Computation
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
+- [Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud](https://arxiv.org/pdf/2110.13234.pdf)
+- [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions](https://arxiv.org/abs/2009.03598)
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
 
 #### Data Centers
@@ -157,6 +192,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
 - [Supporting energy-awareness for cloud users](https://tel.archives-ouvertes.fr/tel-01973083/file/GUYON_David.pdf)
 - [The Case for Energy-Proportional Computing](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
+- [The Dirty Secret of SSDs: Embodied Carbon](https://arxiv.org/abs/2207.10793)
 - [Treehouse: A Case For Carbon-Aware Datacenter Software](https://arxiv.org/abs/2201.02120)
 
 #### Emissions
@@ -174,22 +210,17 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
 
+#### Web
+- [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
+
+#### Quantum Computing
+- [Is quantum computing green? An estimate for an energy-efficiency quantum advantage](https://arxiv.org/abs/2205.12092)
+
 #### Streaming
 - [DImpact](https://dimpact.org)
 
 #### Crypto
 - [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
-
-### Articles
-- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
-- [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
-- [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
-- [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
-- [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
-- [Software Carbon Intensity (Sci): Crafting A Standard](https://greensoftware.foundation/articles/software-carbon-intensity-crafting-a-standard)
-- [The Staggering Ecological Impacts of Computation and the Cloud](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
-- [What Do We Need To Build More Sustainable Ai Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
-- [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
 
 ## Contribute
 
