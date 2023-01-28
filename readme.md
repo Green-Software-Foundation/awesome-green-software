@@ -101,7 +101,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real-time.
-- [PoweerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
+- [PowerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
 
 #### Web
