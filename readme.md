@@ -23,8 +23,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [Multicloud](#multicloud)
   - [Code based](#code-based)
   - [General purpose](#general-purpose)
-    - [Energy](#energy-1)
     - [Emissions](#emissions)
+    - [Energy](#energy-1)
   - [OS based](#os-based)
     - [Android](#android)
     - [Linux](#linux)
@@ -38,13 +38,13 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [Artificial Intelligence](#artificial-intelligence)
     - [Blockchain](#blockchain)
     - [Computation](#computation)
+    - [Crypto](#crypto)
     - [Data Centers](#data-centers)
     - [Emissions](#emissions-1)
     - [Programming Languages](#programming-languages)
-    - [Web](#web-1)
     - [Quantum Computing](#quantum-computing)
     - [Streaming](#streaming)
-    - [Crypto](#crypto)
+    - [Web](#web-1)
 
 ## Dev / Tooling
 
@@ -85,6 +85,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### General purpose
 
+#### Emissions
+- [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
+
 #### Energy
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
@@ -92,9 +95,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
 - [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
-
-#### Emissions
-- [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 
 ### OS based
 
@@ -192,6 +192,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions](https://arxiv.org/abs/2009.03598)
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
 
+#### Crypto
+- [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
+
 #### Data Centers
 - [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
 - [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
@@ -218,17 +221,14 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
 
-#### Web
-- [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
-
 #### Quantum Computing
 - [Is quantum computing green? An estimate for an energy-efficiency quantum advantage](https://arxiv.org/abs/2205.12092)
 
 #### Streaming
 - [DImpact](https://dimpact.org)
 
-#### Crypto
-- [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
+#### Web
+- [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
 
 ## Contribute
 
