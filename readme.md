@@ -13,32 +13,38 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ## Contents
 
 - [Dev / Tooling](#dev--tooling)
-    - [AI](#ai)
-        - [Carbon](#carbon)
-        - [Energy](#energy)
-    - [Cloud based](#cloud-based)
-        - [AWS](#aws)
-        - [Azure](#azure)
-        - [Google](#google)
-        - [Multicloud](#multicloud)    
-    - [Code based](#code-based)
-    - [OS based](#os-based)
-        - [Android](#android)
-        - [Linux](#linux)
-        - [Web](#web)
-        - [Windows](#windows)
+  - [AI](#ai)
+    - [Carbon](#carbon)
+    - [Energy](#energy)
+  - [Cloud based](#cloud-based)
+    - [AWS](#aws)
+    - [Azure](#azure)
+    - [Google](#google)
+    - [Multicloud](#multicloud)
+  - [Code based](#code-based)
+  - [General purpose](#general-purpose)
+    - [Emissions](#emissions)
+    - [Energy](#energy-1)
+  - [OS based](#os-based)
+    - [Android](#android)
+    - [Linux](#linux)
+    - [Web](#web)
+    - [Windows](#windows)
 - [Organizations](#organizations)
-- [Articles / Books / Research](#articles--books--research) 
-    - [Articles](#articles)
-    - [Books](#books)
-    - [Research](#research)
-      - [Artificial Intelligence](#artificial-intelligence)
-      - [Computation](#computation)
-      - [Data Centers](#data-centers)
-      - [Emissions](#emissions)
-      - [Programming Languages](#programming-languages)
-      - [Streaming](#streaming)
-      - [Quantum Computing](#quantum-computing)
+- [Articles / Books / Research](#articles--books--research)
+  - [Articles](#articles)
+  - [Books](#books)
+  - [Research](#research)
+    - [Artificial Intelligence](#artificial-intelligence)
+    - [Blockchain](#blockchain)
+    - [Computation](#computation)
+    - [Crypto](#crypto)
+    - [Data Centers](#data-centers)
+    - [Emissions](#emissions-1)
+    - [Programming Languages](#programming-languages)
+    - [Quantum Computing](#quantum-computing)
+    - [Streaming](#streaming)
+    - [Web](#web-1)
 
 ## Dev / Tooling
 
@@ -50,7 +56,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Energy
 - [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker) 
-- [CO2Scope - a solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
 
@@ -80,14 +85,16 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### General purpose
 
-#### Energy
-- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
-- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
-- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
-
-
 #### Emissions
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
+
+#### Energy
+- [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
+- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
+- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 
 ### OS based
 
@@ -108,6 +115,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Clickclean.org](http://www.clickclean.org/) Energy footprint of commonly used applications.
 - [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
+- [ecoIndex](https://www.ecoindex.fr/) Estimates the carbon footprint of public Web sites and pages (in French)
 - [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing carbon footprint of websites.
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
@@ -184,6 +192,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions](https://arxiv.org/abs/2009.03598)
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
 
+#### Crypto
+- [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
+
 #### Data Centers
 - [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
 - [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
@@ -210,17 +221,14 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
 
-#### Web
-- [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
-
 #### Quantum Computing
 - [Is quantum computing green? An estimate for an energy-efficiency quantum advantage](https://arxiv.org/abs/2205.12092)
 
 #### Streaming
 - [DImpact](https://dimpact.org)
 
-#### Crypto
-- [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
+#### Web
+- [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
 
 ## Contribute
 
