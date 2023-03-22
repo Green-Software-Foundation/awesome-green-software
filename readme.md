@@ -14,8 +14,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [Dev / Tooling](#dev--tooling)
   - [AI](#ai)
-    - [Carbon](#carbon)
-    - [Energy](#energy)
+    - [Carbon](#ai-carbon)
+    - [Energy](#ai-energy)
   - [Cloud based](#cloud-based)
     - [AWS](#aws)
     - [Azure](#azure)
@@ -24,7 +24,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   - [Code based](#code-based)
   - [General purpose](#general-purpose)
     - [Emissions](#emissions)
-    - [Energy](#energy-1)
+    - [Energy](#energy)
   - [OS based](#os-based)
     - [Android](#android)
     - [Linux](#linux)
@@ -50,35 +50,41 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### AI
 
-#### Carbon
+#### AI Carbon
+
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
-#### Energy
+#### AI Energy
+
 - [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
-- [carbontracker](https://github.com/lfwa/carbontracker) 
+- [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
-
 
 ### Cloud based
 
 #### AWS
+
 - [Customer Carbon Footprint Tool for AWS](https://aws.amazon.com/blogs/aws/new-customer-carbon-footprint-tool/)
 - [Green Cost Explorer](https://github.com/thegreenwebfoundation/green-cost-explorer) A climate related spend analysis for AWS.
 
 #### Azure
+
 - [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
 
 #### Google
+
 - [Carbon Footprint](https://cloud.google.com/carbon-footprint)
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
   Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
 #### Multicloud
+
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 
 ### Code based
+
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [JoularJX](https://github.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
@@ -86,9 +92,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### General purpose
 
 #### Emissions
+
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 
 #### Energy
+
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
@@ -99,10 +107,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### OS based
 
 #### Android
+
 - [ecoCode](https://github.com/cnumr/ecoCode/tree/main/src/android-plugin) A sonarQube plugin for the static detection of android-specific energy smells
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 #### Linux
+
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real-time.
@@ -110,6 +120,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
 
 #### Web
+
 - [Carbonalyser - TheShiftProject](https://theshiftproject.org/en/carbonalyser-browser-extension/)
 - [Carbon Footprint of Sending Data](https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around) An online calculator for estimating carbon emissions from network traffic, based on the Shift projects Lean ICT report.
 - [Clickclean.org](http://www.clickclean.org/) Energy footprint of commonly used applications.
@@ -119,23 +130,25 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing carbon footprint of websites.
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
-- [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces energy required for page load and protects your privacy. 
+- [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
 - [WeDeex - Edge](https://microsoftedge.microsoft.com/addons/detail/wedeex/jbocoolinibenmobjadejejdbanalfee)
-- [Beacon] (https://digitalbeacon.co/) Calculate the environmental impact of a web page.
+- [Beacon](https://digitalbeacon.co/) Calculate the environmental impact of a web page.
 
 #### Windows
+
 - [powercfg](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options)
   Blog : [Measuring Your Application Power and Carbon Impact](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/)
 - [WeDeex](https://github.com/Wedeex-DevTeam/WedeexApp)
   Blog : [We need a Yuka for electricity to ease the energy transition](https://devblogs.microsoft.com/sustainable-software/we-need-a-yuka-for-electricity-to-ease-the-energy-transition/)
 
 ## Organizations
-- [Climate Action Tech ](https://climateaction.tech)
+
+- [Climate Action Tech](https://climateaction.tech)
 - [Climate Change AI](https://www.climatechange.ai/)
 - [Green Software Design Community](https://www.GreenSoftwareDesign.com)
 - [Green Software Foundation](https://greensoftware.foundation)
@@ -148,6 +161,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ## Articles / Books / Research
 
 ### Articles
+
 - [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
@@ -165,9 +179,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 - [The Green IT Guide](https://learning.oreilly.com/library/view/the-green-it/9781484280577/)
 
-### Research 
+### Research
 
 #### Artificial Intelligence
+
 - [Carbon-Neutralized Task Scheduling for Green Computing Networks](https://arxiv.org/abs/2209.02198)
 - [Climate Change and AI: Recommendations for Government Action](https://www.gpai.ai/projects/climate-change-and-ai.pdf)
 - [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
@@ -181,11 +196,13 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Unraveling the hidden environmental impacts of AI solutions for environment](https://arxiv.org/abs/2110.11822)
 
 #### Blockchain
+
 - [An Analysis of Energy Consumption and Carbon Footprints of Cryptocurrencies and Possible Solutions](https://arxiv.org/abs/2203.03717)
 - [Confronting the Carbon-footprint Challenge of Blockchain](https://arxiv.org/abs/2201.06929)
 - [Ethereum Emissions: A Bottom-up Estimate](https://arxiv.org/abs/2112.01238)
 
 #### Computation
+
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
 - [Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud](https://arxiv.org/pdf/2110.13234.pdf)
@@ -193,9 +210,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
 
 #### Crypto
+
 - [Accounting for carbon emissions caused by cryptocurrency and token systems](https://arxiv.org/abs/2111.06477)
 
 #### Data Centers
+
 - [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
 - [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
 - [Carbon-Aware Computing for Datacenters](https://arxiv.org/abs/2106.11750)
@@ -207,6 +226,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Treehouse: A Case For Carbon-Aware Datacenter Software](https://arxiv.org/abs/2201.02120)
 
 #### Emissions
+
 - [A Framework For Collective Carbon Neutrality](https://www.carbone4.com/wp-content/uploads/2020/05/Carbone-4-NZI-Guidelines-Executive-Summary-april-2020.pdf)
 - [Methodological Guide - Bilan Carbone (French)](https://www.associationbilancarbone.fr/wp-content/uploads/2018/03/bilan-carbone-v8-guide-methodologique-final.pdf)
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
@@ -215,6 +235,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Tracking emissions in the US electricity system](https://web.stanford.edu/~jdechale/emissions_app/#/about)
 
 #### Programming Languages
+
 - [Energy Efficiency Across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
 - [Google Apps: Energy Efficiency in the Cloud](https://static.googleusercontent.com/media/www.google.com/en//green/pdf/google-apps.pdf)
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
@@ -222,12 +243,15 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
 
 #### Quantum Computing
+
 - [Is quantum computing green? An estimate for an energy-efficiency quantum advantage](https://arxiv.org/abs/2205.12092)
 
 #### Streaming
+
 - [DImpact](https://dimpact.org)
 
 #### Web
+
 - [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
 
 ## Contribute
