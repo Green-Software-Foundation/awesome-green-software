@@ -156,6 +156,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
+- [Sustainable IT Playbook for Technology Leaders](https://www.amazon.co.uk/Sustainable-Playbook-Technology-Leaders-opportunities/dp/1803230347)
 
 ### Research 
 
