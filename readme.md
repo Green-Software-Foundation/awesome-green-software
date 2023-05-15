@@ -179,7 +179,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
 
 ### Books
-
+- [101 Green Software: A Practical Guide for Developers & Architects](https://www.amazon.com/101-Green-Software-Developers-Architects-ebook/dp/B0BPPF82H9/)
 - [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 - [The Green IT Guide](https://learning.oreilly.com/library/view/the-green-it/9781484280577/)
