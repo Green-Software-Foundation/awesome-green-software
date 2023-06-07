@@ -135,7 +135,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [SolarWind Foundation](https://solarimpulse.com/)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
-- [TheShiftProject](https://theshiftproject.org/)
+- [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
 
 ## Articles / Books / Research
