@@ -157,11 +157,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Climate Change AI](https://www.climatechange.ai/)
 - [Green Software Design Community](https://www.GreenSoftwareDesign.com)
 - [Green Software Foundation](https://greensoftware.foundation)
-- [SolarWind Foundation](https://solarimpulse.com/)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [TheShiftProject](https://theshiftproject.org/)
-- [TimeForThePlanet](https://www.time-planet.com/fr)
 
 ## Articles / Books / Research
 
