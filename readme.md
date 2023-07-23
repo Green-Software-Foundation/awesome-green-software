@@ -159,7 +159,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green Software Foundation](https://greensoftware.foundation)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
-- [TheShiftProject](https://theshiftproject.org/)
+- [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
+- [TimeForThePlanet](https://www.time-planet.com/fr)
 
 ## Articles / Books / Research
 
@@ -178,10 +179,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### Books
 
+- [101 Green Software: A Practical Guide for Developers & Architects](https://www.amazon.com/101-Green-Software-Developers-Architects-ebook/dp/B0BPPF82H9/)
 - [Building Green Software](https://learning.oreilly.com/library/view/building-green-software/9781098150617/)
 - [Green IT For Dummies](https://www.amazon.co.uk/dp/0470386886/?coliid=I358607F71QZXK&colid=1MBINCMV3RHUI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)
 - [Empowering Green Initiatives with IT: A Strategy and Implementation Guide](https://www.amazon.co.uk/dp/0470587520/?coliid=I1XLRMB18CH3JJ&colid=1MBINCMV3RHUI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)
-- [101 Green Software: A Practical Guide for Developers & Architects](https://www.amazon.com/101-Green-Software-Developers-Architects-ebook/dp/B0BPPF82H9/)
 - [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 - [The Green IT Guide](https://learning.oreilly.com/library/view/the-green-it/9781484280577/)
