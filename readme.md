@@ -243,6 +243,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Case for Energy-Proportional Computing](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/33387.pdf)
 - [The Dirty Secret of SSDs: Embodied Carbon](https://arxiv.org/abs/2207.10793)
 - [Treehouse: A Case For Carbon-Aware Datacenter Software](https://arxiv.org/abs/2201.02120)
+- [Verifiable Sustainability in Data Centers](https://arxiv.org/abs/2307.11993)
 
 #### Emissions
 
