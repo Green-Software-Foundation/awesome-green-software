@@ -209,6 +209,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink](https://www.techrxiv.org/articles/preprint/The_Carbon_Footprint_of_Machine_Learning_Training_Will_Plateau_Then_Shrink/19139645/1)
 - [The Imperative for Sustainable AI Systems](https://thegradient.pub/sustainable-ai/)
 - [Towards Environmentally Equitable AI via Geographical Load Balancing](https://arxiv.org/abs/2307.05494)
+- [The Two Faces of AI in Green Mobile Computing: A Literature Review](https://arxiv.org/abs/2308.04436)
 - [Unraveling the hidden environmental impacts of AI solutions for environment](https://arxiv.org/abs/2110.11822)
 
 #### Blockchain
