@@ -81,6 +81,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Multicloud
 
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
+- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 
 ### Code based
