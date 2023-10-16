@@ -113,7 +113,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces energy required for page load and protects your privacy. 
-- [GreenFrame.io](https://greenframe.io/onePage) Calculate Carbon Footprint of website.
+- [GreenFrame.io](https://greenframe.io/) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
@@ -140,7 +140,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ## Articles / Books / Research
 
 ### Articles
-- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/assessing-the-suitability-of-the-greenhouse-gas-protocol-for-calculation-of-emissions-from-public-cloud-computing-workloads/)
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/publications/2020-cloud-computing-assessing-ghg/)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
 - [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
