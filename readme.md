@@ -22,6 +22,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [Google](#google)
     - [Multicloud](#multicloud)
   - [Code based](#code-based)
+  - [Continuous Integration](#continuous-integration)
   - [General purpose](#general-purpose)
     - [Emissions](#emissions)
     - [Energy](#energy)
@@ -91,6 +92,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [JoularJX](https://github.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+
+### Continuous Integration
+- [Eco-CI](https://github.com/green-coding-berlin/eco-ci-energy-estimation) A plugin for Github Actions / Gitlab that measures your CI runs and estimates their energy use.
 
 ### General purpose
 
