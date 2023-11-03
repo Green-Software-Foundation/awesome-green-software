@@ -77,7 +77,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### Code based
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
-- [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
+- [JoularJX]([https://gitlab.com/joular/joularjx](https://github.com/joular/joularjx)) Java: Sotware power monitoring at the source code level in real time.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 
 ### General purpose
