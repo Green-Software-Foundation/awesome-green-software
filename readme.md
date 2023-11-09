@@ -50,6 +50,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 #### Energy
+- [Zeus: Deep Learning Energy Measurement and Optimization](https://ml.energy/zeus)
+- [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
 - [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker) 
 - [CO2Scope - a solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/)
@@ -160,6 +162,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### Research 
 
 #### Artificial Intelligence
+- [Chasing Low-Carbon Electricity for Practical and Sustainable DNN Training](https://www.climatechange.ai/papers/iclr2023/29)
+- [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/conference/nsdi23/presentation/you)
 - [Carbon-Neutralized Task Scheduling for Green Computing Networks](https://arxiv.org/abs/2209.02198)
 - [Climate Change and AI: Recommendations for Government Action](https://www.gpai.ai/projects/climate-change-and-ai.pdf)
 - [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
