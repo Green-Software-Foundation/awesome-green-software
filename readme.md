@@ -85,6 +85,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### Code based
 
+- [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust : Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
@@ -107,7 +108,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
-- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 
 ### OS based
