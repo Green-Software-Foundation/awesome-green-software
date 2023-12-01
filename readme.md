@@ -93,6 +93,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Emissions
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
+- [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) A Hangfire extension to schedule tasks with carbon awareness in mind. The best point in time is calculated based on emission forecasts to get a window with a minimal grid carbon intensity. The Software is based on the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk)
+- [Carbon Aware Computing - Tools & Free rorecast data ](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle free, easy to use, ready to run tools for carbon aware computing. The Software is based on the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) and contains a NuGet-Package, Powershell-Commandlets and a live instance of the SDK. See more on [https://www.carbon-aware-computing.com/](https://www.carbon-aware-computing.com/). A open data carbon forecast for Europe is available as in the JSON-Carbon SDK compatible format.
 
 ### OS based
 
