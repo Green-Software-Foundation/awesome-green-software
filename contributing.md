@@ -8,7 +8,8 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Please point all pull request to the `dev` branch. This is so all changes can be reviewed before merging to main for the next release.  
+- Please point all pull request to the `dev` branch. This is so all changes can be reviewed before merging to main for the next release.
+- In order to meet the Developer Certificate of Origin (DCO) on Pull Requests, please ensure to  include Signed-off-by: Author Name <authoremail@example.com> in every commit message. You can also do this automatically by using the -s flag (i.e., git commit -s).
 - Additions should be added in alphabetical order in the relevant category.
 - New categories or changes to the existing categorization are welcomed.
 - Use [title casing (AP Stylebook)](https://en.wikipedia.org/wiki/Title_case#AP_Stylebook) in the following format: `[List Name](link)`
