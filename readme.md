@@ -66,7 +66,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### AWS
 
 - [Customer Carbon Footprint Tool for AWS](https://aws.amazon.com/blogs/aws/new-customer-carbon-footprint-tool/)
-- [Customer Carbon Footprint Tool for AWS](https://aws.amazon.com/blogs/aws/new-customer-carbon-footprint-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [Green Cost Explorer](https://github.com/thegreenwebfoundation/green-cost-explorer) A climate related spend analysis for AWS.
 
 #### Azure
@@ -82,7 +81,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Multicloud
 
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
- [Green Metrics Tool](https://www.green-coding.berlin/projects/green-metrics-tool/) 
+- [Green Metrics Tool](https://www.green-coding.berlin/projects/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 
 ### Code based
