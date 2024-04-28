@@ -1,3 +1,6 @@
+### _[!important] Incubation Project This project is an incubation project being run inside the Green Software Foundation; as such, we DON’T recommend using it in any critical use case. Incubation projects are experimental, offer no support guarantee, have minimal governance and process, and may be retired at any moment. This project may one day Graduate, in which case this disclaimer will be removed._
+
+
 # Green Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Research, tools, code, libraries, and training for building applications that emit less carbon into our atmosphere.
@@ -85,6 +88,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### Code based
 
+- [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
