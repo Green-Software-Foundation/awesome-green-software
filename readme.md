@@ -31,6 +31,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   - [OS based](#os-based)
     - [Android](#android)
     - [Linux](#linux)
+    - [macOS](#macos)
     - [Web](#web)
     - [Windows](#windows)
 - [Organizations](#organizations)
@@ -124,6 +125,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ### iOS
+
 - [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 #### Linux
@@ -133,6 +135,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real-time.
 - [PowerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
+
+#### macOS
+
+- [PowerHog](https://www.green-coding.berlin/projects/power-hog/) A tool to monitor program resource usage and crowdsource the search for wasteful apps.
 
 #### Web
 
