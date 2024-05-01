@@ -95,6 +95,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [JoularJX](https://github.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
 
@@ -108,6 +109,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Energy
 
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
+- [Approach to Sustainable Software – Python Applications](https://github.com/Accenture/energy-consumption-measuring-toolkit/tree/8d3d7bedc10232d13ec33611fac6859aeb883b26/Whitepaper-Sustainable-Software-Approach) Solution to adopt sustainable software development practices for high reduction in application energy consumption
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
