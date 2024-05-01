@@ -1,3 +1,6 @@
+### _[!important] Incubation Project This project is an incubation project being run inside the Green Software Foundation; as such, we DON’T recommend using it in any critical use case. Incubation projects are experimental, offer no support guarantee, have minimal governance and process, and may be retired at any moment. This project may one day Graduate, in which case this disclaimer will be removed._
+
+
 # Green Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Research, tools, code, libraries, and training for building applications that emit less carbon into our atmosphere.
@@ -86,12 +89,14 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### Code based
 
 - [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust : Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
+- [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
-- [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
-- [JoularJX](https://github.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
+- [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of 
+- [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
 
@@ -105,6 +110,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Energy
 
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
+- [Approach to Sustainable Software – Python Applications](https://github.com/Accenture/energy-consumption-measuring-toolkit/tree/8d3d7bedc10232d13ec33611fac6859aeb883b26/Whitepaper-Sustainable-Software-Approach) Solution to adopt sustainable software development practices for high reduction in application energy consumption
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
@@ -205,6 +211,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Exploring the Carbon Footprint of Hugging Face's ML Models: A Repository Mining Study](https://arxiv.org/abs/2305.11164)
 - [Good News About the Carbon Footprint of Machine Learning Training](https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html)
 - [How to estimate carbon footprint when training deep learning models? A guide and review](https://arxiv.org/abs/2306.08323)
+- [LLMCarbon: Modeling the end-to-end Carbon Footprint of Large Language Models](https://arxiv.org/abs/2309.14393)
 - [Measuring the Carbon Intensity of AI in Cloud Instances](https://arxiv.org/abs/2206.05229)
 - [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
@@ -225,6 +232,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
+- [Embodied Carbon Accounting through Spatial-Temporal Embodied Carbon Models](https://arxiv.org/abs/2312.06364)
+- [EnergiBridge: Empowering Software Sustainability through Cross-Platform Energy Measurement](https://arxiv.org/abs/2312.13897)
 - [Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud](https://arxiv.org/pdf/2110.13234.pdf)
 - [Going Green: Optimizing GPUs for Energy Efficiency Through Model-steered Auto-tuning](https://arxiv.org/abs/2211.07260)
 - [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions](https://arxiv.org/abs/2009.03598)
