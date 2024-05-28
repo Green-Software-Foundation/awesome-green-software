@@ -31,6 +31,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [Web](#web)
     - [Windows](#windows)
 - [Organizations](#organizations)
+- [Courses](#courses)
 - [Articles / Books / Research](#articles--books--research)
   - [Articles](#articles)
   - [Books](#books)
@@ -108,7 +109,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
-- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 
 ### OS-based
@@ -167,6 +167,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
+
+## Courses
+
+- [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
+- [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
+- [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
 
 ## Articles / Books / Research
 
@@ -242,7 +248,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Data Centers
 
 - [Architectural Tactics to Optimize Software for Energy Efficiency in the Public Cloud](https://github.com/so-vos/thesis/blob/main/Thesis_Vos_2021.pdf)
-- [Balancing Power Systems With Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
+- [Balancing Power Systems with Datacenters Using a Virtual Interconnector](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7452537)
 - [Carbon-Aware Computing for Datacenters](https://arxiv.org/abs/2106.11750)
 - [Hiding Greenhouse Gas Emissions in the Cloud](https://www.nature.com/articles/s41558-020-0837-6)
 - [Power consumption and efficiency of cooling in a Data Center](https://ieeexplore.ieee.org/document/5697800)
