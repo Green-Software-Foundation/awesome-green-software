@@ -87,16 +87,17 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### Code based
 
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
-- [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
+- [JoularJX](https://gitlab.com/joular/joularjx) Java: Software power monitoring at the source code level in real-time.
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
 
 #### Emissions
 
-- [Carbon AppInsights](https://github.com/cloudyspells/carbon-appinsights) An Azure Functions based solution for logging emissions data for Azure regions from Electricity Maps to Azure Monitor for alerting triggers and automated actions.
+- [Carbon AppInsights](https://github.com/cloudyspells/carbon-appinsights) An Azure Functions-based solution for logging emissions data for Azure regions from Electricity Maps to Azure Monitor for alerting triggers and automated actions.
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
@@ -104,13 +105,13 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Energy
 
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
-- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
-- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
-- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
-- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
+- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
+- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
+- [PowerJoular](https://github.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 
-### OS based
+### OS-based
 
 #### Android
 
@@ -172,13 +173,13 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/publications/2020-cloud-computing-assessing-ghg/)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
-- [How to incorporate carbon free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
+- [How to incorporate carbon-free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
 - [Power consumption of JPEG, WebP, and AVIF](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif)
 - [Software Carbon Intensity (Sci): Crafting A Standard](https://greensoftware.foundation/articles/software-carbon-intensity-crafting-a-standard)
 - [The Staggering Ecological Impacts of Computation and the Cloud](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
 - [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
-- [What Do We Need To Build More Sustainable Ai Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
+- [What Do We Need To Build More Sustainable AI Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
 
 ### Books
@@ -213,7 +214,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Imperative for Sustainable AI Systems](https://thegradient.pub/sustainable-ai/)
 - [Towards Environmentally Equitable AI via Geographical Load Balancing](https://arxiv.org/abs/2307.05494)
 - [The Two Faces of AI in Green Mobile Computing: A Literature Review](https://arxiv.org/abs/2308.04436)
-- [Unraveling the hidden environmental impacts of AI solutions for environment](https://arxiv.org/abs/2110.11822)
+- [Unraveling the hidden environmental impacts of AI solutions for the environment](https://arxiv.org/abs/2110.11822)
 
 #### Blockchain
 
@@ -225,9 +226,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
+- [EnergiBridge: Empowering Software Sustainability through Cross-Platform Energy Measurement](https://arxiv.org/abs/2312.13897)
 - [Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud](https://arxiv.org/pdf/2110.13234.pdf)
 - [Going Green: Optimizing GPUs for Energy Efficiency Through Model-steered Auto-tuning](https://arxiv.org/abs/2211.07260)
-- [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions and Future Directions](https://arxiv.org/abs/2009.03598)
+- [Green-aware Mobile Edge Computing for IoT: Challenges, Solutions, and Future Directions](https://arxiv.org/abs/2009.03598)
 - [Measuring IT Carbon Footprint: What is the Current Status Actually?](https://arxiv.org/abs/2306.10049)
 - [Quantifying the Carbon Emissions of Computation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07610.pdf)
 
