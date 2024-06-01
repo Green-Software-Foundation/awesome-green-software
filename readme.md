@@ -25,6 +25,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   - [General purpose](#general-purpose)
     - [Emissions](#emissions)
     - [Energy](#energy)
+    - [Extensions](#extensions)
   - [OS based](#os-based)
     - [Android](#android)
     - [Linux](#linux)
@@ -121,6 +122,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
 - [Zeus: Deep Learning Energy Measurement and Optimization](https://ml.energy/zeus)
+
+#### Extensions
+
+- [GreenIT-Analysis](https://github.com/cnumr/GreenIT-Analysis) The extension allows you to use your Dev Tools to measure the ecoIndex of a website and verify the application of web eco-design best practices defined by the "Collectif numérique responsible".
 
 ### OS-based
 
