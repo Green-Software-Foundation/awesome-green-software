@@ -194,7 +194,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ## Articles / Books / Research
 
 ### Articles
-- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://davidmytton.blog/publications/2020-cloud-computing-assessing-ghg/)
+- [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads]([https://davidmytton.blog/publications/2020-cloud-computing-assessing-ghg/](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00185-8))
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
 - [How to incorporate carbon-free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
