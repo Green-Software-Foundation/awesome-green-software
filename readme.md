@@ -177,9 +177,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [Climate Action Tech](https://climateaction.tech)
 - [Climate Change AI](https://www.climatechange.ai/)
+- [Digital Emissions](https://www.digitalemissions.org)
 - [Green Software Design Community](https://www.GreenSoftwareDesign.com)
 - [Green Software Foundation](https://greensoftware.foundation)
 - [Roll the Cloud](https://rollthecloud.com/)
+- [SustainableIT.org](https://www.sustainableIT.org)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
