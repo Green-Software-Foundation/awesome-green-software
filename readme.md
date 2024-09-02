@@ -55,6 +55,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### AI Carbon
 
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
+- [FedZero](https://github.com/dos-group/fedzero) Federated learning system for zero-carbon distributed AI training
 
 #### AI Energy
 
@@ -245,6 +246,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Unraveling the hidden environmental impacts of AI solutions for the environment](https://arxiv.org/abs/2110.11822)
 - [Chasing Low-Carbon Electricity for Practical and Sustainable DNN Training](https://www.climatechange.ai/papers/iclr2023/29)
 - [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/conference/nsdi23/presentation/you)
+- [FedZero: Leveraging Renewable Excess Energy in Federated Learning](https://arxiv.org/pdf/2305.15092.pdf)
 
 #### Blockchain
 
