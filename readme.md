@@ -62,7 +62,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
-- [FedZero](https://github.com/dos-group/fedzero) FedZero is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
+- [FedZero](https://github.com/dos-group/fedzero) is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
 
 ### Cloud-based
 
@@ -125,7 +125,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
 - [Zeus: Deep Learning Energy Measurement and Optimization](https://ml.energy/zeus)
-- [Vessim](https://vessim.readthedocs.io/en/latest/)Vessim is a co-simulation testbed for carbon-aware applications and systems that connects domain-specific simulators for renewable power generation and energy storage with real software and hardware. It's been published at HotCarbon'24.[Git](https://github.com/dos-group/vessim) 2024
+- [Vessim](https://vessim.readthedocs.io/en/latest/) is a co-simulation testbed for carbon-aware applications and systems that connects domain-specific simulators for renewable power generation and energy storage with real software and hardware. It's been published at HotCarbon'24. [Git](https://github.com/dos-group/vessim) Publsihed in 2024
 
 #### Extensions
 
