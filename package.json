@@ -1,0 +1,40 @@
+{
+  "name": "algolia-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync-notion": "node src/notionToAlgolia.js"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.2",
+    "@notionhq/client": "^2.2.5",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "algoliasearch": "^4.14.2",
+    "astro": "^4.16.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.3.1",
+    "lucide-react": "^0.344.0",
+    "node-fetch": "^3.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "react-instantsearch": "^7.0.0",
+    "react-instantsearch-dom": "^6.40.4",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@astrojs/ts-plugin": "^1.10.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

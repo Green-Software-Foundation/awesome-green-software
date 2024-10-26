@@ -1,0 +1,61 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+  <div class="banner">
+    This project is an incubation project being run inside the Green Software Foundation; as such, we DON'T recommend using it in any critical use case. Incubation projects are experimental, offer no support guarantee, have minimal governance and process, and may be retired at any moment. This project may one day Graduate, in which case this disclaimer will be removed.
+  </div>
+  <nav>
+    <div class="logo">
+      <a href="/">
+        <img src="/logo.png" alt={SITE_TITLE} height="100" />
+      </a>
+    </div>
+    <div class="nav-right">
+      <a href="/contribute" class="contribute-button">Become a Contributor</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  header {
+    margin: 0;
+    padding: 0;
+    background: rgb(var(--gray-light));
+  }
+  
+  .banner {
+    background-color: #f6ffed;
+    color: #333;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .logo img {
+    height: 150px;
+    width: auto;
+  }
+  
+  .contribute-button {
+    background-color: var(--accent);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contribute-button:hover {
+    background-color: var(--accent-dark);
+  }
+</style>

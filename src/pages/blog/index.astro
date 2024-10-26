@@ -1,0 +1,43 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import NotionSearch from '../../NotionSearch';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css"
+    />
+    <style>
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      .subtitle {
+        color: #555;
+        margin-bottom: 1.5rem;
+      }
+      /* Remove the search-container grid styling */
+      .search-container {
+        display: block; /* Change to block to let NotionSearch handle the layout */
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1 class="text-3xl font-bold mb-4 text-green-800">Resource Search</h1>
+      <p class="subtitle">
+        Welcome to your one-stop area for all that is available in the Green software space!
+      </p>
+      <NotionSearch client:load />
+    </main>
+    <Footer />
+  </body>
+</html>

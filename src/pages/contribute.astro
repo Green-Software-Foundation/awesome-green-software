@@ -1,0 +1,49 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			body, html {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				background-color: var(--light-cream); /* Light tan background */
+			}
+			main {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin-bottom: 2em;
+				padding: 0;
+			}
+			iframe {
+				border: none;
+				width: 100%;
+				height: calc(100vh - 150px); /* Adjust this value to make sure the form is fully visible */
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<!-- Embedded form -->
+			<iframe src="https://81zdjror.forms.app/contact-form" frameborder="0"></iframe>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+
+

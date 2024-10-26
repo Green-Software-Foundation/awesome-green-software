@@ -1,0 +1,138 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .hero-section {
+        text-align: center;
+        padding: 4rem 2rem;
+      }
+      
+      .video-container {
+        max-width: 900px;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        overflow: hidden;
+      }
+      
+      .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin: 2rem 0;
+      }
+      
+      .cta-button {
+        padding: 0.8rem 1.5rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      
+      .primary-button {
+        background-color: var(--accent);
+        color: white;
+      }
+      
+      .secondary-button {
+        background-color: #e2e2e2;
+        color: #333;
+      }
+      
+      .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1.2fr); /* Increases the width of each column */
+        gap: 4rem;
+        max-width: 1800px;
+        margin: 4rem auto;
+        padding: 0 2rem;
+      }
+      
+      .feature {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+      }
+      
+      .feature-icon {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+      
+      .feature-content {
+        flex: 1;
+        max-width: 600px;
+        text-align: center;
+      }
+      
+      /* Updated media query for better responsiveness */
+      @media (max-width: 1400px) {
+        .features {
+          grid-template-columns: 1fr;
+          gap: 4rem;
+          padding: 0 1rem;
+        }
+        
+        .feature-icon {
+          width: 200px;
+          height: 200px;
+        }
+        
+        .feature-content {
+          max-width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main style="background-color: rgb(var(--gray-light));">
+      <section class="hero-section">
+        <div class="video-container">
+          <iframe 
+            width="100%" 
+            height="450" 
+            src="https://www.youtube.com/embed/example-video-id" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h1>Start your green software journey</h1>
+        <div class="cta-buttons">
+          <a href="/blog" class="cta-button primary-button">Explore the directory</a>
+          <a href="https://wiki.greensoftware.foundation/" class="cta-button secondary-button">Learn more</a>
+        </div>
+      </section>
+
+      <div class="features">
+        <div class="feature">
+          <img src="/search-icon.png" alt="Search" class="feature-icon" />
+          <div class="feature-content">
+            <h2>Search the Awesome List</h2>
+            <p>Discover a compilation of green software research, tools, code, libraries, and training for building applications that emit less carbon into our atmosphere</p>
+          </div>
+        </div>
+        
+        <div class="feature">
+          <img src="/contribute-icon.png" alt="Contribute" class="feature-icon" />
+          <div class="feature-content">
+            <h2>Be an Awesome Contributor</h2>
+            <p>Know of a solution that can benefit the green software practitioners? Add it today. Your contribution is essential to keep the Awesome list going.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
