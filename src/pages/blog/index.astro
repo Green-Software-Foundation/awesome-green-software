@@ -15,9 +15,14 @@ import NotionSearch from '../../NotionSearch';
     />
     <style>
       main {
-        max-width: 1200px;
-        margin: 0 auto;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .page-title {
+        text-align: center;
         padding: 2rem;
+        margin-bottom: 1rem;
       }
       .subtitle {
         color: #555;
@@ -25,19 +30,39 @@ import NotionSearch from '../../NotionSearch';
       }
       /* Remove the search-container grid styling */
       .search-container {
-        display: block; /* Change to block to let NotionSearch handle the layout */
+        display: block;
+      }
+      
+      /* Add responsive padding */
+      @media (max-width: 768px) {
+        .page-title {
+          padding: 1rem;
+        }
+      }
+
+      .page-header {
+        padding: 2rem;
+        text-align: center;
+        background: rgb(var(--gray-light));
+        border-bottom: 1px solid rgb(var(--gray));
+      }
+      
+      @media (max-width: 768px) {
+        .page-header {
+          padding: 1rem;
+        }
       }
     </style>
   </head>
   <body>
     <Header />
-    <main>
+    <div class="page-header">
       <h1 class="text-3xl font-bold mb-4 text-green-800">Resource Search</h1>
       <p class="subtitle">
         Welcome to your one-stop area for all that is available in the Green software space!
       </p>
-      <NotionSearch client:load />
-    </main>
+    </div>
+    <NotionSearch client:load />
     <Footer />
   </body>
 </html>

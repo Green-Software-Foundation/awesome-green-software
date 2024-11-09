@@ -36,10 +36,10 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
 }
 h1,
 h2,
@@ -131,13 +131,6 @@ hr {
 	}
 }
 
-footer {
-	padding: 2em 1em 6em 1em;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	color: rgb(var(--black)); /* Changing text color to dark green */
-	text-align: center;
-	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Adding a shadow to the top border */
-}
 
 .sr-only {
 	border: 0;
@@ -175,8 +168,22 @@ main {
 
 /* Style the search container */
 .search-container {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.ais-PoweredBy {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ais-PoweredBy a:hover {
+  opacity: 0.8;
+}
+
+.ais-Hits {
+  margin-top: 2rem;
 }
 
 /* Responsive adjustments */
@@ -201,3 +208,72 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
+
+/* Add styles for the search layout */
+.search-layout {
+  display: flex;
+  min-height: calc(100vh - 200px); /* Adjust based on header/footer height */
+}
+
+.filters-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  border-right: 1px solid rgb(var(--gray));
+  background: rgb(var(--gray-light));
+  padding: 2rem 1rem;
+}
+
+.search-content {
+  flex: 1;
+  padding: 2rem 3rem;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .search-layout {
+    flex-direction: column;
+  }
+  
+  .filters-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgb(var(--gray));
+  }
+  .search-content {
+    padding: 1.5rem;
+  }
+}
+
+/* Add these new styles */
+.search-input::placeholder {
+  color: #9CA3AF;
+}
+
+.ais-Menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ais-Menu-item {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.ais-Menu-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ais-Menu-count {
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.ais-Menu-item--selected .ais-Menu-label {
+  font-weight: 600;
+}
+

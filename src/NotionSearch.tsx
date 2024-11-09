@@ -61,25 +61,25 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
     : 'Date not available';
 
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden mb-4 p-4 w-full">
-      <div className="flex items-center mb-3">
+    <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl overflow-hidden mb-4 p-6 w-full border border-gray-100">
+      <div className="flex items-center mb-4">
         <ItemImage src={hit.Media} alt={`${hit.Name} logo`} />
         <div>
-          <h4 className="text-lg font-semibold text-primary-default">{hit.Name}</h4>
-          <p className="text-sm text-gray-600">{formattedDate}</p>
+          <h4 className="text-xl font-bold text-primary-default mb-1">{hit.Name}</h4>
+          <p className="text-sm text-gray-600 font-medium">{formattedDate}</p>
         </div>
       </div>
       
-      <p className="text-gray-700 mb-4 line-clamp-3">{hit.Description}</p>
+      <p className="text-gray-700 mb-6 line-clamp-3 leading-relaxed">{hit.Description}</p>
       
-      <div className="flex items-center justify-between mt-auto">
-        <div className="flex gap-6">
-          <a href="#" className="hover:text-gray-700">
-            <FaGithub className="text-gray-500 text-xl" />
+      <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
+        <div className="flex gap-4">
+          <a href="#" className="p-2 hover:bg-gray-50 rounded-full transition-colors">
+            <FaGithub className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
           </a>
           {hit.URL && (
-            <a href={hit.URL} className="hover:text-gray-700">
-              <FaLink className="text-gray-500 text-xl" />
+            <a href={hit.URL} className="p-2 hover:bg-gray-50 rounded-full transition-colors">
+              <FaLink className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
             </a>
           )}
         </div>
@@ -109,35 +109,42 @@ const NotionSearch: React.FC = () => {
       indexName={ALGOLIA_INDEX_NAME}
       future={{ preserveSharedStateOnUnmount: true }}
     >
-      <div className="flex flex-col gap-8">
-        {/* Filters and Search Section */}
-        <div className="flex flex-row justify-between items-start mb-6">
-          {/* Filters Section */}
-          <aside className="w-full md:w-1/4 flex-shrink-0">
-            <Filters 
-              isFilterOpen={isFilterOpen} 
-              setIsFilterOpen={setIsFilterOpen} 
-              sidebarRef={sidebarRef} 
-            />
-          </aside>
+      <div className="search-layout">
+        {/* Filters Section */}
+        <aside className="filters-sidebar">
+          <Filters 
+            isFilterOpen={isFilterOpen} 
+            setIsFilterOpen={setIsFilterOpen} 
+            sidebarRef={sidebarRef} 
+          />
+        </aside>
 
-          {/* Search Box Section */}
-          <div className="w-full md:w-3/4 ml-auto">
-            <SearchBox 
-              placeholder="Search solutions..." 
-              className="w-full search-input border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
+        {/* Main Content Area */}
+        <main className="search-content">
+          <div className="search-container mb-12">
+            <div className="relative flex-grow">
+              <SearchBox 
+                placeholder="Search champions..." 
+                className="w-full search-input bg-white border border-gray-200 rounded-full px-12 py-4 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
+                submitIconComponent={() => (
+                  <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
+                    <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                )}
+                loadingIconComponent={() => null}
+                resetIconComponent={() => null}
+              />
+            </div>
           </div>
-        </div>
-
-        {/* Search Results Section */}
-        <div className="w-full">
+          
           <Configure hitsPerPage={6} />
           <Hits<ItemHit> 
             hitComponent={ItemHitComponent} 
             className="grid grid-cols-1 lg:grid-cols-2 gap-6"
           />
-        </div>
+        </main>
       </div>
     </InstantSearch>
   );
