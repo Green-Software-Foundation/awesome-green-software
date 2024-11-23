@@ -142,7 +142,7 @@ const NotionSearch: React.FC = () => {
           <Configure hitsPerPage={6} />
           <Hits<ItemHit> 
             hitComponent={ItemHitComponent} 
-            className="grid grid-cols-1 lg:grid-cols-2 gap-6"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-6"
           />
         </main>
       </div>
