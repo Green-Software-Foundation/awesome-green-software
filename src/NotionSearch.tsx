@@ -142,7 +142,10 @@ const NotionSearch: React.FC = () => {
           <Configure hitsPerPage={6} />
           <Hits<ItemHit> 
             hitComponent={ItemHitComponent} 
-            className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-6"
+            classNames={{
+              list: "grid grid-cols-1 gap-4", // Applies styles to the `<ul>` wrapper
+              item: "bg-gray-100 p-4 rounded-lg shadow-md hover:shadow-lg transition", // Applies styles to `<li>`
+            }}
           />
         </main>
       </div>
