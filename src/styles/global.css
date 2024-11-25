@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
 	--accent: #006e51; /* Button Background / Accent Color */
 	--accent-dark: #034f3b; /* Dark Green, used for hover states or darker accents */
@@ -185,6 +189,7 @@ main {
 .ais-Hits {
   margin-top: 2rem;
 }
+
 
 /* Responsive adjustments */
 @media (min-width: 768px) {
