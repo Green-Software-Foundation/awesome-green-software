@@ -64,7 +64,7 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
     <div className="rounded-xl overflow-hidden w-full">
       <div className="flex items-center mb-4">
         <ItemImage src={hit.Media} alt={`${hit.Name} logo`} />
-        <div>
+        <div className='mt-4 ml-4'>
           <h4 className="text-xl font-bold text-primary-default mb-1">{hit.Name}</h4>
           <p className="text-sm text-gray-600 font-medium">{formattedDate}</p>
         </div>
