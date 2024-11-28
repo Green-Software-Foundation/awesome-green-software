@@ -32,7 +32,7 @@ const DEFAULT_PLACEHOLDER_IMAGE = '/aws-logo-placeholder.png';
 
 // Sub-components
 const ItemImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
-  <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 mr-4 border-2 border-gray-200">
+  <div className="rounded-full overflow-hidden flex-shrink-0 h-12 w-12 border-gray-200">
     <img
       className="w-full h-full object-cover"
       src={src || DEFAULT_PLACEHOLDER_IMAGE}
@@ -61,7 +61,7 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
     : 'Date not available';
 
   return (
-    <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl overflow-hidden mb-4 p-6 w-full border border-gray-100">
+    <div className="rounded-xl overflow-hidden w-full">
       <div className="flex items-center mb-4">
         <ItemImage src={hit.Media} alt={`${hit.Name} logo`} />
         <div>
@@ -125,9 +125,9 @@ const NotionSearch: React.FC = () => {
             <div className="relative flex-grow">
               <SearchBox 
                 placeholder="Search champions..." 
-                className="w-full search-input bg-white border border-gray-200 rounded-full px-12 py-4 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
+                className="w-full search-input bg-white border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
                 submitIconComponent={() => (
-                  <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
+                  <div className="absolute left-1 top-1/2 transform -translate-y-1/2">
                     <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
@@ -140,13 +140,14 @@ const NotionSearch: React.FC = () => {
           </div>
           
           <Configure hitsPerPage={6} />
-          <Hits<ItemHit> 
-            hitComponent={ItemHitComponent} 
+          <Hits<ItemHit>
+            hitComponent={ItemHitComponent}
             classNames={{
-              list: "grid grid-cols-1 gap-4", // Applies styles to the `<ul>` wrapper
-              item: "bg-gray-100 p-4 rounded-lg shadow-md hover:shadow-lg transition", // Applies styles to `<li>`
+              list: "grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6",
+              item: "w-auto bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border-none"
             }}
           />
+
         </main>
       </div>
     </InstantSearch>
