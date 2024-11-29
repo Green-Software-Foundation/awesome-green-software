@@ -223,7 +223,6 @@ main {
 .filters-sidebar {
   width: 300px;
   flex-shrink: 0;
-  border-right: 1px solid rgb(var(--gray));
   background: rgb(var(--gray-light));
   padding: 2rem 1rem;
 }

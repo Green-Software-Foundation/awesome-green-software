@@ -72,7 +72,7 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
       
       <p className="text-gray-700 mb-6 line-clamp-3 leading-relaxed">{hit.Description}</p>
       
-      <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
+      <div className="flex items-center justify-between mt-auto pt-1 border-t border-gray-300">
         <div className="flex gap-4">
           <a href="#" className="p-2 hover:bg-gray-50 rounded-full transition-colors">
             <FaGithub className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
@@ -143,8 +143,8 @@ const NotionSearch: React.FC = () => {
           <Hits<ItemHit>
             hitComponent={ItemHitComponent}
             classNames={{
-              list: "grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6",
-              item: "w-auto bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow border-none"
+              list: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+              item: "w-auto bg-white rounded-lg shadow-md p-4 pb-1 hover:shadow-lg transition-shadow border-none"
             }}
           />
 
