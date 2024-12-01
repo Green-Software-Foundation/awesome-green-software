@@ -1,6 +1,5 @@
 import React from 'react';
-import { ClearRefinements } from 'react-instantsearch';
-import Dropdown from './Dropdown';
+import { ClearRefinements, RefinementList } from 'react-instantsearch';
 
 interface FiltersProps {
   isFilterOpen: boolean;
@@ -9,43 +8,50 @@ interface FiltersProps {
 }
 
 const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sidebarRef }) => {
-  console.log('Filters component rendering');
-  
-  // Place to add filters
-  const filters = [
-    {
-      attribute: "Name",
-      label: "Name"
-    }
-  ];
-
-  console.log('Current filters:', filters);
-
+  //bg-white shadow-lg
   return (
-    <div ref={sidebarRef} className="p-4 pt-8">
-      <div className='mb-8'>
-        <h2 className="text-2xl text-gray-800 font-bold text-left mb-4">Filters</h2>
-        <ClearRefinements 
-          className='text-green-700 hover:text-green-800 transition-colors font-medium text-sm'
-          translations={{
-            resetButtonText: 'Clear all filters',
-          }} 
-        />
+    <aside 
+      ref={sidebarRef} 
+      className={`fixed mt-8 rounded-xl md:static top-0 left-0 h-screen w-64  z-10  transition-transform transform ${isFilterOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
+    > 
+      <div className="p-4">
+        <h3 className="text-lg font-bold mb-4">Filters</h3>
+
+        <div className="mb-4">
+          <ClearRefinements 
+            className="text-green-700 hover:text-green-800 transition-colors font-medium text-sm cursor-pointer"
+            translations={{ resetButtonText: 'Clear all filters' }} 
+          />
+        </div>
+
+        <RefinementList attribute="Name" />
+        {/* Add more RefinementLists or other filter widgets as needed */}
+        <RefinementList attribute="Topics" />
+        {/* Example: RefinementList for 'by' attribute */}
+        <RefinementList attribute="by" /> 
       </div>
 
-      <div className="space-y-2">
-        {filters.map((filter) => {
-          console.log('Rendering filter:', filter);
-          return (
-            <Dropdown 
-              key={filter.attribute}
-              attribute={filter.attribute}
-              label={filter.label}
-            />
-          );
-        })}
-      </div>
-    </div>
+      <button 
+        className="md:hidden absolute top-4 right-4 text-gray-500 hover:text-gray-700" 
+        onClick={() => setIsFilterOpen(false)}
+      >
+        {/* Add an icon to close the sidebar (e.g., from react-icons) */}
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" 
+          viewBox="0 0 24 24" 
+          strokeWidth={1.5} 
+          stroke="currentColor" 
+          className="w-6 h-6"
+        >
+          <path 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            d="M6 18L18 6M6 6l12 12" 
+          />
+        </svg>
+      </button> 
+    </aside>
   );
 };
 

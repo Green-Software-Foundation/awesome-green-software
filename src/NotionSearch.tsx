@@ -5,6 +5,8 @@ import {
   SearchBox,
   Hits,
   Configure,
+  RefinementList,
+  Pagination
 } from 'react-instantsearch';
 import algoliasearch from 'algoliasearch/lite';
 import { FaGithub, FaLink } from 'react-icons/fa';
@@ -113,10 +115,10 @@ const NotionSearch: React.FC = () => {
 
 <div className="container mx-auto px-4 lg:px-16 pb-10">
   {/* Top Section */}
-  <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 mb-8">
+  <div className="grid grid-cols-1 md:grid-cols-[auto_1fr]">
     {/* Top Left Section (Empty) */}
     <div className="flex">
-      <div className="md:w-32">
+      <div className="w-full">
         {/* Intentionally left empty */}
       </div>
     </div>
@@ -136,6 +138,7 @@ const NotionSearch: React.FC = () => {
                 )}
                 loadingIconComponent={() => null}
                 resetIconComponent={() => null}
+                
               />
       </div>
     </div>
@@ -146,6 +149,7 @@ const NotionSearch: React.FC = () => {
     {/* Bottom Left Section */}
     <div className="flex">
       <div className="w-auto">
+        <RefinementList attribute="Name"/>
       <Filters 
             isFilterOpen={isFilterOpen} 
             setIsFilterOpen={setIsFilterOpen} 
@@ -161,10 +165,16 @@ const NotionSearch: React.FC = () => {
           <Hits<ItemHit>
             hitComponent={ItemHitComponent}
             classNames={{
-              list: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+              list: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2",
               item: "w-auto bg-white rounded-lg shadow-md p-4 pb-1 hover:shadow-lg transition-shadow border-none"
             }}
           />
+          <Pagination 
+      className="mt-6" 
+      padding={2} 
+      showFirst={false} 
+      showLast={false} 
+    />
       </div>
     </div>
   </div>
