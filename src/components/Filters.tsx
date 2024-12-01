@@ -22,7 +22,7 @@ const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sideba
   console.log('Current filters:', filters);
 
   return (
-    <div ref={sidebarRef} className="p-4 pt-16">
+    <div ref={sidebarRef} className="p-4 pt-8">
       <div className='mb-8'>
         <h2 className="text-2xl text-gray-800 font-bold text-left mb-4">Filters</h2>
         <ClearRefinements 

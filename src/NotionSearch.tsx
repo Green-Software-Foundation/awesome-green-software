@@ -109,21 +109,22 @@ const NotionSearch: React.FC = () => {
       indexName={ALGOLIA_INDEX_NAME}
       future={{ preserveSharedStateOnUnmount: true }}
     >
-      <div className="search-layout">
-        {/* Filters Section */}
-        <aside className="filters-sidebar">
-          <Filters 
-            isFilterOpen={isFilterOpen} 
-            setIsFilterOpen={setIsFilterOpen} 
-            sidebarRef={sidebarRef} 
-          />
-        </aside>
 
-        {/* Main Content Area */}
-        <main className="search-content">
-          <div className="search-container mb-12">
-            <div className="relative flex-grow">
-              <SearchBox 
+
+<div className="container mx-auto px-4 lg:px-16 pb-10">
+  {/* Top Section */}
+  <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6 mb-8">
+    {/* Top Left Section (Empty) */}
+    <div className="flex">
+      <div className="md:w-32">
+        {/* Intentionally left empty */}
+      </div>
+    </div>
+
+    {/* Top Right Section */}
+    <div className="flex-grow">
+      <div className="w-full">
+      <SearchBox 
                 placeholder="Search champions..." 
                 className="w-full search-input bg-white border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
                 submitIconComponent={() => (
@@ -136,10 +137,27 @@ const NotionSearch: React.FC = () => {
                 loadingIconComponent={() => null}
                 resetIconComponent={() => null}
               />
-            </div>
-          </div>
-          
-          <Configure hitsPerPage={6} />
+      </div>
+    </div>
+  </div>
+
+  {/* Bottom Section */}
+  <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-6">
+    {/* Bottom Left Section */}
+    <div className="flex">
+      <div className="w-auto">
+      <Filters 
+            isFilterOpen={isFilterOpen} 
+            setIsFilterOpen={setIsFilterOpen} 
+            sidebarRef={sidebarRef} 
+          />
+      </div>
+    </div>
+
+    {/* Bottom Right Section */}
+    <div className="flex-grow">
+      <div className="w-full">
+      <Configure hitsPerPage={6} />
           <Hits<ItemHit>
             hitComponent={ItemHitComponent}
             classNames={{
@@ -147,9 +165,10 @@ const NotionSearch: React.FC = () => {
               item: "w-auto bg-white rounded-lg shadow-md p-4 pb-1 hover:shadow-lg transition-shadow border-none"
             }}
           />
-
-        </main>
       </div>
+    </div>
+  </div>
+</div>
     </InstantSearch>
   );
 };
