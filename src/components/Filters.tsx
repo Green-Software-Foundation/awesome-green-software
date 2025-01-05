@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ClearRefinements, RefinementList } from 'react-instantsearch';
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 interface FiltersProps {
   isFilterOpen: boolean;
@@ -8,6 +9,14 @@ interface FiltersProps {
 }
 
 const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sidebarRef }) => {
+
+  const [isNameListOpen, setIsNameListOpen] = useState(false);
+  const [isTopicsListOpen, setIsTopicsListOpen] = useState(false);
+  const [isByListOpen, setIsByListOpen] = useState(false);
+  // Toggle functions
+  const toggleNameList = () => setIsNameListOpen(!isNameListOpen);
+  const toggleTopicsList = () => setIsTopicsListOpen(!isTopicsListOpen);
+  const toggleByList = () => setIsByListOpen(!isByListOpen);
   //bg-white shadow-lg
   return (
     <aside 
@@ -24,9 +33,28 @@ const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sideba
           />
         </div>
 
-        <RefinementList attribute="Name" />
+        <div className="mb-4">
+          <button 
+            onClick={toggleNameList} 
+            className="flex justify-between items-center w-full text-left font-medium text-gray-700"
+          >
+            <span>Name</span>
+            <span>{isNameListOpen ?<FaChevronUp /> : <FaChevronDown />}</span>
+          </button>
+          {isNameListOpen && <RefinementList attribute="Name" />}
+        </div>
         {/* Add more RefinementLists or other filter widgets as needed */}
-        <RefinementList attribute="Topics" />
+        <div className="mb-4">
+          <button 
+            onClick={toggleTopicsList} 
+            className="flex justify-between items-center w-full text-left font-medium text-gray-700"
+          >
+            <span>Topics</span>
+            <span>{isTopicsListOpen ?<FaChevronUp /> : <FaChevronDown />}</span>
+          </button>
+          {isTopicsListOpen && <RefinementList attribute="Topics" />}
+        </div>
+        
         {/* Example: RefinementList for 'by' attribute */}
         <RefinementList attribute="by" /> 
       </div>

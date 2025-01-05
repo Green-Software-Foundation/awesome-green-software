@@ -149,7 +149,6 @@ const NotionSearch: React.FC = () => {
     {/* Bottom Left Section */}
     <div className="flex">
       <div className="w-auto">
-        <RefinementList attribute="Name"/>
       <Filters 
             isFilterOpen={isFilterOpen} 
             setIsFilterOpen={setIsFilterOpen} 
