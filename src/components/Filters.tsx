@@ -49,10 +49,10 @@ const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sideba
             onClick={toggleTopicsList} 
             className="flex justify-between items-center w-full text-left font-medium text-gray-700"
           >
-            <span>Topics</span>
+            <span>Category</span>
             <span>{isTopicsListOpen ?<FaChevronUp /> : <FaChevronDown />}</span>
           </button>
-          {isTopicsListOpen && <RefinementList attribute="Topics" />}
+          {isTopicsListOpen && <RefinementList attribute="Category" />}
         </div>
         
         {/* Example: RefinementList for 'by' attribute */}
