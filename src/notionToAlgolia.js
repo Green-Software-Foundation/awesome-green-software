@@ -113,9 +113,8 @@ function transformNotionData(notionPages) {
   };
 
   const transformedData = notionPages.map(page => {
-    // Get single tag from select field
-    const tag = page.properties['Tags']?.select?.name;
-    const tags = tag ? [tag] : [];  // Convert single tag to array
+    // Get tags from multi_select field
+    const tags = page.properties['Tags']?.multi_select?.map(tag => tag.name) || [];
 
     const transformed = {
       objectID: page.id,
@@ -126,7 +125,7 @@ function transformNotionData(notionPages) {
       "Date Evaluated": page.properties['Date Evaluated']?.date?.start?.split('T')[0] || null,
       Media: page.properties['Media']?.files?.[0]?.file?.url || '/blog-placeholder-1.jpg',
       Topics: page.properties.Topics?.multi_select?.map(t => t.name) || [],
-      Tags: tags,  // Use the converted tags array
+      Tags: tags,  // Use the array of tag names
       Category: page.properties.Category?.select?.name || '',
       GitHub: formatUrl(page.properties['GitHub URL']?.url || ''),  // Use correct property name
       URL: formatUrl(page.properties['URL']?.url || '')
@@ -148,6 +147,11 @@ function transformNotionData(notionPages) {
 async function updateAlgoliaIndex(data) {
   console.log(`Updating Algolia index '${ALGOLIA_INDEX_NAME}'...`);
   const index = algolia.initIndex(ALGOLIA_INDEX_NAME);
+  
+  // Configure the index settings to include Tags as a facet
+  await index.setSettings({
+    attributesForFaceting: ['Category', 'Tags']
+  });
   
   // Get all records from Algolia
   const existingRecords = [];
