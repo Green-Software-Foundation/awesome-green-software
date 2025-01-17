@@ -14,7 +14,6 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				margin: 0;
 				padding: 0;
 				width: 100%;
-				height: 100%;
 				display: flex;
 				flex-direction: column;
 				background-color: var(--light-cream); /* Light tan background */
@@ -25,13 +24,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				justify-content: center;
 				align-items: center;
 				width: 100%;
-				margin-bottom: 2em;
 				padding: 0;
+				max-width: 100%; /* Added to ensure no overflow */
+				/* Remove scrollbar */
+				overflow: hidden;
+				/* add larger height for iframe */
+				height: 215vh;
 			}
 			iframe {
 				border: none;
 				width: 100%;
-				height: calc(100vh - 150px); /* Adjust this value to make sure the form is fully visible */
+				height: 250vh;
+				max-width: 100%; /* Added to ensure no overflow */
+				margin: 0; /* Added to remove any margin */
 			}
 		</style>
 	</head>
@@ -39,7 +44,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Header />
 		<main>
 			<!-- Embedded form -->
-			<iframe src="https://81zdjror.forms.app/contact-form-1" frameborder="0"></iframe>
+			<iframe src="https://81zdjror.forms.app/contact-form-1"></iframe>
 		</main>
 		<Footer />
 	</body>

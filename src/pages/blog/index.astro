@@ -45,12 +45,18 @@ import NotionSearch from '../../NotionSearch';
         text-align: center;
         background: rgb(var(--gray-light));
         padding-bottom: 0;
+        margin-bottom: 2rem; /* Add margin to separate from search */
       }
       
       @media (max-width: 768px) {
         .page-header {
           padding: 1rem;
         }
+      }
+
+      /* Add styles to control spacing between search and footer */
+      :global(.search-wrapper) {
+        margin-bottom: 2rem;
       }
     </style>
   </head>
@@ -62,7 +68,9 @@ import NotionSearch from '../../NotionSearch';
         Welcome to your one-stop area for all that is available in the Green software space!
       </p>
     </div>
-    <NotionSearch client:load />
+    <div class="search-wrapper">
+      <NotionSearch client:load />
+    </div>
     <Footer />
   </body>
 </html>

@@ -13,6 +13,9 @@ import { SITE_TITLE } from '../consts';
         <img src="/AGS_Logo.svg" alt={SITE_TITLE} height="100" />
       </a>
     </div>
+    <div class="nav-center">
+      <a href="/blog" class="contribute-button">Explore the Directory</a>
+    </div>
     <div class="nav-right">
       <a href="/contribute" class="contribute-button">Become a Contributor</a>
     </div>
@@ -39,11 +42,19 @@ import { SITE_TITLE } from '../consts';
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
   
   .logo img {
     height: 70px;
     width: auto;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
   
   .contribute-button {
@@ -53,9 +64,28 @@ import { SITE_TITLE } from '../consts';
     border-radius: 0.5rem;
     text-decoration: none;
     font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
   }
   
   .contribute-button:hover {
     background-color: var(--accent-dark);
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .nav-links {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .contribute-button {
+      padding: 0.6rem 1rem;
+      font-size: 0.9em;
+    }
   }
 </style>

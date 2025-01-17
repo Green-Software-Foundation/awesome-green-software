@@ -19,8 +19,10 @@ interface ItemHit {
   "Date Evaluated": string;
   Description: string;
   Topics: string[];
-  by: string;
-  URL?: string;
+  Tags: string[];
+  Category: string;
+  GitHub: string;
+  URL: string;
 }
 
 // Constants
@@ -76,11 +78,23 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
       
       <div className="flex items-center justify-between mt-auto pt-1 border-t border-gray-300">
         <div className="flex gap-4">
-          <a href="#" className="p-2 hover:bg-gray-50 rounded-full transition-colors">
-            <FaGithub className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
-          </a>
+          {hit.GitHub && (
+            <a 
+              href={hit.GitHub} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="p-2 hover:bg-gray-50 rounded-full transition-colors"
+            >
+              <FaGithub className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
+            </a>
+          )}
           {hit.URL && (
-            <a href={hit.URL} className="p-2 hover:bg-gray-50 rounded-full transition-colors">
+            <a 
+              href={hit.URL} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="p-2 hover:bg-gray-50 rounded-full transition-colors"
+            >
               <FaLink className="text-gray-500 hover:text-gray-700 text-xl transition-colors" />
             </a>
           )}
@@ -127,7 +141,7 @@ const NotionSearch: React.FC = () => {
     <div className="flex-grow">
       <div className="w-full">
       <SearchBox 
-                placeholder="Search champions..." 
+                placeholder="Search Resources..." 
                 className="w-full search-input bg-white border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
                 submitIconComponent={() => (
                   <div className="absolute left-1 top-1/2 transform -translate-y-1/2">
