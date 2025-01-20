@@ -11,6 +11,7 @@ import {
 import algoliasearch from 'algoliasearch/lite';
 import { FaGithub, FaLink } from 'react-icons/fa';
 import Filters from './components/Filters';
+import moment from 'moment';
 
 // Types
 interface ItemHit {
@@ -61,12 +62,12 @@ const TopicTags: React.FC<{ topics: string[] }> = ({ topics }) => (
 
 const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
   const formattedDate = hit["Date Evaluated"]
-    ? hit["Date Evaluated"].split(' (')[0]
+    ? moment(hit["Date Evaluated"]).format('MM/DD/YYYY')
     : 'Date not available';
 
   return (
     <div className="rounded-xl overflow-hidden w-full">
-      <div className="flex items-center mb-4">
+      <div className="flex items-center mb-2">
         <ItemImage src={hit.Media} alt={`${hit.Name} logo`} />
         <div className='mt-4 ml-4'>
           <h4 className="text-xl font-bold text-primary-default mb-1">{hit.Name}</h4>
