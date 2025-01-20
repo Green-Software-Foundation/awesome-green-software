@@ -99,7 +99,7 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
             </a>
           )}
         </div>
-        <TopicTags topics={hit.Topics} />
+        <TopicTags topics={hit.Tags} />
       </div>
     </div>
   );
