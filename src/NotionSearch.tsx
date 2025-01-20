@@ -70,7 +70,7 @@ const ItemHitComponent: React.FC<{ hit: ItemHit }> = ({ hit }) => {
         <ItemImage src={hit.Media} alt={`${hit.Name} logo`} />
         <div className='mt-4 ml-4'>
           <h4 className="text-xl font-bold text-primary-default mb-1">{hit.Name}</h4>
-          <p className="text-sm text-gray-600 font-medium">{formattedDate}</p>
+          <p className="text-sm text-gray-400 font-medium">{formattedDate}</p>
         </div>
       </div>
       
@@ -141,7 +141,7 @@ const NotionSearch: React.FC = () => {
     <div className="flex-grow">
       <div className="w-full">
       <SearchBox 
-                placeholder="Search Resources..." 
+                placeholder="  Search Resources..." 
                 className="w-full search-input bg-white border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary shadow-sm hover:shadow-md transition-shadow duration-300 text-lg"
                 submitIconComponent={() => (
                   <div className="absolute left-1 top-1/2 transform -translate-y-1/2">
