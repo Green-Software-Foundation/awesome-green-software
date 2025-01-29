@@ -22,22 +22,11 @@ function getTodayDate() {
 
 async function fetchNotionData() {
   console.log("Fetching data from Notion...");
-  const today = getTodayDate();
   const filter = {
-    and: [
-      {
-        property: 'Status',
-        status: {
-          equals: 'Accepted',
-        },
-      },
-      {
-        property: 'Date Evaluated',
-        date: {
-          equals: today,
-        },
-      },
-    ],
+    property: 'Status',
+    status: {
+      equals: 'Accepted',
+    }
   };
 
   const allResults = [];
@@ -64,7 +53,7 @@ async function fetchNotionData() {
     startCursor = response.next_cursor;
   }
 
-  console.log(`Fetched ${allResults.length} items from Notion evaluated today`);
+  console.log(`Fetched ${allResults.length} items from Notion`);
   return allResults;
 }
 
@@ -161,25 +150,23 @@ async function updateAlgoliaIndex(data) {
     }
   });
 
-  // Find records to delete (exist in Algolia but not in new data)
-  const newObjectIds = new Set(data.map(item => item.objectID));
-  const recordsToDelete = existingRecords
-    .filter(record => !newObjectIds.has(record.objectID))
-    .map(record => record.objectID);
+  // Compare new data with existing records to find what needs to be updated
+  const recordsToUpdate = data.filter(newRecord => {
+    const existingRecord = existingRecords.find(record => record.objectID === newRecord.objectID);
+    if (!existingRecord) return true; // New record, should be added
+    
+    // Compare relevant fields to see if the record needs updating
+    return JSON.stringify(newRecord) !== JSON.stringify(existingRecord);
+  });
 
-  // Delete records that no longer exist in Notion
-  if (recordsToDelete.length > 0) {
-    await index.deleteObjects(recordsToDelete);
-    console.log(`Deleted ${recordsToDelete.length} objects from Algolia`);
-  }
-
-  // Update all current records
-  if (data.length > 0) {
-    const result = await index.saveObjects(data);
-    console.log(`Updated ${result.objectIDs.length} objects in Algolia`);
+  // Only update records that have changed
+  if (recordsToUpdate.length > 0) {
+    const result = await index.saveObjects(recordsToUpdate);
+    console.log(`Updated ${recordsToUpdate.length} objects in Algolia`);
     return result;
   }
   
+  console.log('No updates needed in Algolia');
   return { objectIDs: [] };
 }
 
