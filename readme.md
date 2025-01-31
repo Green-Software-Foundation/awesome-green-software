@@ -99,7 +99,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [oaklean.io](https://oaklean.io/) Visualize and optimize the energy consumption of your JavaScript/TypeScript applications. Using a VSCode extension and integration with test frameworks, the system identifies energy-intensive code sections and suggests eco-friendly alternatives.
 - [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [Creendengo](https://github.com/green-code-initiative/creedengo-rules-specifications) A SonarQube plugin for PHP, Python, Java, C# and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
@@ -125,12 +125,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Android
 
-- [ecoCode mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [Creedengo mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ### iOS
 
-- [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [Creedengo iOS](https://github.com/green-code-initiative/creedengo-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 #### Linux
 
