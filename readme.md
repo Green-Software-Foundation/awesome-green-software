@@ -74,6 +74,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Azure
 
 - [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
+- [Azure carbon optimization](https://learn.microsoft.com/en-us/azure/carbon-optimization/overview)
+- [Emissions savings estimator for Microsoft Cloud](https://gw.us-il301.gateway.prod.island.powerapps.com/customerenrollmentservice/estimator/index.html)
+- Blog : [Well Architected Framework for Sustainable Workloads](https://learn.microsoft.com/en-us/azure/well-architected/sustainability/)
 
 #### Google
 
@@ -174,7 +177,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [powercfg](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options)
   Blog : [Measuring Your Application Power and Carbon Impact](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/)
 - [WeDeex](https://github.com/Wedeex-DevTeam/WedeexApp)
-  Blog : [We need a Yuka for electricity to ease the energy transition](https://devblogs.microsoft.com/sustainable-software/we-need-a-yuka-for-electricity-to-ease-the-energy-transition/)
+- Blog : [We need a Yuka for electricity to ease the energy transition](https://devblogs.microsoft.com/sustainable-software/we-need-a-yuka-for-electricity-to-ease-the-energy-transition/)
+- [Power Grid Forecast API in Windows](https://github.com/user-attachments/assets/4f79b9e8-dfd2-4501-a931-1313417610dd)
+
 
 ## Organizations
 
