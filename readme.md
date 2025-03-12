@@ -194,6 +194,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ## Courses
 
+- [Carbon Aware Computing for GenAI Developers - deeplearning.ai](https://www.deeplearning.ai/short-courses/carbon-aware-computing-for-genai-developers/)
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
 - [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
 - [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
