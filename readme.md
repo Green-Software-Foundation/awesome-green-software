@@ -81,7 +81,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
   Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
-  #### OVHcloud
+#### OVHcloud
   
 - [OVHcloud Carbon Calculator](https://www.ovhcloud.com/sites/default/files/external_files/ovh-calculatrice-onepager.pdf?_gl=1*t6w8sy*_gcl_au*MTU2NTIxNTgzMS4xNzE0NTM1MTY2)
   
