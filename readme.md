@@ -209,6 +209,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.electricitymaps.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning)
 - [How to incorporate carbon-free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
+- [Optimizing electricity consumption with a marginal signal may not reduce its carbon footprint](https://www.electricitymaps.com/blog/optimizing-electricity-consumption-with-a-marginal-signal-may-not-reduce-its-carbon-footprint)
 - [Our data centers now work harder when the sun shines and wind blows - Google](https://blog.google/inside-google/infrastructure/data-centers-work-harder-sun-shines-wind-blows/)
 - [Power consumption of JPEG, WebP, and AVIF](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif)
 - [Software Carbon Intensity (Sci): Crafting A Standard](https://greensoftware.foundation/articles/software-carbon-intensity-crafting-a-standard)
