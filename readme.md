@@ -137,9 +137,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [ecoCode mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
+- [Greenspector](https://greenspector.com/) : a set of tools to run measurements on real devices and assess the environmental impacts.
 
 ### iOS
 - [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [Greenspector](https://greenspector.com/) : a set of tools to run measurements on real devices and assess the environmental impacts.
 
 #### Linux
 
@@ -162,7 +164,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces the energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
-- [GreenSpector](http://mobile-efficiency-index.com/en/)
+- [Greenspector](https://greenspector.com/) : a set of tools to run measurements on real devices and assess the environmental impacts.
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
