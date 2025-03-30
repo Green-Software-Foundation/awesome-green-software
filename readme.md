@@ -6,7 +6,7 @@ An [awesome list](https://awesome.re) created and managed by the [Open Source Wo
 
 ## Disclaimer
 
-This list is created for informational purposes only and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations, or contributors to the list.
+This list is created for informational purposes only, and any links do not constitute an endorsement, recommendation, or favoring by the Green Software Foundation, its member organizations, or contributors to the list.
 
 THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any warranties (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, fitness for a particular purpose, or title, related to the materials. The entire risk of implementing or otherwise using the materials is assumed by the implementer and user. IN NO EVENT WILL THE PARTIES BE LIABLE TO ANY OTHER PARTY FOR LOST PROFITS OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER FROM ANY CAUSES OF ACTION OF ANY KIND WITH RESPECT TO THIS DELIVERABLE OR ITS GOVERNING AGREEMENT, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHETHER OR NOT THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
@@ -44,7 +44,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
     - [Crypto](#crypto)
     - [Data Centers](#data-centers)
     - [Emissions](#emissions-1)
-    - [Methodologies](methodologies)
+    - [Methodologies](#methodologies) 
     - [Programming Languages](#programming-languages)
     - [Quantum Computing](#quantum-computing)
     - [Streaming](#streaming)
@@ -65,7 +65,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
-- [FedZero](https://github.com/dos-group/fedzero) is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
+- [FedZero](https://github.com/dos-group/fedzero) is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb, which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
 
 ### Cloud-based
 
@@ -98,7 +98,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ### Code based
 
-- [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust : Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
+- [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust: Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
@@ -115,11 +115,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### Emissions
 
 - [Carbon AppInsights](https://github.com/cloudyspells/carbon-appinsights) An Azure Functions-based solution for logging emissions data for Azure regions from Electricity Maps to Azure Monitor for alerting triggers and automated actions.
-- [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
+- [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time to help build Carbon Aware software.
 - [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) A Hangfire extension to schedule tasks with carbon awareness in mind. The best point in time is calculated based on emission forecasts to get a window with a minimal grid carbon intensity.
-- [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available as in the JSON-Carbon SDK-compatible format.
+- [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available in the JSON-Carbon SDK-compatible format.
 - [Electricity Maps Datasets](https://portal.electricitymaps.com/datasets) Historical location-based electricity datasets with hourly granularity and global coverage for free. Data includes flow-traced carbon intensity with both direct and lifecycle emissions factors for the years 2021-2024.
-- [Electricity Maps Free API](https://portal.electricitymaps.com/auth/login) Free API access to Electricity Maps flow-traced carbon intensity, electricity mix, renewable energy percentage, and carbon-free energy percentage data. Includes access to real-time data and past 24-hours data for one grid.
+- [Electricity Maps Free API](https://portal.electricitymaps.com/auth/login) Free API access to Electricity Maps flow-traced carbon intensity, electricity mix, renewable energy percentage, and carbon-free energy percentage data. Includes access to real-time data and past 24-hour data for one grid.
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
 
@@ -131,18 +131,18 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Experiment Runner](https://github.com/S2-group/experiment-runner) provides a framework for automatically executing measurement-based experiments on any platform with dedicated plugins for energy related metrics collection.
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
 - [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
-- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
-- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
+- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor the power consumption of software and hardware components in real-time, 
+- [Scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
 - [Zeus: Deep Learning Energy Measurement and Optimization](https://ml.energy/zeus)
-- [Vessim](https://vessim.readthedocs.io/en/latest/) is a co-simulation testbed for carbon-aware applications and systems that connects domain-specific simulators for renewable power generation and energy storage with real software and hardware. It's been published at HotCarbon'24. [Git](https://github.com/dos-group/vessim) Publsihed in 2024
+- [Vessim](https://vessim.readthedocs.io/en/latest/) is a co-simulation testbed for carbon-aware applications and systems that connects domain-specific simulators for renewable power generation and energy storage with real software and hardware. It was published at HotCarbon'24. [Git](https://github.com/dos-group/vessim) Publsihed in 2024
 
 #### Extensions
 
 - [Approach to Sustainable Software – Python Applications](https://github.com/Accenture/energy-consumption-measuring-toolkit/tree/8d3d7bedc10232d13ec33611fac6859aeb883b26/Whitepaper-Sustainable-Software-Approach) Solution to adopt sustainable software development practices for high reduction in application energy consumption
-- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
-- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
-- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
+- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
+- [PowerJoular](https://gitlab.com/joular/powerjoular): Monitor the power consumption of software and hardware components in real time.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [Vessim](https://github.com/dos-group/vessim) Co-simulation testbed for energy-aware and carbon-aware applications and systems
 - [GreenIT-Analysis](https://github.com/cnumr/GreenIT-Analysis) The extension allows you to use your Dev Tools to measure the ecoIndex of a website and verify the application of web eco-design best practices defined by the "Collectif numérique responsible".
@@ -175,16 +175,16 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Carbonalyser - TheShiftProject](https://theshiftproject.org/en/carbonalyser-browser-extension/)
 - [Carbonara - Digital4Better](https://github.com/digital4better/carbonara/) A custom element displaying web navigation carbon footprint
 - [Carbon Footprint of Sending Data](https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around) An online calculator for estimating carbon emissions from network traffic, based on the Shift projects Lean ICT report.
-- [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
+- [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
-- [ecoIndex](https://www.ecoindex.fr/) Estimates the carbon footprint of public Web sites and pages (in French)
+- [ecoIndex](https://www.ecoindex.fr/) Estimates the carbon footprint of public websites and pages (in French)
 - [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing the carbon footprint of websites.
 - [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces the energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
-- [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
+- [Kastor.green](https://kastor.green/) Evaluate the design compliance of websites and web applications.
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
 - [WeDeex - Edge](https://microsoftedge.microsoft.com/addons/detail/wedeex/jbocoolinibenmobjadejejdbanalfee)
@@ -215,6 +215,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green Lab at Vrije Universiteit Amsterdam](https://arxiv.org/abs/2407.05689)
 - [Carbon Aware Computing for GenAI Developers - deeplearning.ai](https://www.deeplearning.ai/short-courses/carbon-aware-computing-for-genai-developers/)
 - [Curso de Desarrollo de software medioambientalmente sostenible (Green Software) Spanish](https://www.adrformacion.com/cursos/greensoft/greensoft.html)
+- [Green Lab at Vrije Universiteit Amsterdam](https://arxiv.org/abs/2407.05689)
 - [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
 - [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
@@ -269,6 +270,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Measuring the Carbon Intensity of AI in Cloud Instances](https://arxiv.org/abs/2206.05229)
 - [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
+- [Software Development Lifecycle for Energy Efficiency: Techniques and Tools](https://dl.acm.org/doi/abs/10.1145/3337773)
+- [Software Sustainability](https://link.springer.com/book/10.1007/978-3-030-69970-3)
 - [The AI Gambit — Leveraging Artificial Intelligence to Combat Climate Change: Opportunities, Challenges, and Recommendations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3804983)
 - [The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink](https://www.techrxiv.org/articles/preprint/The_Carbon_Footprint_of_Machine_Learning_Training_Will_Plateau_Then_Shrink/19139645/1)
 - [The Impact of Knowledge Distillation on the Energy Consumption and Runtime Efficiency of NLP Models](https://www.ivanomalavolta.com/files/papers/CAIN_2024.pdf)
@@ -359,6 +362,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [DImpact](https://dimpact.org)
 
 #### Web
+
 - [An Empirical Study on the Performance and Energy Costs of Ads and Analytics in Mobile Web Apps](http://www.ivanomalavolta.com/files/papers/IST_2024.pdf)
 - [CarbonTag: A browser-based method for approximating energy consumption of online ads](https://arxiv.org/abs/2211.00071)
 - [Quantifying Carbon Emissions due to Online Third-Party Tracking](https://arxiv.org/abs/2304.00927)
