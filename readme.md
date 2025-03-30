@@ -327,7 +327,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
 - [Tracking emissions in the US electricity system](https://web.stanford.edu/~jdechale/emissions_app/#/about)
 
-- #### Methodologies
+#### Methodologies
 
 - [Development and evaluation of a reference measurement model for assessing the resource and energy efficiency of software products and components-Green Software Measurement Model (GSSM)](https://www.sciencedirect.com/science/article/pii/S0167739X24000384)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
