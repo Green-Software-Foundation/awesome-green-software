@@ -84,18 +84,17 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
   Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
-  #### OVHcloud
+#### OVHcloud
   
 - [OVHcloud Carbon Calculator](https://www.ovhcloud.com/sites/default/files/external_files/ovh-calculatrice-onepager.pdf?_gl=1*t6w8sy*_gcl_au*MTU2NTIxNTgzMS4xNzE0NTM1MTY2)
   
 #### Multicloud
 
-- [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
-- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions.
-- [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
+- [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs) An open-source cloud energy and carbon emissions measurement tool.
+- [Green Metrics Tool](https://www.green-coding.io/products/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 - [Carbonifer](https://github.com/carboniferio/carbonifer) Command Line Tool to control carbon emission of your cloud infrastructure.
-- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
+- [Gaia Gen](https://gaiacompany.io/carbon-accounting-software/) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
 
 ### Code based
 
@@ -118,6 +117,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 - [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) A Hangfire extension to schedule tasks with carbon awareness in mind. The best point in time is calculated based on emission forecasts to get a window with a minimal grid carbon intensity.
 - [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available as in the JSON-Carbon SDK-compatible format.
+- [Electricity Maps Datasets](https://portal.electricitymaps.com/datasets) Historical location-based electricity datasets with hourly granularity and global coverage for free. Data includes flow-traced carbon intensity with both direct and lifecycle emissions factors for the years 2021-2024.
+- [Electricity Maps Free API](https://portal.electricitymaps.com/auth/login) Free API access to Electricity Maps flow-traced carbon intensity, electricity mix, renewable energy percentage, and carbon-free energy percentage data. Includes access to real-time data and past 24-hours data for one grid.
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
 
@@ -137,6 +138,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Extensions
 
+- [Approach to Sustainable Software – Python Applications](https://github.com/Accenture/energy-consumption-measuring-toolkit/tree/8d3d7bedc10232d13ec33611fac6859aeb883b26/Whitepaper-Sustainable-Software-Approach) Solution to adopt sustainable software development practices for high reduction in application energy consumption
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
+- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
+- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
+- [Vessim](https://github.com/dos-group/vessim) Co-simulation testbed for energy-aware and carbon-aware applications and systems
 - [GreenIT-Analysis](https://github.com/cnumr/GreenIT-Analysis) The extension allows you to use your Dev Tools to measure the ecoIndex of a website and verify the application of web eco-design best practices defined by the "Collectif numérique responsible".
 
 ### OS-based
@@ -205,6 +212,8 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 ## Courses
 - [Green Lab at Vrije Universiteit Amsterdam](https://arxiv.org/abs/2407.05689)
+- [Carbon Aware Computing for GenAI Developers - deeplearning.ai](https://www.deeplearning.ai/short-courses/carbon-aware-computing-for-genai-developers/)
+- [Curso de Desarrollo de software medioambientalmente sostenible (Green Software) Spanish](https://www.adrformacion.com/cursos/greensoft/greensoft.html)
 - [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
 - [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
@@ -214,12 +223,16 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 ### Articles
 - [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00185-8)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
-- [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
+- [Consumption vs Production: Why grid emissions should be calculated with flow-traced data](https://www.electricitymaps.com/blog/consumption-carbon-intensity)
+- [Estimating the marginal carbon intensity of electricity with machine learning](https://www.electricitymaps.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning)
 - [How to incorporate carbon-free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
+- [Optimizing electricity consumption with a marginal signal may not reduce its carbon footprint](https://www.electricitymaps.com/blog/optimizing-electricity-consumption-with-a-marginal-signal-may-not-reduce-its-carbon-footprint)
+- [Our data centers now work harder when the sun shines and wind blows - Google](https://blog.google/inside-google/infrastructure/data-centers-work-harder-sun-shines-wind-blows/)
 - [Power consumption of JPEG, WebP, and AVIF](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif)
 - [Software Carbon Intensity (Sci): Crafting A Standard](https://greensoftware.foundation/articles/software-carbon-intensity-crafting-a-standard)
 - [The Staggering Ecological Impacts of Computation and the Cloud](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
+- [We now do more computing where there’s cleaner energy - Google](https://blog.google/outreach-initiatives/sustainability/carbon-aware-computing-location/)
 - [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
 - [What Do We Need To Build More Sustainable AI Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
@@ -306,6 +319,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [A Framework For Collective Carbon Neutrality](https://www.carbone4.com/wp-content/uploads/2020/05/Carbone-4-NZI-Guidelines-Executive-Summary-april-2020.pdf)
 - [Methodological Guide - Bilan Carbone (French)](https://www.associationbilancarbone.fr/wp-content/uploads/2018/03/bilan-carbone-v8-guide-methodologique-final.pdf)
+- [On the Implications of Choosing Average versus Marginal Carbon Intensity Signals on Carbon-aware Optimizations](https://dl.acm.org/doi/10.1145/3632775.3661953)
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
 - [The energy and carbon footprint of the ICT and E&M sector in Sweden 1990–2015 and beyond](https://download.atlantis-press.com/article/25860385.pdf)
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
@@ -324,6 +338,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Google Apps: Energy Efficiency in the Cloud](https://static.googleusercontent.com/media/www.google.com/en//green/pdf/google-apps.pdf)
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
+
+#### Testing of Green Software
+
+- [Vessim: A Testbed for Carbon-Aware Applications and Systems.](https://arxiv.org/pdf/2306.09774.pdf)
+- [Software-in-the-Loop Simulation for Developing and Testing Carbon-Aware Applications.](https://doi.org/10.1002/spe.3275)
 
 #### Testing of Green Software
 
