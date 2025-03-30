@@ -29,6 +29,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   - [OS based](#os-based)
     - [Android](#android)
     - [Linux](#linux)
+    - [macOS](#macos)
     - [Web](#web)
     - [Windows](#windows)
 - [Organizations](#organizations)
@@ -55,6 +56,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 #### AI Carbon
 
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
+- [FedZero](https://github.com/dos-group/fedzero) Federated learning system for zero-carbon distributed AI training
 
 #### AI Energy
 
@@ -87,22 +89,24 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
   
 #### Multicloud
 
-- [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) An open-source cloud energy and carbon emissions measurement tool.
-- [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
+- [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs) An open-source cloud energy and carbon emissions measurement tool.
+- [Green Metrics Tool](https://www.green-coding.io/products/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 - [Carbonifer](https://github.com/carboniferio/carbonifer) Command Line Tool to control carbon emission of your cloud infrastructure.
-- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
+- [Gaia Gen](https://gaiacompany.io/carbon-accounting-software/) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
 
 ### Code based
 
-- [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
+- [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust : Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
-- [JoularJX](https://gitlab.com/joular/joularjx) Java: Software power monitoring at the source code level in real-time.
-- [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
+- [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
+- [JoularJX](https://gitlab.com/joular/joularjx) Java: Sotware power monitoring at the source code level in real time.
+- [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of 
 - [oaklean.io](https://oaklean.io/) Visualize and optimize the energy consumption of your JavaScript/TypeScript applications. Using a VSCode extension and integration with test frameworks, the system identifies energy-intensive code sections and suggests eco-friendly alternatives.
+- [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
-- [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
+- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [Energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
 
@@ -131,6 +135,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Extensions
 
+- [Approach to Sustainable Software – Python Applications](https://github.com/Accenture/energy-consumption-measuring-toolkit/tree/8d3d7bedc10232d13ec33611fac6859aeb883b26/Whitepaper-Sustainable-Software-Approach) Solution to adopt sustainable software development practices for high reduction in application energy consumption
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics
+- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network and storage systems in data centers
+- [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real time, the power consumption of software and hardware components.
+- [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
+- [Vessim](https://github.com/dos-group/vessim) Co-simulation testbed for energy-aware and carbon-aware applications and systems
 - [GreenIT-Analysis](https://github.com/cnumr/GreenIT-Analysis) The extension allows you to use your Dev Tools to measure the ecoIndex of a website and verify the application of web eco-design best practices defined by the "Collectif numérique responsible".
 
 ### OS-based
@@ -141,6 +151,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ### iOS
+
 - [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 #### Linux
@@ -150,6 +161,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real time.
 - [PowerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
+
+#### macOS
+
+- [PowerHog](https://www.green-coding.berlin/projects/power-hog/) A tool to monitor program resource usage and crowdsource the search for wasteful apps.
 
 #### Web
 
@@ -242,8 +257,10 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
 - [Energy-Efficient AI | Vivienne Sze | TEDxMIT](https://www.youtube.com/watch?v=Y0XGSnRrWiU&ab_channel=TEDxTalks)
 - [Exploring the Carbon Footprint of Hugging Face's ML Models: A Repository Mining Study](https://arxiv.org/abs/2305.11164)
+- [FedZero: Leveraging Renewable Excess Energy in Federated Learning](https://arxiv.org/pdf/2305.15092.pdf)
 - [Good News About the Carbon Footprint of Machine Learning Training](https://ai.googleblog.com/2022/02/good-news-about-carbon-footprint-of.html)
 - [How to estimate carbon footprint when training deep learning models? A guide and review](https://arxiv.org/abs/2306.08323)
+- [LLMCarbon: Modeling the end-to-end Carbon Footprint of Large Language Models](https://arxiv.org/abs/2309.14393)
 - [Measuring the Carbon Intensity of AI in Cloud Instances](https://arxiv.org/abs/2206.05229)
 - [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700)
 - [SECure: A Social and Environmental Certificate for AI Systems](https://arxiv.org/abs/2006.06217)
@@ -266,6 +283,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 - [A Comparative Study of Methods for Measurement of Energy of Computing](https://www.mdpi.com/1996-1073/12/11/2204/pdf)
 - [An experiment-driven energy consumption model for virtual machine management systems](https://hal.archives-ouvertes.fr/hal-01632962/document)
+- [Embodied Carbon Accounting through Spatial-Temporal Embodied Carbon Models](https://arxiv.org/abs/2312.06364)
 - [EnergiBridge: Empowering Software Sustainability through Cross-Platform Energy Measurement](https://arxiv.org/abs/2312.13897)
 - [Let’s Wait Awhile: How Temporal Workload Shifting Can Reduce Carbon Emissions in the Cloud](https://arxiv.org/pdf/2110.13234.pdf)
 - [Going Green: Optimizing GPUs for Energy Efficiency Through Model-steered Auto-tuning](https://arxiv.org/abs/2211.07260)
@@ -308,6 +326,11 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
 - [Software development methodology in a Green IT environment](https://tel.archives-ouvertes.fr/tel-01724069/document)
+
+#### Testing of Green Software
+
+- [Vessim: A Testbed for Carbon-Aware Applications and Systems.](https://arxiv.org/pdf/2306.09774.pdf)
+- [Software-in-the-Loop Simulation for Developing and Testing Carbon-Aware Applications.](https://doi.org/10.1002/spe.3275)
 
 #### Quantum Computing
 
