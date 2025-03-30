@@ -61,7 +61,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### AI Energy
 
-- [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
+- [Beaker (Allen Institue For AI)](https://allenai.org/blog/beaker-ed617d5f4593) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
@@ -101,13 +101,13 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [carbonintensity-api](https://github.com/jnioche/carbonintensity-api) Rust: Library and client to retrieve data from the [UK National Grid Carbon Intensity API](https://api.carbonintensity.org.uk/).
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
+- [Creendengo](https://github.com/green-code-initiative/creedengo-rules-specifications) A SonarQube plugin for PHP, Python, Java, C# and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [Energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Software power monitoring at the source code level in real time.
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of 
 - [oaklean.io](https://oaklean.io/) Visualize and optimize the energy consumption of your JavaScript/TypeScript applications. Using a VSCode extension and integration with test frameworks, the system identifies energy-intensive code sections and suggests eco-friendly alternatives.
 - [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 
 ### General purpose
 
@@ -150,12 +150,12 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### Android
 
-- [ecoCode mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [Creedengo mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ### iOS
 
-- [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [Creedengo iOS](https://github.com/green-code-initiative/creedengo-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 #### Linux
 
