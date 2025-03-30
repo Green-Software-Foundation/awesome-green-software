@@ -61,7 +61,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 
 #### AI Energy
 
-- [Beaker (Allen Institue For AI)](https://beaker.org) Captures GPU power inside a container
+- [Beaker (Allen Institue For AI)](https://allenai.org/blog/beaker-ed617d5f4593) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 - [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
@@ -108,7 +108,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [Creendengo](https://github.com/green-code-initiative/creedengo-rules-specifications) A SonarQube plugin for PHP, Python, Java, C# and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
-- [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 
 ### General purpose
 
