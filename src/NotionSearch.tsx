@@ -33,7 +33,7 @@ const searchClient = algoliasearch(
 );
 
 const ALGOLIA_INDEX_NAME = 'GreenSoftwareFoundationFrontend50a1e9725143458dac1ae068d9dd10e0';
-const DEFAULT_PLACEHOLDER_IMAGE = '/aws-logo-placeholder.png';
+const DEFAULT_PLACEHOLDER_IMAGE = '/placeholder.png';
 
 // Sub-components
 const ItemImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (

@@ -150,7 +150,13 @@ async function updateAlgoliaIndex(data) {
     }
   });
 
-  // Compare new data with existing records to find what needs to be updated
+  // Find records to delete (exist in Algolia but not in new Notion data)
+  const notionIds = new Set(data.map(record => record.objectID));
+  const recordsToDelete = existingRecords
+    .filter(record => !notionIds.has(record.objectID))
+    .map(record => record.objectID);
+
+  // Find records to update
   const recordsToUpdate = data.filter(newRecord => {
     const existingRecord = existingRecords.find(record => record.objectID === newRecord.objectID);
     if (!existingRecord) return true; // New record, should be added
@@ -159,7 +165,13 @@ async function updateAlgoliaIndex(data) {
     return JSON.stringify(newRecord) !== JSON.stringify(existingRecord);
   });
 
-  // Only update records that have changed
+  // Perform deletions if necessary
+  if (recordsToDelete.length > 0) {
+    await index.deleteObjects(recordsToDelete);
+    console.log(`Deleted ${recordsToDelete.length} objects from Algolia`);
+  }
+
+  // Perform updates if necessary
   if (recordsToUpdate.length > 0) {
     const result = await index.saveObjects(recordsToUpdate);
     console.log(`Updated ${recordsToUpdate.length} objects in Algolia`);
