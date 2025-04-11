@@ -119,8 +119,9 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Carbon AppInsights](https://github.com/cloudyspells/carbon-appinsights) An Azure Functions-based solution for logging emissions data for Azure regions from Electricity Maps to Azure Monitor for alerting triggers and automated actions.
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time to help build Carbon Aware software.
 - [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) A Hangfire extension to schedule tasks with carbon awareness in mind. The best point in time is calculated based on emission forecasts to get a window with a minimal grid carbon intensity.
-- [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available in the JSON-Carbon SDK-compatible format.
-- [Electricity Maps Datasets](https://portal.electricitymaps.com/datasets) Historical location-based electricity datasets with hourly granularity and global coverage for free. Data includes flow-traced carbon intensity with both direct and lifecycle emissions factors for the years 2021-2024.
+- [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) This project aims to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet package, Powershell commands, and a live instance of the SDK. An open data carbon forecast for Europe is available in the JSON-Carbon SDK-compatible format.
+- [GreenScheduled](https://github.com/carbonintensityio/scheduler) A lightweight, easy-to-integrate scheduling library designed to run processes with carbon awareness in mind. It automatically schedules your process to start during the period of lowest carbon intensity, based on the configured zone and time window.
+- [Electricity Maps Datasets](https://portal.electricitymaps.com/datasets) Historical location-based electricity datasets with hourly granularity and global coverage for free. The data includes flow-traced carbon intensity with direct and lifecycle emissions factors for 2021-2024.
 - [Electricity Maps Free API](https://portal.electricitymaps.com/auth/login) Free API access to Electricity Maps flow-traced carbon intensity, electricity mix, renewable energy percentage, and carbon-free energy percentage data. Includes access to real-time data and past 24-hour data for one grid.
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
@@ -187,7 +188,7 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces the energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
-- [Greenspector](https://greenspector.com/) : a set of tools to run measurements on real devices and assess the environmental impacts.
+- [Greenspector](https://greenspector.com/) A set of tools to run measurements on real devices and assess the environmental impacts.
 - [Kastor.green](https://kastor.green/) Evaluate the design compliance of websites and web applications.
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
@@ -348,11 +349,6 @@ THESE MATERIALS ARE PROVIDED “AS IS.” The parties expressly disclaim any war
 - [Google Apps: Energy Efficiency in the Cloud](https://static.googleusercontent.com/media/www.google.com/en//green/pdf/google-apps.pdf)
 - [Green and Sustainability in Software Development Lifecycle Process](https://www.intechopen.com/chapters/69865)
 - [GreenC5: An Adaptive, Energy-Aware Collection for Green Software Development](https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2122&context=etd)
-
-#### Testing of Green Software
-
-- [Vessim: A Testbed for Carbon-Aware Applications and Systems.](https://arxiv.org/pdf/2306.09774.pdf)
-- [Software-in-the-Loop Simulation for Developing and Testing Carbon-Aware Applications.](https://doi.org/10.1002/spe.3275)
 
 #### Testing of Green Software
 
