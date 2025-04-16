@@ -6,6 +6,6 @@ export default defineConfig({
   site: 'https://jrauvola.github.io',
   base: '/awesome-green-software',
   integrations: [react(), tailwind({
-    applyBaseStyles: false
+    applyBaseStyles: true
   })]
 });
