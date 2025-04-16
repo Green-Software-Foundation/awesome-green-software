@@ -33,7 +33,7 @@ const searchClient = algoliasearch(
 );
 
 const ALGOLIA_INDEX_NAME = 'GreenSoftwareFoundationFrontend50a1e9725143458dac1ae068d9dd10e0';
-const DEFAULT_PLACEHOLDER_IMAGE = '/placeholder.png';
+const DEFAULT_PLACEHOLDER_IMAGE = '/awesome-green-software/placeholder.png';
 
 // Sub-components
 const ItemImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
@@ -49,7 +49,7 @@ const ItemImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (
 
 const TopicTags: React.FC<{ topics: string[] }> = ({ topics }) => (
   <div className="flex flex-wrap gap-2">
-    {topics?.map((topic, index) => (
+    {topics?.sort((a, b) => a.localeCompare(b))?.map((topic, index) => (
       <span 
         key={index} 
         className="inline-block bg-green-100 rounded-full px-3 py-1 text-xs font-semibold text-green-800"

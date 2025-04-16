@@ -43,6 +43,7 @@ const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sideba
             <RefinementList 
               attribute="Category"
               operator="or"
+              sortBy={['name:asc']}
             />
           )}
         </div>
@@ -60,6 +61,8 @@ const Filters: React.FC<FiltersProps> = ({ isFilterOpen, setIsFilterOpen, sideba
               attribute="Tags"
               operator="or"
               limit={50}
+              sortBy={['name:asc']}
+              transformItems={(items) => items.filter(item => item.count >= 4)}
             />
           )}
         </div>
