@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   # Run on pushes to main branch
   push:
-    branches: [main, dev]
+    branches: [main]
 
 permissions:
   contents: read
