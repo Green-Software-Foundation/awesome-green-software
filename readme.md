@@ -134,6 +134,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
+- [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) A simple syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files
 
 ##### General Purpose
 
