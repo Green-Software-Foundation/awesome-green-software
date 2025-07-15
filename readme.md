@@ -254,6 +254,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
 - [Green IT For Dummies](https://www.amazon.co.uk/dp/0470386886/?coliid=I358607F71QZXK&colid=1MBINCMV3RHUI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)
 - [Green Software Essentials: A Q&A Guide for Practitioners](https://www.amazon.com/GREEN-SOFTWARE-ESSENTIALS-GUIDE-PRACTITIONERS/dp/B0CNPZ3465/ref=sr_1_2?crid=EHTVSUST74S8&dib=eyJ2IjoiMSJ9.MoBmRlXhOaT56DgAMHBnHwbxeNcxZkTiHa1aSFc2WH84VaBQn4taBOZQma4CALBBBYM1H-vEXp6CBWnYzr5TcD6WRSOi4a-JXdABv3zhPvEmSg42Jz0C4OlfNvxG1q4Fe06rEi4pdrJtdy5LvkHlD2YZa_F8gG-zn-EHYmmPDdv9CD4U4gDs-BNjUyqnpaue96HXw4EQSv-acJvS-a7aEL8L17AjvmGA1fHwFtmrXF8.ocsOcvKUxNdMx-2gIOEvohOCt153fw9AJN8rrnlFZ1Q&dib_tag=se&keywords=green+software&qid=1716862688&s=books&sprefix=green+software%2Cstripbooks%2C93&sr=1-2)
+- [GreenOps & GreenCoding: Practical Approaches for Sustainable Software](https://greenops.fabiocicerchia.it/)
 - [Sustainable IT Playbook for Technology Leaders](https://www.amazon.co.uk/Sustainable-Playbook-Technology-Leaders-opportunities/dp/1803230347)
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 - [The Green IT Guide](https://learning.oreilly.com/library/view/the-green-it/9781484280577/)
