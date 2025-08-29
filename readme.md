@@ -239,7 +239,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 - [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00185-8)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
-- [Complete Guide to Carbon Offsetting: APIs and Shopify App](https://1clickimpact.com/blog/carbon-offsetting-apis-shopify-app-guide)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
 - [How to incorporate carbon-free energy for Google Cloud regions](https://cloud.google.com/sustainability/region-carbon)
 - [How we’re making Dropbox data centers 100% carbon neutral](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral)
@@ -249,6 +248,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
 - [What Do We Need To Build More Sustainable AI Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
+- [Complete Guide to Carbon Offsetting: APIs and Shopify App](https://1clickimpact.com/blog/carbon-offsetting-apis-shopify-app-guide)
 
 ##### Books
 
