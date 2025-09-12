@@ -85,6 +85,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### AI Carbon
 
+- [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 ###### AI Energy
@@ -110,7 +111,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 - [Carbon Footprint](https://cloud.google.com/carbon-footprint)
 - [Cloud Jewels](https://github.com/etsy/cloud-jewels)
-  Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
+- Blog: [Cloud Jewels: Estimating kWh in the Cloud](https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/)
 
 ###### OVHcloud
 
@@ -126,6 +127,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ##### Code-based
 
+- [1ClickImpact Sustainability API](https://docs.1clickimpact.com/) RESTful API for integrating environmental actions such as tree planting, carbon capture, and ocean cleanup into software and workflows. Enables developers to automate sustainability initiatives and environmental impact for their applications.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Software power monitoring at the source code level in real-time.
@@ -134,6 +136,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
+- [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) A simple syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files
 
 ##### General Purpose
 
@@ -234,6 +237,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ##### Articles
 
+- [Complete Guide to Carbon Offsetting: APIs and Shopify App](https://1clickimpact.com/blog/carbon-offsetting-apis-shopify-app-guide)
 - [Assessing the suitability of the Greenhouse Gas Protocol for calculation of emissions from public cloud computing workloads](https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-020-00185-8)
 - [Beyond Single-Dimensional Metrics for Digital Sustainability](https://branch.climateaction.tech/issues/issue-3/beyond-single-dimensional-metrics-for-digital-sustainability/)
 - [Estimating the marginal carbon intensity of electricity with machine learning](https://www.tmrow.com/blog/marginal-carbon-intensity-of-electricity-with-machine-learning/)
@@ -254,6 +258,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Designing for Sustainability: A Guide to Building Greener Digital Products and Services](https://www.amazon.co.uk/Designing-Sustainability-Tim-Frick/dp/1491935774)
 - [Green IT For Dummies](https://www.amazon.co.uk/dp/0470386886/?coliid=I358607F71QZXK&colid=1MBINCMV3RHUI&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it)
 - [Green Software Essentials: A Q&A Guide for Practitioners](https://www.amazon.com/GREEN-SOFTWARE-ESSENTIALS-GUIDE-PRACTITIONERS/dp/B0CNPZ3465/ref=sr_1_2?crid=EHTVSUST74S8&dib=eyJ2IjoiMSJ9.MoBmRlXhOaT56DgAMHBnHwbxeNcxZkTiHa1aSFc2WH84VaBQn4taBOZQma4CALBBBYM1H-vEXp6CBWnYzr5TcD6WRSOi4a-JXdABv3zhPvEmSg42Jz0C4OlfNvxG1q4Fe06rEi4pdrJtdy5LvkHlD2YZa_F8gG-zn-EHYmmPDdv9CD4U4gDs-BNjUyqnpaue96HXw4EQSv-acJvS-a7aEL8L17AjvmGA1fHwFtmrXF8.ocsOcvKUxNdMx-2gIOEvohOCt153fw9AJN8rrnlFZ1Q&dib_tag=se&keywords=green+software&qid=1716862688&s=books&sprefix=green+software%2Cstripbooks%2C93&sr=1-2)
+- [GreenOps & GreenCoding: Practical Approaches for Sustainable Software](https://greenops.fabiocicerchia.it/)
 - [Sustainable IT Playbook for Technology Leaders](https://www.amazon.co.uk/Sustainable-Playbook-Technology-Leaders-opportunities/dp/1803230347)
 - [Sustainable Web Design](https://www.goodreads.com/en/book/show/56861271-sustainable-web-design)
 - [The Green IT Guide](https://learning.oreilly.com/library/view/the-green-it/9781484280577/)
@@ -361,6 +366,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ### Technologies Used
 
 - **Frontend**:
+
   - [Astro](https://astro.build/) - A modern framework for building fast, content-focused websites.
   - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
   - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
@@ -375,6 +381,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/your-username/green-software-foundation-directory.git
    cd green-software-foundation-directory
@@ -382,6 +389,7 @@ Follow these steps to set up the project locally:
 
 2. **Install Dependencies**
    Ensure you have [Node.js](https://nodejs.org/) installed. Then run:
+
    ```bash
    npm install
    ```
@@ -400,15 +408,18 @@ Follow these steps to set up the project locally:
 The project relies on several external services. You need to provide your own credentials to connect to these services.
 
 1. **Algolia**
+
    - **PUBLIC_ALGOLIA_APP_ID**: Your Algolia Application ID.
    - **ALGOLIA_ADMIN_API_KEY**: Your Algolia Admin API Key.
    - **ALGOLIA_SEARCH_KEY**: Your Algolia Search-Only API Key.
 
 2. **Notion**
+
    - **NOTION_API_KEY**: Your Notion Integration Token.
    - **NOTION_DATABASE_ID**: The ID of your Notion database containing the directory entries.
 
 3. **Environment Variables Example**
+
    ```env
    NOTION_API_KEY=your_notion_api_key_here
    NOTION_DATABASE_ID=your_notion_database_id_here
