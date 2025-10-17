@@ -124,6 +124,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 - [Carbonifer](https://github.com/carboniferio/carbonifer) Command Line Tool to control carbon emission of your cloud infrastructure.
 - [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
+- [CarbonRunner](https://carbonrunner.io/): Shifting compute like AI training or GitHub Actions to the lowest-carbon regions across AWS, Azure, GCP and Heata in real time, cutting emissions by up to 90% compared to default GitHub Actions.
 
 ##### Code-based
 
