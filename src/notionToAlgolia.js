@@ -10,8 +10,8 @@ const algolia = algoliasearch(
   process.env.ALGOLIA_ADMIN_API_KEY
 );
 
-const NOTION_DATABASE_ID = "50a1e9725143458dac1ae068d9dd10e0";
-const ALGOLIA_INDEX_NAME = "GreenSoftwareFoundationFrontend50a1e9725143458dac1ae068d9dd10e0";
+const NOTION_DATABASE_ID = "181456c07cab80cca6c9d134d79ee08b";
+const ALGOLIA_INDEX_NAME = "Green_Software";
 
 console.log("Starting Notion to Algolia sync...");
 

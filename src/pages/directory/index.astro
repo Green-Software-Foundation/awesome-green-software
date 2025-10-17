@@ -1,0 +1,77 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import NotionSearch from '../../NotionSearch';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css"
+    />
+    <style>
+      main {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .page-title {
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: 1rem;
+      }
+      .subtitle {
+        color: #555;
+        margin-bottom: 1.5rem;
+      }
+      /* Remove the search-container grid styling */
+      .search-container {
+        display: block;
+      }
+      
+      /* Add responsive padding */
+      @media (max-width: 768px) {
+        .page-title {
+          padding: 1rem;
+        }
+      }
+
+      .page-header {
+        padding: 2rem;
+        text-align: center;
+        background: rgb(var(--gray-light));
+        padding-bottom: 0;
+        margin-bottom: 2rem; /* Add margin to separate from search */
+      }
+      
+      @media (max-width: 768px) {
+        .page-header {
+          padding: 1rem;
+        }
+      }
+
+      /* Add styles to control spacing between search and footer */
+      :global(.search-wrapper) {
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <div class="page-header">
+      <h1 class="text-3xl font-bold mb-4 text-green-800">Resource Search</h1>
+      <p class="subtitle">
+        Welcome to your one-stop area for all that is available in the Green software space!
+      </p>
+    </div>
+    <div class="search-wrapper">
+      <NotionSearch client:load />
+    </div>
+    <Footer />
+  </body>
+</html>
+

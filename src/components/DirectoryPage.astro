@@ -1,0 +1,53 @@
+---
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import NotionSearch from '../NotionSearch';
+---
+
+<Header />
+<div class="page-header">
+  <h1 class="page-title">Resource Search</h1>
+  <p class="subtitle">
+    Welcome to your one-stop area for all that is available in the Green software space!
+  </p>
+</div>
+<div class="search-wrapper">
+  <NotionSearch client:load />
+</div>
+<Footer />
+
+<style>
+  .page-header {
+    padding: 2rem;
+    text-align: center;
+    background: rgb(var(--gray-light));
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+  }
+
+  .page-title {
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .subtitle {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .search-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .page-header {
+      padding: 1rem;
+    }
+
+    .page-title {
+      padding: 1rem;
+    }
+  }
+</style>
+
