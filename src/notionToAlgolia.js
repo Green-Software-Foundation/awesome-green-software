@@ -6,8 +6,8 @@ dotenv.config();
 
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 const algolia = algoliasearch(
-  process.env.PUBLIC_ALGOLIA_APP_ID,
-  process.env.ALGOLIA_ADMIN_API_KEY
+  process.env.ALGOLIA_APP_ID,
+  process.env.ALGOLIA_WRITE_API_KEY
 );
 
 const NOTION_DATABASE_ID = "181456c07cab80cca6c9d134d79ee08b";

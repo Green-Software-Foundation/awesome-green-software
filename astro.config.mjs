@@ -7,5 +7,8 @@ export default defineConfig({
   base: '/awesome-green-software',
   integrations: [react(), tailwind({
     applyBaseStyles: true
-  })]
+  })],
+  vite: {
+    envPrefix: ['PUBLIC_', 'ALGOLIA_']
+  }
 });

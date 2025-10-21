@@ -28,8 +28,8 @@ interface ItemHit {
 
 // Constants
 const searchClient = algoliasearch(
-  import.meta.env.PUBLIC_ALGOLIA_APP_ID,
-  import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY
+  import.meta.env.ALGOLIA_APP_ID,
+  import.meta.env.ALGOLIA_SEARCH_ONLY_API_KEY
 );
 
 const ALGOLIA_INDEX_NAME = 'Green_Software';
