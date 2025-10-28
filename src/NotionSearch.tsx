@@ -11,6 +11,7 @@ import {
 import algoliasearch from 'algoliasearch/lite';
 import { FaGithub, FaLink } from 'react-icons/fa';
 import Filters from './components/Filters';
+import { withBase } from './lib/paths';
 import moment from 'moment';
 
 // Types
@@ -33,7 +34,7 @@ const searchClient = algoliasearch(
 );
 
 const ALGOLIA_INDEX_NAME = 'Green_Software';
-const DEFAULT_PLACEHOLDER_IMAGE = '/awesome-green-software/placeholder.png';
+const DEFAULT_PLACEHOLDER_IMAGE = withBase('/placeholder.png');
 
 // Sub-components
 const ItemImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => (

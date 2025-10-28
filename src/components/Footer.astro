@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/paths';
+
 const today = new Date();
 ---
 
@@ -14,7 +16,7 @@ const today = new Date();
 		<div class="footer-content">
 			<!-- Logo and Copyright Section -->
 			<div class="footer-section">
-				<img src="/awesome-green-software/AGS_Logo.svg" alt="Awesome Green Software" class="footer-logo" />
+				<img src={withBase('/AGS_Logo.svg')} alt="Awesome Green Software" class="footer-logo" />
 				<p class="copyright-text">
 					Copyright © {today.getFullYear()} Joint Development Foundation Projects, LLC,<br />
 					Green Software Foundation Series
@@ -28,8 +30,8 @@ const today = new Date();
 			<div class="footer-section">
 				<h3>LINKS</h3>
 				<ul>
-					<li><a href="/awesome-green-software/contribute">Submitting an entry to the list</a></li>
-					<li><a href="/awesome-green-software/about">About GSF</a></li>
+					<li><a href={withBase('/contribute')}>Submitting an entry to the list</a></li>
+					<li><a href={withBase('/about')}>About GSF</a></li>
 					<li><a href="https://github.com/Green-Software-Foundation">GitHub Repo</a></li>
 				</ul>
 			</div>

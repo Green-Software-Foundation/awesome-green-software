@@ -3,8 +3,8 @@ import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: 'https://jrauvola.github.io',
-  base: '/awesome-green-software',
+  site: process.env.SITE_URL || undefined,
+  base: process.env.BASE_PATH || '/',
   integrations: [react(), tailwind({
     applyBaseStyles: true
   })],
