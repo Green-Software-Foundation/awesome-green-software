@@ -4,10 +4,31 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const notion = new Client({ auth: process.env.NOTION_API_KEY });
+const notionApiKey = process.env.NOTION_API_KEY;
+const algoliaAppId = process.env.ALGOLIA_APP_ID || process.env.PUBLIC_ALGOLIA_APP_ID;
+const algoliaWriteKey = process.env.ALGOLIA_WRITE_API_KEY || process.env.ALGOLIA_ADMIN_API_KEY;
+
+const missingVars = [
+  ['NOTION_API_KEY', notionApiKey],
+  ['ALGOLIA_APP_ID or PUBLIC_ALGOLIA_APP_ID', algoliaAppId],
+  ['ALGOLIA_WRITE_API_KEY or ALGOLIA_ADMIN_API_KEY', algoliaWriteKey]
+].filter(([, value]) => !value);
+
+if (missingVars.length) {
+  console.error('Missing required environment variables:');
+  missingVars.forEach(([name]) => console.error(`  - ${name}`));
+  process.exit(1);
+}
+
+console.log('Environment check:');
+console.log(`  NOTION_API_KEY present: ${Boolean(notionApiKey)}`);
+console.log(`  ALGOLIA_APP_ID present: ${Boolean(algoliaAppId)}`);
+console.log(`  ALGOLIA_WRITE_API_KEY present: ${Boolean(algoliaWriteKey)}`);
+
+const notion = new Client({ auth: notionApiKey });
 const algolia = algoliasearch(
-  process.env.ALGOLIA_APP_ID,
-  process.env.ALGOLIA_WRITE_API_KEY
+  algoliaAppId,
+  algoliaWriteKey
 );
 
 const NOTION_DATABASE_ID = "181456c07cab80cca6c9d134d79ee08b";
