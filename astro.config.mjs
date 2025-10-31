@@ -3,9 +3,10 @@ import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 
 const isProductionBuild = process.env.NODE_ENV === 'production';
-const defaultBase = isProductionBuild ? '/awesome-green-software' : '/';
+const hasCustomSite = Boolean(process.env.SITE_URL);
+const defaultBase = hasCustomSite ? '/' : (isProductionBuild ? '/awesome-green-software' : '/');
 const base = process.env.BASE_PATH ?? defaultBase;
-const site = process.env.SITE_URL ?? (base !== '/' ? `https://green-software-foundation.github.io${base}` : undefined);
+const site = process.env.SITE_URL ?? (!hasCustomSite && base !== '/' ? `https://green-software-foundation.github.io${base}` : undefined);
 
 export default defineConfig({
   site,

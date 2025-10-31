@@ -14,12 +14,6 @@ const getEnvValue = (primary, fallback) => {
   return { value: undefined, source: primary };
 };
 
-const maskValue = (value) => {
-  if (!value) return 'undefined';
-  if (value.length <= 8) return `${value[0]}***${value[value.length - 1]}`;
-  return `${value.slice(0, 4)}...${value.slice(-4)}`;
-};
-
 const { value: notionApiKey, source: notionSource } = getEnvValue('NOTION_API_KEY');
 const { value: algoliaAppId, source: appIdSource } = getEnvValue('ALGOLIA_APP_ID', 'PUBLIC_ALGOLIA_APP_ID');
 const { value: algoliaWriteKey, source: writeKeySource } = getEnvValue('ALGOLIA_WRITE_API_KEY', 'ALGOLIA_ADMIN_API_KEY');
@@ -37,9 +31,9 @@ if (missingVars.length) {
 }
 
 console.log('Environment check:');
-console.log(`  NOTION_API_KEY source: ${notionSource}, masked: ${maskValue(notionApiKey)}`);
-console.log(`  ALGOLIA_APP_ID source: ${appIdSource}, masked: ${maskValue(algoliaAppId)}`);
-console.log(`  ALGOLIA_WRITE_API_KEY source: ${writeKeySource}, masked: ${maskValue(algoliaWriteKey)}`);
+console.log(`  NOTION_API_KEY source: ${notionSource}, present: ${Boolean(notionApiKey)}`);
+console.log(`  ALGOLIA_APP_ID source: ${appIdSource}, present: ${Boolean(algoliaAppId)}`);
+console.log(`  ALGOLIA_WRITE_API_KEY source: ${writeKeySource}, present: ${Boolean(algoliaWriteKey)}`);
 
 const notion = new Client({ auth: notionApiKey });
 const algolia = algoliasearch(
