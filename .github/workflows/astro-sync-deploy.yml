@@ -6,9 +6,9 @@ on:
     - cron: '0 0 * * *'
   # Allow manual triggers
   workflow_dispatch:
-  # Run on pushes to main branch
+  # Run on pushes to main and dev branches
   push:
-    branches: [main]
+    branches: [main, dev]
 
 permissions:
   contents: read
