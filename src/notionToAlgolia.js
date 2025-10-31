@@ -174,6 +174,30 @@ async function updateAlgoliaIndex(data) {
   console.log(`Updating Algolia index '${ALGOLIA_INDEX_NAME}'...`);
   const index = algolia.initIndex(ALGOLIA_INDEX_NAME);
   
+  // Discover available indices so we know what the account already has
+  try {
+    const indicesResponse = await algolia.listIndices();
+    const available = indicesResponse.items?.map(item => item.name) || [];
+    console.log(`Available Algolia indices: ${available.length ? available.join(', ') : '(none found)'}`);
+
+    if (!available.includes(ALGOLIA_INDEX_NAME)) {
+      console.log(`Index '${ALGOLIA_INDEX_NAME}' not found. Creating it now...`);
+      await index.setSettings({ attributesForFaceting: ['Category', 'Tags'] });
+
+      if (data.length === 0) {
+        console.log(`Index '${ALGOLIA_INDEX_NAME}' created with no initial records.`);
+        return { objectIDs: [] };
+      }
+
+      const creationResult = await index.saveObjects(data);
+      console.log(`Index '${ALGOLIA_INDEX_NAME}' created and populated with ${data.length} objects.`);
+      return creationResult;
+    }
+  } catch (error) {
+    console.error('Unable to list or create Algolia indices:', error);
+    throw error;
+  }
+
   // Configure the index settings to include Tags as a facet
   await index.setSettings({
     attributesForFaceting: ['Category', 'Tags']
