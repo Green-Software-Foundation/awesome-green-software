@@ -47,6 +47,8 @@ jobs:
         with:
           path: .
         env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          BASE_PATH: ${{ secrets.BASE_PATH }}
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_SEARCH_ONLY_API_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
           PUBLIC_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
