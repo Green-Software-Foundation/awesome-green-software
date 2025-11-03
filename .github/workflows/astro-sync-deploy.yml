@@ -6,9 +6,9 @@ on:
     - cron: '0 0 * * *'
   # Allow manual triggers
   workflow_dispatch:
-  # Run on pushes to main branch
+  # Run on pushes to main and dev branches
   push:
-    branches: [main]
+    branches: [main, dev]
 
 permissions:
   contents: read
@@ -37,17 +37,22 @@ jobs:
         run: node src/notionToAlgolia.js
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          PUBLIC_ALGOLIA_APP_ID: ${{ secrets.PUBLIC_ALGOLIA_APP_ID }}
-          PUBLIC_ALGOLIA_SEARCH_KEY: ${{ secrets.PUBLIC_ALGOLIA_SEARCH_KEY }}
-          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_WRITE_API_KEY: ${{ secrets.ALGOLIA_WRITE_API_KEY }}
+          PUBLIC_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          PUBLIC_ALGOLIA_SEARCH_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
       
       - name: Build and upload site
         uses: withastro/action@v2
         with:
           path: .
         env:
-          PUBLIC_ALGOLIA_APP_ID: ${{ secrets.PUBLIC_ALGOLIA_APP_ID }}
-          PUBLIC_ALGOLIA_SEARCH_KEY: ${{ secrets.PUBLIC_ALGOLIA_SEARCH_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          BASE_PATH: ${{ secrets.BASE_PATH }}
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_SEARCH_ONLY_API_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
+          PUBLIC_ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          PUBLIC_ALGOLIA_SEARCH_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
 
   deploy:
     needs: sync-and-build

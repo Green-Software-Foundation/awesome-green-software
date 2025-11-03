@@ -3,8 +3,8 @@ const fetch = require('node-fetch'); // Install node-fetch if necessary
 
 // Replace with your actual Algolia App ID and Admin API Key
 const client = algoliasearch(
-  import.meta.env.PUBLIC_ALGOLIA_APP_ID,
-  import.meta.env.PUBLIC_ALGOLIA_SEARCH_KEY
+  import.meta.env.ALGOLIA_APP_ID,
+  import.meta.env.ALGOLIA_SEARCH_ONLY_API_KEY
 );
 
 const index = client.initIndex('movies');

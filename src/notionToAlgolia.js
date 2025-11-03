@@ -4,14 +4,45 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const notion = new Client({ auth: process.env.NOTION_API_KEY });
+const getEnvValue = (primary, fallback) => {
+  if (process.env[primary]) {
+    return { value: process.env[primary], source: primary };
+  }
+  if (fallback && process.env[fallback]) {
+    return { value: process.env[fallback], source: fallback };
+  }
+  return { value: undefined, source: primary };
+};
+
+const { value: notionApiKey, source: notionSource } = getEnvValue('NOTION_API_KEY');
+const { value: algoliaAppId, source: appIdSource } = getEnvValue('ALGOLIA_APP_ID', 'PUBLIC_ALGOLIA_APP_ID');
+const { value: algoliaWriteKey, source: writeKeySource } = getEnvValue('ALGOLIA_WRITE_API_KEY', 'ALGOLIA_ADMIN_API_KEY');
+
+const missingVars = [
+  ['NOTION_API_KEY', notionApiKey],
+  ['ALGOLIA_APP_ID or PUBLIC_ALGOLIA_APP_ID', algoliaAppId],
+  ['ALGOLIA_WRITE_API_KEY or ALGOLIA_ADMIN_API_KEY', algoliaWriteKey]
+].filter(([, value]) => !value);
+
+if (missingVars.length) {
+  console.error('Missing required environment variables:');
+  missingVars.forEach(([name]) => console.error(`  - ${name}`));
+  process.exit(1);
+}
+
+console.log('Environment check:');
+console.log(`  NOTION_API_KEY source: ${notionSource}, present: ${Boolean(notionApiKey)}`);
+console.log(`  ALGOLIA_APP_ID source: ${appIdSource}, present: ${Boolean(algoliaAppId)}`);
+console.log(`  ALGOLIA_WRITE_API_KEY source: ${writeKeySource}, present: ${Boolean(algoliaWriteKey)}`);
+
+const notion = new Client({ auth: notionApiKey });
 const algolia = algoliasearch(
-  process.env.PUBLIC_ALGOLIA_APP_ID,
-  process.env.ALGOLIA_ADMIN_API_KEY
+  algoliaAppId,
+  algoliaWriteKey
 );
 
-const NOTION_DATABASE_ID = "50a1e9725143458dac1ae068d9dd10e0";
-const ALGOLIA_INDEX_NAME = "GreenSoftwareFoundationFrontend50a1e9725143458dac1ae068d9dd10e0";
+const NOTION_DATABASE_ID = "181456c07cab80cca6c9d134d79ee08b";
+const ALGOLIA_INDEX_NAME = "Green_Software";
 
 console.log("Starting Notion to Algolia sync...");
 
@@ -137,6 +168,30 @@ async function updateAlgoliaIndex(data) {
   console.log(`Updating Algolia index '${ALGOLIA_INDEX_NAME}'...`);
   const index = algolia.initIndex(ALGOLIA_INDEX_NAME);
   
+  // Discover available indices so we know what the account already has
+  try {
+    const indicesResponse = await algolia.listIndices();
+    const available = indicesResponse.items?.map(item => item.name) || [];
+    console.log(`Available Algolia indices: ${available.length ? available.join(', ') : '(none found)'}`);
+
+    if (!available.includes(ALGOLIA_INDEX_NAME)) {
+      console.log(`Index '${ALGOLIA_INDEX_NAME}' not found. Creating it now...`);
+      await index.setSettings({ attributesForFaceting: ['Category', 'Tags'] });
+
+      if (data.length === 0) {
+        console.log(`Index '${ALGOLIA_INDEX_NAME}' created with no initial records.`);
+        return { objectIDs: [] };
+      }
+
+      const creationResult = await index.saveObjects(data);
+      console.log(`Index '${ALGOLIA_INDEX_NAME}' created and populated with ${data.length} objects.`);
+      return creationResult;
+    }
+  } catch (error) {
+    console.error('Unable to list or create Algolia indices:', error);
+    throw error;
+  }
+
   // Configure the index settings to include Tags as a facet
   await index.setSettings({
     attributesForFaceting: ['Category', 'Tags']

@@ -1,6 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import { withBase } from '../lib/paths';
 ---
 
 <header>
@@ -9,15 +10,13 @@ import { SITE_TITLE } from '../consts';
   </div>
   <nav>
     <div class="logo">
-      <a href="/awesome-green-software/">
-        <img src="/awesome-green-software/AGS_Logo.svg" alt={SITE_TITLE} height="100" />
+      <a href={withBase('/directory')}>
+        <img src={withBase('/AGS_Logo.svg')} alt={SITE_TITLE} height="100" />
       </a>
     </div>
-    <div class="nav-center">
-      <a href="/awesome-green-software/blog" class="contribute-button">Explore the Directory</a>
-    </div>
+ 
     <div class="nav-right">
-      <a href="/awesome-green-software/contribute" class="contribute-button">Become a Contributor</a>
+      <a href={withBase('/contribute')} class="contribute-button">Become a Contributor</a>
     </div>
   </nav>
 </header>

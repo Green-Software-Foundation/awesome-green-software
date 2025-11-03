@@ -413,6 +413,9 @@ The project relies on several external services. You need to provide your own cr
    - **PUBLIC_ALGOLIA_APP_ID**: Your Algolia Application ID.
    - **ALGOLIA_ADMIN_API_KEY**: Your Algolia Admin API Key.
    - **ALGOLIA_SEARCH_KEY**: Your Algolia Search-Only API Key.
+   - **ALGOLIA_APP_ID**: Your Algolia Application ID.
+   - **ALGOLIA_WRITE_API_KEY**: Your Algolia Write/Admin API Key.
+   - **ALGOLIA_SEARCH_ONLY_API_KEY**: Your Algolia Search-Only API Key.
 
 2. **Notion**
 
@@ -424,9 +427,9 @@ The project relies on several external services. You need to provide your own cr
    ```env
    NOTION_API_KEY=your_notion_api_key_here
    NOTION_DATABASE_ID=your_notion_database_id_here
-   PUBLIC_ALGOLIA_APP_ID=your_algolia_app_id_here
-   ALGOLIA_ADMIN_API_KEY=your_algolia_admin_api_key_here
-   PUBLIC_ALGOLIA_SEARCH_KEY=your_algolia_search_key_here
+  ALGOLIA_APP_ID=your_algolia_app_id_here
+  ALGOLIA_WRITE_API_KEY=your_algolia_write_api_key_here
+  ALGOLIA_SEARCH_ONLY_API_KEY=your_algolia_search_key_here
    ```
 
    **Note**: Replace the placeholder text with your actual credentials.
