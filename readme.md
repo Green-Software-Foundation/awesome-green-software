@@ -105,7 +105,12 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Azure
 
-- [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
+- [Well Architected Framework for Sustainable Workloads](https://learn.microsoft.com/azure/well-architected/sustainability/sustainability-get-started): How to design a workload in Azure following best practices from the Green Software Foundation.
+- [Build environmental-aware API platforms with Azure API Management](https://techcommunity.microsoft.com/blog/integrationsonazureblog/building-environmental-aware-api-platforms-with-azure-api-management/4458308): Shift, load-balance or shape your app's API traffic depending on the Azure region's carbon intensity.
+- [Azure Carbon Optimization](https://learn.microsoft.com/azure/carbon-optimization/): Get resource-level emissions details as well as recommendations to reduce them, all from within the Azure Portal.
+- [Carbon Service REST API](https://learn.microsoft.com/rest/api/carbon/carbon-service): Use this API to programmatically export the data that powers the Emissions Impact Dashboard and Azure Carbon Optimization.
+- [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/sustainability/emissions-impact-dashboard): Free Power BI App to get subscription level emissions info for your Azure tenant.
+
 
 ###### Google
 
