@@ -138,6 +138,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 - [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) A simple syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files
+- [CarbonLint](https://github.com/nishal21/CarbonLint)CarbonLint is a real-time system profiler that tracks your computer's energy consumption and calculates its carbon footprint. It helps developers understand the environmental impact of their work and make greener choices.
 
 ##### General Purpose
 
