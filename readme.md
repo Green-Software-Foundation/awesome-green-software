@@ -201,6 +201,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
 - [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
+- [webNRG⚡️](https://website-tester.green-coding.io) Get actual rendering energy as well as network carbon emissions for your websites
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
 - [WeDeex - Edge](https://microsoftedge.microsoft.com/addons/detail/wedeex/jbocoolinibenmobjadejejdbanalfee)
