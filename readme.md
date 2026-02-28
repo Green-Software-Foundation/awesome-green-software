@@ -149,6 +149,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available as in the JSON-Carbon SDK-compatible format.
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
+- [DPP Tool](https://dpp-tool.com/) EU Digital Product Passport generator and validator for ESPR compliance and circular economy requirements.
 
 ###### Energy
 
