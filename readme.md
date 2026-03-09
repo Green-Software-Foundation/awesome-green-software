@@ -188,6 +188,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Web
 
+- [Carbon Badge](https://carbon-badge.com) - Free website carbon footprint calculator using SWDM v4 methodology.
 - [Carbonalyser - The Shift Project](https://theshiftproject.org/en/carbonalyser-browser-extension/)
 - [Carbonara - Digital4Better](https://github.com/digital4better/carbonara/) A custom element displaying web navigation carbon footprint
 - [Carbon Footprint of Sending Data](https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around) An online calculator for estimating carbon emissions from network traffic, based on the Shift projects Lean ICT report.
