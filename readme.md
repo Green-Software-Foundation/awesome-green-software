@@ -130,6 +130,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 - [1ClickImpact Sustainability API](https://docs.1clickimpact.com/) RESTful API for integrating environmental actions such as tree planting, carbon capture, and ocean cleanup into software and workflows. Enables developers to automate sustainability initiatives and environmental impact for their applications.
 - [codecarbon.io](http://codecarbon.io/) Python : Track and reduce CO2 emissions from your computing
+- [EcoTrace](https://github.com/Zwony/ecotrace) Python : High-precision carbon tracking engine for production with AI-driven optimization insights and 50ms hardware-specific sampling.
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) Automatically analyze application source code to identify green deficiencies and improve green impact.
 - [JoularJX](https://gitlab.com/joular/joularjx) Java: Software power monitoring at the source code level in real-time.
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
