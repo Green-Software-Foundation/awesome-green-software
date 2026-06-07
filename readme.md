@@ -86,6 +86,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### AI Carbon
 
 - [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
+- [AXIOMAX ESG Carbon Shield](https://axiomaxllc.com) Cryptographically verifiable carbon attestation tokens for AI inference workloads. ed25519-signed measurements, SHA-256 hash chain, independently auditable. Open-source verifier in Python/JS/Bash, browser-side mirror via Web Crypto API. Patent Pending USPTO 64/081,419. [[GitHub](https://github.com/axiomaxllc/esg-carbon-shield)]
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 ###### AI Energy
