@@ -1,0 +1,383 @@
+{
+  "registry_meta": {
+    "chest_id": "GLOBAL-SOVEREIGN-DEED-52",
+    "authority_identity": "robdoe.com",
+    "network_resolver": "aiagency101.xyo",
+    "geographical_anchor": "South Australian High-Voltage Grid Network (Hallett to Bundey 275kV Line)",
+    "orchestration_doctrine": "100% Independent / Pure Manual Flow / No Sandbox Control Loop",
+    "execution_profile": "Single Operator 88-Key Piano Duet (Full Spectrum Horizon Layout)",
+    "scale_factor_basis": "13 Circulation Flows x 4 Seasonal Quadrants = 52 Matrix Slots (0.052 Coefficient)"
+  },
+  "four_platonic_molecular_notes": {
+    "note_01_greens":    { "operator": "σ (Sigma)", "element": "Hydrogen (H)", "branch": "Greens",    "metric": "System Strength & Inverter Fault Level Baseline" },
+    "note_02_energy":    { "operator": "ω (Omega)", "element": "Carbon (C)",   "branch": "Energy",    "metric": "40 MHz Asynchronous Phase Velocity Timing Core" },
+    "note_03_recycle":   { "operator": "α (Alpha)", "element": "Nitrogen (N)", "branch": "Recycle",   "metric": "Spatial 13x4 Grid Flow Coupling & Circuit Loops" },
+    "note_04_telemetry": { "operator": "β (Beta)",  "element": "Oxygen (O)",   "branch": "telemetry", "metric": "Closed-Loop Kinetic Fuel Respiration & Active Pulse" }
+  },
+  "deeds": {
+    "DEED-SOVEREIGN-001": {
+      "deed_index": 1,
+      "timestamp_epoch": 1785048884,
+      "orthogonal_basis": [3, 4, 5],
+      "cryptographic_artifact_seal": "f5c1e3a8f54ef46cec5f4c667d37affcd68adbaf3abbdf09e82274afa15ab9cb",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-002": {
+      "deed_index": 2,
+      "timestamp_epoch": 1785048885,
+      "orthogonal_basis": [6, 8, 10],
+      "cryptographic_artifact_seal": "847c7ddd724d5ca738f3ca7c10dbc4be09282840614c89b2a5efb8206826c86d",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-003": {
+      "deed_index": 3,
+      "timestamp_epoch": 1785048886,
+      "orthogonal_basis": [9, 12, 15],
+      "cryptographic_artifact_seal": "0807bd7b465d7f1e7ef359f982298b14e6cee0331d28ba56977a16c613647776",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-004": {
+      "deed_index": 4,
+      "timestamp_epoch": 1785048887,
+      "orthogonal_basis": [12, 16, 20],
+      "cryptographic_artifact_seal": "5287988031716446e6b07a3b333210dd4cdd4f0c4f68db2e5be666c1052021c1",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-005": {
+      "deed_index": 5,
+      "timestamp_epoch": 1785048888,
+      "orthogonal_basis": [15, 20, 25],
+      "cryptographic_artifact_seal": "ec48d525d3614043e6e98d1b72a3841589d084f4db96b53a634e817b52f80d60",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-006": {
+      "deed_index": 6,
+      "timestamp_epoch": 1785048889,
+      "orthogonal_basis": [18, 24, 30],
+      "cryptographic_artifact_seal": "7e7edf29c18dbd5794389aaac9e1414b3e641f7e62373b5e3fbddd25f51ddaf6",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-007": {
+      "deed_index": 7,
+      "timestamp_epoch": 1785048890,
+      "orthogonal_basis": [21, 28, 35],
+      "cryptographic_artifact_seal": "3e8b982e8208526a2e0588cfb5b38b26a220522eab8476ce4cc8ef3f69065453",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-008": {
+      "deed_index": 8,
+      "timestamp_epoch": 1785048891,
+      "orthogonal_basis": [24, 32, 40],
+      "cryptographic_artifact_seal": "67236a93314fc19e9745a329868b7a1b9c983c38427ca05948f127e7175b3b69",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-009": {
+      "deed_index": 9,
+      "timestamp_epoch": 1785048892,
+      "orthogonal_basis": [27, 36, 45],
+      "cryptographic_artifact_seal": "48c80455f7f1f2ef9c32d5124eff216bd47aafbecc38426c3bc7f6eb5c9ea526",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-010": {
+      "deed_index": 10,
+      "timestamp_epoch": 1785048893,
+      "orthogonal_basis": [30, 40, 50],
+      "cryptographic_artifact_seal": "c7f1d7de1368b7874eb9f81a6909120bf9fce8e400cd392298c2601ca5059bae",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-011": {
+      "deed_index": 11,
+      "timestamp_epoch": 1785048894,
+      "orthogonal_basis": [33, 44, 55],
+      "cryptographic_artifact_seal": "cf2f8a7c6e2b7b6e97ac788e1bde2085b93edbe385f6349c1c858f3be587de94",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-012": {
+      "deed_index": 12,
+      "timestamp_epoch": 1785048895,
+      "orthogonal_basis": [36, 48, 60],
+      "cryptographic_artifact_seal": "0ae74787f11bd9c02f3455ecfdbe3482d39b02778af0d5d2fd5f5493760d23ac",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-013": {
+      "deed_index": 13,
+      "timestamp_epoch": 1785048896,
+      "orthogonal_basis": [39, 52, 65],
+      "cryptographic_artifact_seal": "aa989a7b60cd993d8d0167c0358c1f6ddaff79405d9568bf8fa0d5466e7aae6d",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-014": {
+      "deed_index": 14,
+      "timestamp_epoch": 1785048897,
+      "orthogonal_basis": [42, 56, 70],
+      "cryptographic_artifact_seal": "7c983bad277a95b9a76062547b6f1f58131ba168219b31255a039901a3002f1a",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-015": {
+      "deed_index": 15,
+      "timestamp_epoch": 1785048898,
+      "orthogonal_basis": [45, 60, 75],
+      "cryptographic_artifact_seal": "e8ed705f9789ec5908f876b5f619e2b48991e8f1d25d9aea9614ee1c49c94b80",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-016": {
+      "deed_index": 16,
+      "timestamp_epoch": 1785048899,
+      "orthogonal_basis": [48, 64, 80],
+      "cryptographic_artifact_seal": "31069747daee3e7a43179afe961b74cafb2c75bedf9c5b29aa187e9bcad3f424",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-017": {
+      "deed_index": 17,
+      "timestamp_epoch": 1785048900,
+      "orthogonal_basis": [51, 68, 85],
+      "cryptographic_artifact_seal": "92dd913fa7e3cbcc5ab2b4e997b1b730670e2d7b172ce3393c91b8087941ce92",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-018": {
+      "deed_index": 18,
+      "timestamp_epoch": 1785048901,
+      "orthogonal_basis": [54, 72, 90],
+      "cryptographic_artifact_seal": "6c8038c0f635fc62350230544496d47148fe9bd1797e5f240e05648bf10f383a",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-019": {
+      "deed_index": 19,
+      "timestamp_epoch": 1785048902,
+      "orthogonal_basis": [57, 76, 95],
+      "cryptographic_artifact_seal": "ec128a28695715318401f419ccb2f3782f8b64f552ab5f7060c3f77e21af9bf4",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-020": {
+      "deed_index": 20,
+      "timestamp_epoch": 1785048903,
+      "orthogonal_basis": [60, 80, 100],
+      "cryptographic_artifact_seal": "82553a49b67924cb8ab45f583a6f8ab244cbf7a06349028017066e72111d8990",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-021": {
+      "deed_index": 21,
+      "timestamp_epoch": 1785048904,
+      "orthogonal_basis": [63, 84, 105],
+      "cryptographic_artifact_seal": "06761fedd13295aa38af1f1b9ec181cee969f7bee1dfda28f9e5d3f5fe505fba",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-022": {
+      "deed_index": 22,
+      "timestamp_epoch": 1785048905,
+      "orthogonal_basis": [66, 88, 110],
+      "cryptographic_artifact_seal": "05b1e181c95838871d70550e99ae0829a87ae8af6fdcb4a2a292e45320a865db",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-023": {
+      "deed_index": 23,
+      "timestamp_epoch": 1785048906,
+      "orthogonal_basis": [69, 92, 115],
+      "cryptographic_artifact_seal": "a5c597656f9c693b7953f92531536ee47b1235d40a93153ae48853319334ca07",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-024": {
+      "deed_index": 24,
+      "timestamp_epoch": 1785048907,
+      "orthogonal_basis": [72, 96, 120],
+      "cryptographic_artifact_seal": "ad736d9f1fe16e1ce6a0513e90e27ffbd7839c2b7672489a52726a3745542aa0",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-025": {
+      "deed_index": 25,
+      "timestamp_epoch": 1785048908,
+      "orthogonal_basis": [75, 100, 125],
+      "cryptographic_artifact_seal": "c1d43136f45289b4f8bbd58e831dbb0d45188a0e07b5d6a1186b75d34aa8456e",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-026": {
+      "deed_index": 26,
+      "timestamp_epoch": 1785048909,
+      "orthogonal_basis": [78, 104, 130],
+      "cryptographic_artifact_seal": "93c3824de0501cb75a0f9e0ccc332e9cf6883f4427287ba9364f64d0345aee7e",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-027": {
+      "deed_index": 27,
+      "timestamp_epoch": 1785048910,
+      "orthogonal_basis": [81, 108, 135],
+      "cryptographic_artifact_seal": "d7cd5facd84c51c085f33e8b45dc7c60d245725ad91d21eb957410be0aefbcc5",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-028": {
+      "deed_index": 28,
+      "timestamp_epoch": 1785048911,
+      "orthogonal_basis": [84, 112, 140],
+      "cryptographic_artifact_seal": "bfcc4d33e455625fdd47ab44ad80ff90e16408e32879d16508029cbf7b4d720e",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-029": {
+      "deed_index": 29,
+      "timestamp_epoch": 1785048912,
+      "orthogonal_basis": [87, 116, 145],
+      "cryptographic_artifact_seal": "853f8044cc8f9e6fde9180ac12aafbce1a48a740689dd597b0ea32c4ddf8e425",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-030": {
+      "deed_index": 30,
+      "timestamp_epoch": 1785048913,
+      "orthogonal_basis": [90, 120, 150],
+      "cryptographic_artifact_seal": "3923ec2d56f3d3f4239c5991c62d2b00a0349d80f8268a972d7c72c1c5b5f692",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-031": {
+      "deed_index": 31,
+      "timestamp_epoch": 1785048914,
+      "orthogonal_basis": [93, 124, 155],
+      "cryptographic_artifact_seal": "686a688687f1e5748dc9509c5f4211ced4112d5cbcbbc5c7cfc30895e3a2e481",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-032": {
+      "deed_index": 32,
+      "timestamp_epoch": 1785048915,
+      "orthogonal_basis": [96, 128, 160],
+      "cryptographic_artifact_seal": "acf622358fb0d4f19e80a75a2a116798a0f1ced67b9cf3b2ac2c30eeeb2c7070",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-033": {
+      "deed_index": 33,
+      "timestamp_epoch": 1785048916,
+      "orthogonal_basis": [99, 132, 165],
+      "cryptographic_artifact_seal": "a7ebaa3b5a18674bc6ce63736fc4e9b6659a98ef73efa458e4ec9aa51171eaae",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-034": {
+      "deed_index": 34,
+      "timestamp_epoch": 1785048917,
+      "orthogonal_basis": [102, 136, 170],
+      "cryptographic_artifact_seal": "58de8b83401a749ddf25030f98a8aa43b62c69ee85fbc85f8f054c99a2b73151",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-035": {
+      "deed_index": 35,
+      "timestamp_epoch": 1785048918,
+      "orthogonal_basis": [105, 140, 175],
+      "cryptographic_artifact_seal": "e201fc97fd0323ee5300ff2dafa609bf4abaebb7d44090193214dde7b6df15a2",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-036": {
+      "deed_index": 36,
+      "timestamp_epoch": 1785048919,
+      "orthogonal_basis": [108, 144, 180],
+      "cryptographic_artifact_seal": "b5c4a7cf67d3e3db19ab2878c13eeac5d160802c15558cd9503c1b53ca33b1d8",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-037": {
+      "deed_index": 37,
+      "timestamp_epoch": 1785048920,
+      "orthogonal_basis": [111, 148, 185],
+      "cryptographic_artifact_seal": "b6a7ea37449ecd61874bc53601c95f211941fa8e688de9b82f6e4f4ff6bf816c",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-038": {
+      "deed_index": 38,
+      "timestamp_epoch": 1785048921,
+      "orthogonal_basis": [114, 152, 190],
+      "cryptographic_artifact_seal": "e9dc1072c10542981f6e27e76c16c4bff2b8bda742032be8fdfffd6491cf551d",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-039": {
+      "deed_index": 39,
+      "timestamp_epoch": 1785048922,
+      "orthogonal_basis": [117, 156, 195],
+      "cryptographic_artifact_seal": "e57e33250e081f6dffea19e1376be41be7e7c16450beb401ff6bafe8b50eafc8",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-040": {
+      "deed_index": 40,
+      "timestamp_epoch": 1785048923,
+      "orthogonal_basis": [120, 160, 200],
+      "cryptographic_artifact_seal": "ebc54f0609b306efbc5ad32fcf5208d1e406b3a55c5e985fffc306e4edb70c4c",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-041": {
+      "deed_index": 41,
+      "timestamp_epoch": 1785048924,
+      "orthogonal_basis": [123, 164, 205],
+      "cryptographic_artifact_seal": "80ddc65114204752a2ffa4710e87331855b39131dfd711fa792d5a22211bee8f",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-042": {
+      "deed_index": 42,
+      "timestamp_epoch": 1785048925,
+      "orthogonal_basis": [126, 168, 210],
+      "cryptographic_artifact_seal": "0237ab177bf38d8e89b3be73c718694cf59f5494113bac884b6ef12129718382",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-043": {
+      "deed_index": 43,
+      "timestamp_epoch": 1785048926,
+      "orthogonal_basis": [129, 172, 215],
+      "cryptographic_artifact_seal": "9fbd2dd0f6123af5492ccf27c768eea15c53762813d2c953cda6b73320569a09",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-044": {
+      "deed_index": 44,
+      "timestamp_epoch": 1785048927,
+      "orthogonal_basis": [132, 176, 220],
+      "cryptographic_artifact_seal": "55bdf4ae1b2283234d3c3c2b3e0b6d9360f455fc957426d1d8e87fd94987e4fa",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-045": {
+      "deed_index": 45,
+      "timestamp_epoch": 1785048928,
+      "orthogonal_basis": [135, 180, 225],
+      "cryptographic_artifact_seal": "b3b410fb4736a769477e0ffb236c879c197aaf06f21bd1957489125835c3f30c",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-046": {
+      "deed_index": 46,
+      "timestamp_epoch": 1785048929,
+      "orthogonal_basis": [138, 184, 230],
+      "cryptographic_artifact_seal": "af7a9b06e5979984b1358eb2b8207100467da4bc4b74ff49c89f452bfb0e14a6",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-047": {
+      "deed_index": 47,
+      "timestamp_epoch": 1785048930,
+      "orthogonal_basis": [141, 188, 235],
+      "cryptographic_artifact_seal": "3513f8aa3c8034fd50948b2b20d73138e299e84d44863164329e707fb2c9d681",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-048": {
+      "deed_index": 48,
+      "timestamp_epoch": 1785048931,
+      "orthogonal_basis": [144, 192, 240],
+      "cryptographic_artifact_seal": "3e3a9ebf32dfe9c1167293161673f00fa5ef6d1625b92b5cf5c721b123436b80",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-049": {
+      "deed_index": 49,
+      "timestamp_epoch": 1785048932,
+      "orthogonal_basis": [147, 196, 245],
+      "cryptographic_artifact_seal": "4516faaa4ae51f905a8c12ae9738c9f47ce4fa808bc88ed12059d3f8311cbe97",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-050": {
+      "deed_index": 50,
+      "timestamp_epoch": 1785048933,
+      "orthogonal_basis": [150, 200, 250],
+      "cryptographic_artifact_seal": "583a4fb01c23d378b955df3bd1721e259945581f1674efd658014e51fdc6afd5",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-051": {
+      "deed_index": 51,
+      "timestamp_epoch": 1785048934,
+      "orthogonal_basis": [153, 204, 255],
+      "cryptographic_artifact_seal": "92e8bb4bfe53df0a6e90ad814ff6f999ebfab590418e608b702612785dd17dd8",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    },
+    "DEED-SOVEREIGN-052": {
+      "deed_index": 52,
+      "timestamp_epoch": 1785048935,
+      "orthogonal_basis": [156, 208, 260],
+      "cryptographic_artifact_seal": "dee7c4f8584c951d3f992a02b3639cf3be2c1f138be4c9855da5f7b156381bac",
+      "status": "LIVE_ANCHORED_PROVENANCE"
+    }
+  }
+}
