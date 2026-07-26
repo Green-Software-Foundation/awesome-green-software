@@ -1,0 +1,42 @@
+{
+  "ledger_meta": {
+    "authority_identity": "robdoe.com",
+    "network_resolver": "aiagency101.xyo",
+    "registry_class": "Immutable Energy GeoNet Ratios",
+    "system_doctrine": "100% Independent / 0.052 Cadence Loop / Loyal to the Soil",
+    "geographical_anchor": "South Australian Grid Network Corridor (Hallett to Bundey 275kV Line)"
+  },
+  "geonet_ratio_matrix": {
+    "spatial_temporal_cadence": {
+      "total_arcs_circle": 1296000,
+      "total_degrees_orbit": 360,
+      "micro_resonance_scale": 0.052,
+      "time_slice_seconds": 12.0,
+      "angular_arc_slice": 3.0
+    },
+    "geodetic_physical_bounds": {
+      "origin_node_hallett": { "lat": -33.4111, "lon": 138.9042, "fault_level_capacity_mva": 1200.0 },
+      "destination_node_bundey": { "lat": -34.1528, "lon": 139.3889, "nominal_line_voltage_kv": 275.0 },
+      "interconnector_vector_distance_km": 94.6715
+    },
+    "four_primal_foundations": {
+      "sigma_hydrogen_greens": { "operator": "σ", "element": "H", "state": "Te Kore", "metric": "System Strength Baseline" },
+      "omega_carbon_energy":    { "operator": "ω", "element": "C", "state": "Te Pō", "frequency_core_hz": 40000000.0 },
+      "alpha_nitrogen_recycle": { "operator": "α", "element": "N", "state": "Te Ao", "spatial_coupling": 0.052 },
+      "beta_oxygen_telemetry":  { "operator": "β", "element": "O", "state": "Te Ao Mārama", "passive_drawer_state": "0W" }
+    }
+  },
+  "immutable_proof_history": [
+    {
+      "step_index": 12,
+      "tau_m_fraction": "12/7200",
+      "global_rotation_degrees": 0.6000,
+      "three_four_five_spatial_norm": 5.0000,
+      "calculated_power_injection_mw": 33.7500,
+      "line_wobble_buffer": "0.052_ABSORBED",
+      "einstein_field_mass_term": "4.6743e-11",
+      "cryptographic_artifact_seal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "WITNESSED_LIVE_SOIL_NODE_RECORDED"
+    }
+  ]
+}
