@@ -90,6 +90,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### AI Energy
 
+- [Awesome AI Tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) A curated list on measuring what AI tokens cost and where they are wasted, including an energy and carbon category for LLM workloads (per-query energy data, carbon trackers, and energy leaderboards)
 - [Beaker (Allen Institute For AI)](https://beaker.org) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
