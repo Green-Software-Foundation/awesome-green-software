@@ -179,6 +179,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### iOS
 
+- [creedengo-ios](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+  
 ###### Linux
 
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
