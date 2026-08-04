@@ -332,7 +332,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
 - [The energy and carbon footprint of the ICT and E&M sector in Sweden 1990–2015 and beyond](https://download.atlantis-press.com/article/25860385.pdf)
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
-- [Tracking emissions in the US electricity system](https://web.stanford.edu/~jdechale/emissions_app/#/about)
+- [Tracking emissions in the US electricity system](https://www.pnas.org/doi/10.1073/pnas.1912950116)
 
 ###### Programming Languages
 
@@ -356,91 +356,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Quantifying Carbon Emissions due to Online Third-Party Tracking](https://arxiv.org/abs/2304.00927)
 
 ## Green Software Foundation Directory
-
-### Features
-
-- **Search Functionality**: Powered by Algolia, enabling fast and relevant search results.
-- **Content Management**: Utilizes Notion for managing and updating the directory entries.
-- **Responsive Design**: Built with Astro and Tailwind CSS for a modern, responsive user interface.
-- **Contributor Support**: Easy-to-use forms for adding new projects or contributing to existing ones.
-- **Integration with Social Platforms**: Connect with the Green Software Foundation community on GitHub, Twitter, and LinkedIn.
-
-### Technologies Used
-
-- **Frontend**:
-
-  - [Astro](https://astro.build/) - A modern framework for building fast, content-focused websites.
-  - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-  - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
-
-- **Backend & Services**:
-  - [Algolia](https://www.algolia.com/) - A powerful search-as-a-service platform.
-  - [Notion](https://www.notion.so/) - An all-in-one workspace for note-taking and project management.
-  - [Node.js](https://nodejs.org/) - A JavaScript runtime for building scalable network applications.
-
-### Installation
-
-Follow these steps to set up the project locally:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/green-software-foundation-directory.git
-   cd green-software-foundation-directory
-   ```
-
-2. **Install Dependencies**
-   Ensure you have [Node.js](https://nodejs.org/) installed. Then run:
-
-   ```bash
-   npm install
-   ```
-
-3. **Setup Environment Variables**
-   Create a `.env` file in the root directory and add the necessary credentials. See the [Configuration](#configuration) section for details.
-
-4. **Run the Development Server**
-   ```bash
-   npm run dev
-   ```
-   Open your browser and navigate to `http://localhost:3000` to view the website.
-
-### Configuration
-
-The project relies on several external services. You need to provide your own credentials to connect to these services.
-
-1. **Algolia**
-
-   - **PUBLIC_ALGOLIA_APP_ID**: Your Algolia Application ID.
-   - **ALGOLIA_ADMIN_API_KEY**: Your Algolia Admin API Key.
-   - **ALGOLIA_SEARCH_KEY**: Your Algolia Search-Only API Key.
-
-2. **Notion**
-
-   - **NOTION_API_KEY**: Your Notion Integration Token.
-   - **NOTION_DATABASE_ID**: The ID of your Notion database containing the directory entries.
-
-3. **Environment Variables Example**
-
-   ```env
-   NOTION_API_KEY=your_notion_api_key_here
-   NOTION_DATABASE_ID=your_notion_database_id_here
-   PUBLIC_ALGOLIA_APP_ID=your_algolia_app_id_here
-   ALGOLIA_ADMIN_API_KEY=your_algolia_admin_api_key_here
-   PUBLIC_ALGOLIA_SEARCH_KEY=your_algolia_search_key_here
-   ```
-
-   **Note**: Replace the placeholder text with your actual credentials.
-
-### Usage
-
-#### Syncing Notion to Algolia
-
-To synchronize your Notion data with Algolia, run the following command:
-
-```bash
-npm run sync-notion
-```
 
 #### Adding New Entries
 
@@ -470,13 +385,6 @@ Please ensure your contributions align with our [Code of Conduct](code-of-conduc
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- [Algolia](https://www.algolia.com/) for providing excellent search services.
-- [Notion](https://www.notion.so/) for their robust content management platform.
-- [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/) for enabling a modern and responsive frontend.
-- The entire [Green Software Foundation](https://www.greensoftware.foundation/) community for their dedication to sustainable software development.
 
 ---
 
