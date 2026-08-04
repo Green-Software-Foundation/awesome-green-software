@@ -90,6 +90,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### AI Energy
 
+- [Awesome AI Tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) A curated list on measuring what AI tokens cost and where they are wasted, including an energy and carbon category for LLM workloads (per-query energy data, carbon trackers, and energy leaderboards)
 - [Beaker (Allen Institute For AI)](https://beaker.org) Captures GPU power inside a container
 - [carbontracker](https://github.com/lfwa/carbontracker)
 - [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
@@ -105,7 +106,12 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Azure
 
-- [Microsoft Emissions Impact Dashboard](https://www.microsoft.com/en-us/sustainability/emissions-impact-dashboard)
+- [Azure Carbon Optimization](https://learn.microsoft.com/azure/carbon-optimization/): Get resource-level emissions details as well as recommendations to reduce them, all from within the Azure Portal.
+- [Azure Emissions Impact Dashboard](https://www.microsoft.com/sustainability/emissions-impact-dashboard): Free Power BI App to get subscription level emissions info for your Azure tenant.
+- [Carbon Service REST API](https://learn.microsoft.com/rest/api/carbon/carbon-service): Use this API to programmatically export the data that powers the Emissions Impact Dashboard and Azure Carbon Optimization.
+- [Build environmental-aware API platforms with Azure API Management](https://techcommunity.microsoft.com/blog/integrationsonazureblog/building-environmental-aware-api-platforms-with-azure-api-management/4458308): Shift, load-balance or shape your app's API traffic depending on the Azure region's carbon intensity.
+- [Well Architected Framework for Sustainable Workloads](https://learn.microsoft.com/azure/well-architected/sustainability/sustainability-get-started): How to design a workload in Azure following best practices from the Green Software Foundation.
+
 
 ###### Google
 
