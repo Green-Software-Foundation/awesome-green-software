@@ -171,6 +171,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ##### OS-based
 
+- [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+
 ###### Android
 
 - [PowDroid](https://github.com/powdroid-project/powdroid) A lightweight tool for measuring energy consumption at runtime on any Android device
