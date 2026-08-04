@@ -86,7 +86,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### AI Carbon
 
 - [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
-- [AXIOMAX ESG Carbon Shield](https://axiomaxllc.com) Cryptographically verifiable carbon attestation tokens for AI inference workloads. ed25519-signed measurements, SHA-256 hash chain, independently auditable. Open-source verifier in Python/JS/Bash, browser-side mirror via Web Crypto API. Patent Pending USPTO 64/081,419. [[GitHub](https://github.com/axiomaxllc/esg-carbon-shield)]
+- [AXIOMAX ESG Carbon Shield]([https://axiomaxllc.com](https://github.com/axiomaxllc/esg-carbon-shield)) Cryptographically verifiable carbon attestation tokens for AI inference workloads. Patent Pending USPTO 64/081,419.
 - [ebb-ai](https://www.ebb-ai.com) Open-source MCP scheduler that defers non-urgent LLM tasks to the cleanest electricity-grid hour inside a deadline — 40-70% lower carbon per task. Multi-source live grid intensity (UK National Grid ESO, US EIA, ENTSO-E, Electricity Maps), per-task carbon receipts, Anthropic/OpenAI Batch API routing. Apache-2.0. [Source on GitHub](https://github.com/Vitalini/ebb-ai).
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
