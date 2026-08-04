@@ -85,16 +85,12 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### AI Carbon
 
-- [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 ###### AI Energy
 
 - [Awesome AI Tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) A curated list on measuring what AI tokens cost and where they are wasted, including an energy and carbon category for LLM workloads (per-query energy data, carbon trackers, and energy leaderboards)
-- [Beaker (Allen Institute For AI)](https://beaker.org) Captures GPU power inside a container
-- [carbontracker](https://github.com/lfwa/carbontracker)
-- [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
-- [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+- [carbontracker](https://github.com/saintslab/carbontracker) Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in (https://arxiv.org/abs/2007.03051)
 - [FedZero](https://github.com/dos-group/fedzero) is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
 
 ##### Cloud-based
@@ -107,11 +103,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### Azure
 
 - [Azure Carbon Optimization](https://learn.microsoft.com/azure/carbon-optimization/): Get resource-level emissions details as well as recommendations to reduce them, all from within the Azure Portal.
-- [Azure Emissions Impact Dashboard](https://www.microsoft.com/sustainability/emissions-impact-dashboard): Free Power BI App to get subscription level emissions info for your Azure tenant.
 - [Carbon Service REST API](https://learn.microsoft.com/rest/api/carbon/carbon-service): Use this API to programmatically export the data that powers the Emissions Impact Dashboard and Azure Carbon Optimization.
-- [Build environmental-aware API platforms with Azure API Management](https://techcommunity.microsoft.com/blog/integrationsonazureblog/building-environmental-aware-api-platforms-with-azure-api-management/4458308): Shift, load-balance or shape your app's API traffic depending on the Azure region's carbon intensity.
 - [Well Architected Framework for Sustainable Workloads](https://learn.microsoft.com/azure/well-architected/sustainability/sustainability-get-started): How to design a workload in Azure following best practices from the Green Software Foundation.
-
 
 ###### Google
 
@@ -129,8 +122,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 - [Carbonifer](https://github.com/carboniferio/carbonifer) Command Line Tool to control carbon emission of your cloud infrastructure.
-- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
-- [CarbonRunner](https://carbonrunner.io/): Shifting compute like AI training or GitHub Actions to the lowest-carbon regions across AWS, Azure, GCP and Heata in real time, cutting emissions by up to 90% compared to default GitHub Actions.
 
 ##### Code-based
 
@@ -163,7 +154,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
 - [Eco-CI Continuous Integration Energy Estimation](https://github.com/green-coding-berlin/eco-ci-energy-estimation) A plugin for GitHub Actions / GitLab that measures your CI runs and estimates their energy use.
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
-- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
@@ -178,7 +168,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Android
 
-- [ecoCode mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
+- [creedengo Android Java](https://github.com/green-code-initiative/creedengo-android-java) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 - [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
 
 ###### iOS
@@ -190,23 +180,19 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real time.
-- [PowerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
 
 ###### Web
 
-- [Carbonalyser - The Shift Project](https://theshiftproject.org/en/carbonalyser-browser-extension/)
 - [Carbonara - Digital4Better](https://github.com/digital4better/carbonara/) A custom element displaying web navigation carbon footprint
 - [Carbon Footprint of Sending Data](https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around) An online calculator for estimating carbon emissions from network traffic, based on the Shift projects Lean ICT report.
 - [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
 - [ecoIndex](https://www.ecoindex.fr/) Estimates the carbon footprint of public Web sites and pages (in French)
 - [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing the carbon footprint of websites.
-- [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces the energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
-- [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
 - [webNRG⚡️](https://website-tester.green-coding.io) Get actual rendering energy as well as network carbon emissions for your websites
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
@@ -233,14 +219,13 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [SustainableIT.org](https://www.sustainableIT.org)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
-- [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
 
 #### Courses
 
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
 - [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
-- [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
+- [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://coursebrowser.dce.harvard.edu/course/enabling-a-sustainable-digital-transformation/)
 - [MOOC Numérique Responsable](https://gridboy.github.io/MOOC-Numerique-Responsable/) — Curated list of free MOOCs on responsible tech, green IT, and responsible AI (French/English)
 - [Curso de Desarrollo de software medioambientalmente sostenible (Green Software) Spanish](https://www.adrformacion.com/cursos/greensoft/greensoft.html)
 
@@ -260,6 +245,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
 - [What Do We Need To Build More Sustainable AI Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
+- [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 
 ##### Books
 
@@ -336,7 +322,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Emissions
 
-- [A Framework For Collective Carbon Neutrality](https://www.carbone4.com/wp-content/uploads/2020/05/Carbone-4-NZI-Guidelines-Executive-Summary-april-2020.pdf)
 - [Methodological Guide - Bilan Carbone (French)](https://www.associationbilancarbone.fr/wp-content/uploads/2018/03/bilan-carbone-v8-guide-methodologique-final.pdf)
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
 - [The energy and carbon footprint of the ICT and E&M sector in Sweden 1990–2015 and beyond](https://download.atlantis-press.com/article/25860385.pdf)
@@ -393,7 +378,7 @@ Please ensure your contributions align with our [Code of Conduct](code-of-conduc
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ---
 
