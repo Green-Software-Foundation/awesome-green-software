@@ -205,6 +205,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
 - [WeDeex - Edge](https://microsoftedge.microsoft.com/addons/detail/wedeex/jbocoolinibenmobjadejejdbanalfee)
 - [Beacon](https://digitalbeacon.co/) Calculate the environmental impact of a web page.
+- [webNRG](https://website-tester.green-coding.io) Website Tester that actually measures rendering energy of the browser alongside network traffic based carbon emissions.
 
 ###### Windows
 
