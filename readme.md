@@ -2,7 +2,7 @@
 
 > Research, tools, code, libraries, and training for building applications that emit less carbon into our atmosphere.
 
-An [awesome list](https://awesome.re) created and managed by the [Open Source Working Group](https://opensource.greensoftware.foundation) in the [Green Software Foundation](https://greensoftware.foundation).
+An [awesome list](https://awesome.re) created and managed by the [Open Source Working Group](https://directory.greensoftware.foundation/working-groups/software-wg/) in the [Green Software Foundation](https://greensoftware.foundation).
 
 ---
 
