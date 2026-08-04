@@ -132,9 +132,10 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [oaklean.io](https://oaklean.io/) Visualize and optimize the energy consumption of your JavaScript/TypeScript applications. Using a VSCode extension and integration with test frameworks, the system identifies energy-intensive code sections and suggests eco-friendly alternatives.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [Creedengo (formerly ecoCode)](https://github.com/green-code-initiative/creedengo-rules-specifications) SonarQube plugins for PHP, Python, Java, and JavaScript, and more, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 - [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) A simple syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files
+- [Green CodeQL](https://github.com/green-code-initiative/green-codeql-queries) A first-of-its-kind repository of custom CodeQL queries to scan your codebase and detect environmental sustainability problems, notably energy-related issues
 - [CarbonLint](https://github.com/nishal21/CarbonLint)CarbonLint is a real-time system profiler that tracks your computer's energy consumption and calculates its carbon footprint. It helps developers understand the environmental impact of their work and make greener choices.
 
 ##### General Purpose
@@ -169,12 +170,9 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Android
 
-- [creedengo Android Java](https://github.com/green-code-initiative/creedengo-android-java) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
-- [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
+- [PowDroid](https://github.com/powdroid-project/powdroid) A lightweight tool for measuring energy consumption at runtime on any Android device
 
 ###### iOS
-
-- [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 ###### Linux
 
@@ -221,6 +219,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
+- [Green Code Initiative](https://github.com/green-code-initiative)
 
 #### Courses
 
