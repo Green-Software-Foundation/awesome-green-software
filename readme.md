@@ -86,6 +86,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### AI Carbon
 
 - [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
+- [ebb-ai](https://www.ebb-ai.com) Open-source MCP scheduler that defers non-urgent LLM tasks to the cleanest electricity-grid hour inside a deadline — 40-70% lower carbon per task. Multi-source live grid intensity (UK National Grid ESO, US EIA, ENTSO-E, Electricity Maps), per-task carbon receipts, Anthropic/OpenAI Batch API routing. Apache-2.0. [Source on GitHub](https://github.com/Vitalini/ebb-ai).
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 ###### AI Energy
