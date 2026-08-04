@@ -92,10 +92,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### AI Energy
 
 - [Awesome AI Tokenomics](https://github.com/QuesmaOrg/awesome-ai-tokenomics) A curated list on measuring what AI tokens cost and where they are wasted, including an energy and carbon category for LLM workloads (per-query energy data, carbon trackers, and energy leaderboards)
-- [Beaker (Allen Institute For AI)](https://beaker.org) Captures GPU power inside a container
-- [carbontracker](https://github.com/lfwa/carbontracker)
-- [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
-- [Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in Anthony et al. (2020)](https://arxiv.org/abs/2007.03051)
+- [carbontracker](https://github.com/saintslab/carbontracker) Tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models as described in (https://arxiv.org/abs/2007.03051)
 - [FedZero](https://github.com/dos-group/fedzero) is a federated learning system for zero-carbon distributed AI training. It is the successor of Lowcarb which won the GSF CarbonHack 2022. [Related Paper](https://arxiv.org/pdf/2305.15092)
 
 ##### Cloud-based
@@ -108,11 +105,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 ###### Azure
 
 - [Azure Carbon Optimization](https://learn.microsoft.com/azure/carbon-optimization/): Get resource-level emissions details as well as recommendations to reduce them, all from within the Azure Portal.
-- [Azure Emissions Impact Dashboard](https://www.microsoft.com/sustainability/emissions-impact-dashboard): Free Power BI App to get subscription level emissions info for your Azure tenant.
 - [Carbon Service REST API](https://learn.microsoft.com/rest/api/carbon/carbon-service): Use this API to programmatically export the data that powers the Emissions Impact Dashboard and Azure Carbon Optimization.
-- [Build environmental-aware API platforms with Azure API Management](https://techcommunity.microsoft.com/blog/integrationsonazureblog/building-environmental-aware-api-platforms-with-azure-api-management/4458308): Shift, load-balance or shape your app's API traffic depending on the Azure region's carbon intensity.
 - [Well Architected Framework for Sustainable Workloads](https://learn.microsoft.com/azure/well-architected/sustainability/sustainability-get-started): How to design a workload in Azure following best practices from the Green Software Foundation.
-
 
 ###### Google
 
@@ -130,8 +124,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/) A free open-source (FOSS) tool to measure the energy / CO2 consumption of your software architecture.
 - [kube-green](https://github.com/kube-green/kube-green) A simple open-source k8s addon that automatically shuts down (some of) your resources when you don't need them.
 - [Carbonifer](https://github.com/carboniferio/carbonifer) Command Line Tool to control carbon emission of your cloud infrastructure.
-- [Gaia Gen](https://gaiagen.eu) A SaaS solution for monitoring and reporting cloud emissions (there is a cost associated with this solution).
-- [CarbonRunner](https://carbonrunner.io/): Shifting compute like AI training or GitHub Actions to the lowest-carbon regions across AWS, Azure, GCP and Heata in real time, cutting emissions by up to 90% compared to default GitHub Actions.
 
 ##### Code-based
 
@@ -142,9 +134,11 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Kernel Tuner](https://github.com/kerneltuner/kernel_tuner) an auto-tuner capable of [optimizing GPU code for energy efficiency](https://github.com/KernelTuner/kernel_tuner/blob/master/examples/cuda/going_green_performance_model.py).
 - [oaklean.io](https://oaklean.io/) Visualize and optimize the energy consumption of your JavaScript/TypeScript applications. Using a VSCode extension and integration with test frameworks, the system identifies energy-intensive code sections and suggests eco-friendly alternatives.
 - [Tracarbon](https://github.com/fvaleye/tracarbon) Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location
-- [ecoCode](https://github.com/green-code-initiative/ecoCode) A SonarQube plugin for PHP, Python, Java, and JavaScript, providing static code analyzers to highlight code structures that may have a negative ecological impact.
+- [Creedengo (formerly ecoCode)](https://github.com/green-code-initiative/creedengo-rules-specifications) SonarQube plugins for PHP, Python, Java, and JavaScript, and more, providing static code analyzers to highlight code structures that may have a negative ecological impact.
 - [energy-consumption-measuring-toolkit](https://github.com/Accenture/energy-consumption-measuring-toolkit) Energy Consumption Measuring Toolkit for Python Applications
 - [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) A simple syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files
+- [Green CodeQL](https://github.com/green-code-initiative/green-codeql-queries) A first-of-its-kind repository of custom CodeQL queries to scan your codebase and detect environmental sustainability problems, notably energy-related issues
+- [CarbonLint](https://github.com/nishal21/CarbonLint)CarbonLint is a real-time system profiler that tracks your computer's energy consumption and calculates its carbon footprint. It helps developers understand the environmental impact of their work and make greener choices.
 
 ##### General Purpose
 
@@ -163,8 +157,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [CEEMS](https://ceems-dev.github.io/ceems/) (Compute Energy & Emissions Monitoring Stack) is a complete monitoring solution that provides energy and equivalent emissions besides performance, I/O and network metrics of SLURM (HPC), Openstack (VM) and Kubernetes (Container) workloads.
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
 - [Eco-CI Continuous Integration Energy Estimation](https://github.com/green-coding-berlin/eco-ci-energy-estimation) A plugin for GitHub Actions / GitLab that measures your CI runs and estimates their energy use.
-- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the node and process level, and attributes it to computing units (containers, pods, and VMs) by reading hardware sensors and resource utilization.
-- [Hardware Sentry](https://www.sentrysoftware.com/products/hardware-sentry.html) Standard OpenTelemetry agent that exposes the energy usage and temperatures of servers, network, and storage systems in data centers
+- [Energy Rebate Calculator](https://energyrebatecalculator.com/) Calculator tool for estimating federal and state energy rebates and incentives for home energy efficiency improvements, solar installations, EV charging, and other clean energy upgrades under the Inflation Reduction Act and related programs.
+- [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
 - [ML.ENERGY Leaderboard: How much energy do LLMs consume?](https://ml.energy/leaderboard)
@@ -179,40 +173,35 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Android
 
-- [ecoCode mobile](https://github.com/green-code-initiative/ecocode-mobile) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
-- [PowDroid](https://gitlab.com/powdroid/powdroid-cli) A lightweight CLI tool for measuring energy consumption at runtime (based on batterystats)
+- [PowDroid](https://github.com/powdroid-project/powdroid) A lightweight tool for measuring energy consumption at runtime on any Android device
 
 ###### iOS
-
-- [ecoCode iOS](https://github.com/green-code-initiative/ecoCode-ios) A SonarQube plugin to highlight code structures that may have a negative ecological impact.
 
 ###### Linux
 
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [ipmitool](https://github.com/ipmitool/ipmitool) We can get the power consumption of a bare metal machine through the DCMI (IPMI extension).
 - [PowerAPI](http://powerapi.org) A Linux software-defined power meter to estimate process-scale power consumption in real time.
-- [PowerTOP](https://01.org/powertop) A Linux tool to diagnose issues with power consumption and power management.
 - [turbostress](https://github.com/teads/turbostress) This tool generates load and outputs computer power metrics for this load.
 
 ###### Web
 
-- [Carbonalyser - The Shift Project](https://theshiftproject.org/en/carbonalyser-browser-extension/)
 - [Carbonara - Digital4Better](https://github.com/digital4better/carbonara/) A custom element displaying web navigation carbon footprint
 - [Carbon Footprint of Sending Data](https://observablehq.com/@mrchrisadams/carbon-footprint-of-sending-data-around) An online calculator for estimating carbon emissions from network traffic, based on the Shift projects Lean ICT report.
 - [CO2.js](https://github.com/thegreenwebfoundation/co2.js/) An npm module for accessing the green web API, and estimating the carbon emissions from using digital services
 - [EcoGrader.com](https://ecograder.com/) An online website carbon estimator.
 - [ecoIndex](https://www.ecoindex.fr/) Estimates the carbon footprint of public Web sites and pages (in French)
 - [ec0lint](https://github.com/ec0lint/ec0lint) Static code analysis tool providing hints for reducing the carbon footprint of websites.
-- [EcoMeter.org](http://ecometer.org/) Analyse the website ecodesign maturity.
 - [Fruggr](https://www.fruggr.io) Evaluate the environmental and social efficiency of web and mobile applications.
 - [Globemallow.io](https://globemallow.io/) Sustainable web development + design best practice reports. Analytics & Ad Blocker reduces the energy required for page load and protects your privacy.
 - [GreenFrame.io](https://greenframe.io) Calculate Carbon Footprint of website.
-- [GreenSpector](http://mobile-efficiency-index.com/en/)
 - [Kastor.green](https://kastor.green/) Evaluate ecodesign compliance of websites and web applications.
+- [webNRG⚡️](https://website-tester.green-coding.io) Get actual rendering energy as well as network carbon emissions for your websites
 - [Website Carbon Calculator](https://www.websitecarbon.com/) An online website carbon estimator.
 - [WeDeex - Chrome](https://chrome.google.com/webstore/detail/wedeex/ojlagggckhpedblhemgjhecbggnibale)
 - [WeDeex - Edge](https://microsoftedge.microsoft.com/addons/detail/wedeex/jbocoolinibenmobjadejejdbanalfee)
 - [Beacon](https://digitalbeacon.co/) Calculate the environmental impact of a web page.
+- [webNRG](https://website-tester.green-coding.io) Website Tester that actually measures rendering energy of the browser alongside network traffic based carbon emissions.
 
 ###### Windows
 
@@ -232,14 +221,14 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [SustainableIT.org](https://www.sustainableIT.org)
 - [The Green Grid](https://www.thegreengrid.org/)
 - [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
-- [The Shift Project](https://theshiftproject.org/lean-ict/) (Specifically, their Digital Sobriety / Lean ICT project)
 - [TimeForThePlanet](https://www.time-planet.com/fr)
+- [Green Code Initiative](https://github.com/green-code-initiative)
 
 #### Courses
 
 - [The Principles of Sustainable Software Engineering](https://docs.microsoft.com/en-us/learn/modules/sustainable-software-engineering-overview/)
 - [Sustainable software engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022)
-- [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://harvard.simplesyllabus.com/en-US/doc/554t3qmym)
+- [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://coursebrowser.dce.harvard.edu/course/enabling-a-sustainable-digital-transformation/)
 - [MOOC Numérique Responsable](https://gridboy.github.io/MOOC-Numerique-Responsable/) — Curated list of free MOOCs on responsible tech, green IT, and responsible AI (French/English)
 - [Curso de Desarrollo de software medioambientalmente sostenible (Green Software) Spanish](https://www.adrformacion.com/cursos/greensoft/greensoft.html)
 
@@ -259,6 +248,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [What are the greenest programming languages?](https://medium.com/codex/what-are-the-greenest-programming-languages-e738774b1957)
 - [What Do We Need To Build More Sustainable AI Systems?](https://greensoftware.foundation/articles/what-do-we-need-to-build-more-sustainable-ai-systems)
 - [Why Should Sustainability Be A First-Class Consideration For AI Systems?](https://greensoftware.foundation/articles/why-should-sustainability-be-a-first-class-consideration-for-ai-systems)
+- [RAPL in Action: Experiences in Using RAPL for Power Measurements](https://www.researchgate.net/publication/322308215_RAPL_in_Action_Experiences_in_Using_RAPL_for_Power_Measurements)
 
 ##### Books
 
@@ -335,12 +325,11 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### Emissions
 
-- [A Framework For Collective Carbon Neutrality](https://www.carbone4.com/wp-content/uploads/2020/05/Carbone-4-NZI-Guidelines-Executive-Summary-april-2020.pdf)
 - [Methodological Guide - Bilan Carbone (French)](https://www.associationbilancarbone.fr/wp-content/uploads/2018/03/bilan-carbone-v8-guide-methodologique-final.pdf)
 - [Putting a CO2 figure on a piece of computation](https://ieeexplore.ieee.org/document/6128960)
 - [The energy and carbon footprint of the ICT and E&M sector in Sweden 1990–2015 and beyond](https://download.atlantis-press.com/article/25860385.pdf)
 - [The Most Important GHG Accounting Concept You May Not Have Heard of: The Attributional Consequential Distinction](https://ghginstitute.org/2021/04/21/the-most-important-ghg-accounting-concept-you-may-not-have-heard-of-the-attributional-consequential-distinction/)
-- [Tracking emissions in the US electricity system](https://web.stanford.edu/~jdechale/emissions_app/#/about)
+- [Tracking emissions in the US electricity system](https://www.pnas.org/doi/10.1073/pnas.1912950116)
 
 ###### Programming Languages
 
@@ -364,91 +353,6 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Quantifying Carbon Emissions due to Online Third-Party Tracking](https://arxiv.org/abs/2304.00927)
 
 ## Green Software Foundation Directory
-
-### Features
-
-- **Search Functionality**: Powered by Algolia, enabling fast and relevant search results.
-- **Content Management**: Utilizes Notion for managing and updating the directory entries.
-- **Responsive Design**: Built with Astro and Tailwind CSS for a modern, responsive user interface.
-- **Contributor Support**: Easy-to-use forms for adding new projects or contributing to existing ones.
-- **Integration with Social Platforms**: Connect with the Green Software Foundation community on GitHub, Twitter, and LinkedIn.
-
-### Technologies Used
-
-- **Frontend**:
-
-  - [Astro](https://astro.build/) - A modern framework for building fast, content-focused websites.
-  - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-  - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
-
-- **Backend & Services**:
-  - [Algolia](https://www.algolia.com/) - A powerful search-as-a-service platform.
-  - [Notion](https://www.notion.so/) - An all-in-one workspace for note-taking and project management.
-  - [Node.js](https://nodejs.org/) - A JavaScript runtime for building scalable network applications.
-
-### Installation
-
-Follow these steps to set up the project locally:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/green-software-foundation-directory.git
-   cd green-software-foundation-directory
-   ```
-
-2. **Install Dependencies**
-   Ensure you have [Node.js](https://nodejs.org/) installed. Then run:
-
-   ```bash
-   npm install
-   ```
-
-3. **Setup Environment Variables**
-   Create a `.env` file in the root directory and add the necessary credentials. See the [Configuration](#configuration) section for details.
-
-4. **Run the Development Server**
-   ```bash
-   npm run dev
-   ```
-   Open your browser and navigate to `http://localhost:3000` to view the website.
-
-### Configuration
-
-The project relies on several external services. You need to provide your own credentials to connect to these services.
-
-1. **Algolia**
-
-   - **PUBLIC_ALGOLIA_APP_ID**: Your Algolia Application ID.
-   - **ALGOLIA_ADMIN_API_KEY**: Your Algolia Admin API Key.
-   - **ALGOLIA_SEARCH_KEY**: Your Algolia Search-Only API Key.
-
-2. **Notion**
-
-   - **NOTION_API_KEY**: Your Notion Integration Token.
-   - **NOTION_DATABASE_ID**: The ID of your Notion database containing the directory entries.
-
-3. **Environment Variables Example**
-
-   ```env
-   NOTION_API_KEY=your_notion_api_key_here
-   NOTION_DATABASE_ID=your_notion_database_id_here
-   PUBLIC_ALGOLIA_APP_ID=your_algolia_app_id_here
-   ALGOLIA_ADMIN_API_KEY=your_algolia_admin_api_key_here
-   PUBLIC_ALGOLIA_SEARCH_KEY=your_algolia_search_key_here
-   ```
-
-   **Note**: Replace the placeholder text with your actual credentials.
-
-### Usage
-
-#### Syncing Notion to Algolia
-
-To synchronize your Notion data with Algolia, run the following command:
-
-```bash
-npm run sync-notion
-```
 
 #### Adding New Entries
 
@@ -477,14 +381,7 @@ Please ensure your contributions align with our [Code of Conduct](code-of-conduc
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- [Algolia](https://www.algolia.com/) for providing excellent search services.
-- [Notion](https://www.notion.so/) for their robust content management platform.
-- [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/) for enabling a modern and responsive frontend.
-- The entire [Green Software Foundation](https://www.greensoftware.foundation/) community for their dedication to sustainable software development.
+This project is licensed under the [MIT License](LICENSE.md).
 
 ---
 
