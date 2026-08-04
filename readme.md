@@ -85,6 +85,8 @@ The Green Software Foundation Directory is designed to help developers, organiza
 
 ###### AI Carbon
 
+- [1ClickImpact](https://1clickimpact.com) API and platform for offsetting carbon emissions from AI workloads. Provides automated carbon offsetting and real-time tracking via a simple API. Connect with 1000+ apps using Zapier to automate carbon accounting and offsetting.
+- [ebb-ai](https://www.ebb-ai.com) Open-source MCP scheduler that defers non-urgent LLM tasks to the cleanest electricity-grid hour inside a deadline — 40-70% lower carbon per task. Multi-source live grid intensity (UK National Grid ESO, US EIA, ENTSO-E, Electricity Maps), per-task carbon receipts, Anthropic/OpenAI Batch API routing. Apache-2.0. [Source on GitHub](https://github.com/Vitalini/ebb-ai).
 - [Experiment Impact Tracker Library](https://github.com/Breakend/experiment-impact-tracker) Calculates carbon cost of ML job
 
 ###### AI Energy
@@ -146,6 +148,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) A Web API and command line for obtaining unified forecast and historical power grid emissions data based on location and time, to help build Carbon Aware software.
 - [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) A Hangfire extension to schedule tasks with carbon awareness in mind. The best point in time is calculated based on emission forecasts to get a window with a minimal grid carbon intensity.
 - [Carbon Aware Computing - Tools & Free forecast data](https://github.com/bluehands/Carbon-Aware-Computing) The goal of this project is to provide developers with hassle-free, easy-to-use, ready-to-run tools for carbon-aware computing. The software contains a NuGet-Package, Powershell-Commandlets, and a live instance of the SDK. An open data carbon forecast for Europe is available as in the JSON-Carbon SDK-compatible format.
+- [GreenScheduled](https://github.com/carbonintensityio/green-scheduler) A lightweight, easy-to-integrate scheduling library designed to run processes with carbon awareness in mind. It automatically schedules your process to start during the period of lowest carbon intensity, based on the configured zone and time window. 
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on ElectricityMaps / CO2signal.
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) A PowerShell Module for retrieving current carbon emissions data for power grids with a free account on WattTime.org.
 
