@@ -153,6 +153,7 @@ The Green Software Foundation Directory is designed to help developers, organiza
 - [CEEMS](https://ceems-dev.github.io/ceems/) (Compute Energy & Emissions Monitoring Stack) is a complete monitoring solution that provides energy and equivalent emissions besides performance, I/O and network metrics of SLURM (HPC), Openstack (VM) and Kubernetes (Container) workloads.
 - [CO2Scope](https://www.easyvirt.com/en/co2scope-reduce-the-carbon-footprint-of-it-services/) Solution to monitor in real-time the CO2 emissions of IT services, virtual machines, and servers
 - [Eco-CI Continuous Integration Energy Estimation](https://github.com/green-coding-berlin/eco-ci-energy-estimation) A plugin for GitHub Actions / GitLab that measures your CI runs and estimates their energy use.
+- [Energy Rebate Calculator](https://energyrebatecalculator.com/) Calculator tool for estimating federal and state energy rebates and incentives for home energy efficiency improvements, solar installations, EV charging, and other clean energy upgrades under the Inflation Reduction Act and related programs.
 - [Kepler](https://github.com/sustainable-computing-io/kepler) (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy-related system stats and exports as Prometheus metrics
 - [PowerJoular](https://gitlab.com/joular/powerjoular) Monitor, in real-time, the power consumption of software and hardware components.
 - [scaphandre](https://github.com/hubblo-org/scaphandre) Power measurement (bare metal hosts, prometheus, within a docker container, etc)
