@@ -79,6 +79,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 ### Code-Based
 
 - [1ClickImpact Sustainability API](https://docs.1clickimpact.com/) - A RESTful API for integrating environmental actions such as tree planting, carbon capture, and ocean cleanup into software and workflows. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [carbon-budget-action](https://github.com/fabiocicerchia/carbon-budget-action) - GitHub Action that fails a PR when its estimated carbon cost exceeds a configurable budget. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [carbon-text](https://github.com/ShayokhShorfuddin/carbon-text) - A syntax highlighter and snippets extension for [carbon.txt](https://carbontxt.org/) files. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [CarbonLint](https://github.com/nishal21/CarbonLint) - An MIT-licensed Tauri/Rust desktop app and npm CLI that tracks CPU, memory, disk, network, and GPU use, converts it to CO2 via regional grid intensity, and scores projects 0-100. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [CAST Highlight](https://learn.castsoftware.com/green-software/) - Automated source code analysis that identifies green deficiencies and tracks improvement across an application portfolio. ![co](https://img.shields.io/badge/co-555?style=flat-square)
