@@ -71,10 +71,10 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 
 ### Cloud — Multicloud
 
-- [Carbonifer](https://github.com/carboniferio/carbonifer) - A command line tool to estimate and control the carbon emissions of cloud infrastructure before it is provisioned. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [Carbonifer](https://github.com/carboniferio/carbonifer) - A command-line tool to estimate and control the carbon emissions of cloud infrastructure before it is provisioned. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) - An open-source cloud energy and carbon emissions measurement tool spanning AWS, Azure, and GCP. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/) - A free open-source tool to measure the energy and CO2 consumption of a software architecture. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
-- [kube-green](https://github.com/kube-green/kube-green) - An open-source Kubernetes addon that automatically shuts down selected resources when you do not need them. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [kube-green](https://github.com/kube-green/kube-green) - An open-source Kubernetes add-on that automatically shuts down selected resources when you do not need them. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### Code-Based
 
@@ -97,6 +97,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 - [Carbon Aware Computing — Tools and Free Forecast Data](https://github.com/bluehands/Carbon-Aware-Computing) - A NuGet package, PowerShell cmdlets, and a live SDK instance, plus an open carbon forecast for Europe in the Carbon Aware SDK's JSON format. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Carbon Aware Computing Hangfire Extension](https://github.com/bluehands/Hangfire.Community.CarbonAwareExecution) - A Hangfire extension that schedules tasks into the window of minimal grid carbon intensity, based on emission forecasts. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) - A Web API and command line for unified forecast and historical power grid emissions data by location and time, to help build carbon-aware software. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [Compute Gardener Scheduler](https://github.com/elevated-systems/compute-gardener-scheduler) An open-source Kubernetes scheduler plugin that simplifies both time and location shifting of flexible compute workloads to lower-carbon or cheaper grid hours, using real-time carbon intensity data and time-of-use prices, with workload energy budgets, Kepler power metrics, and a dry-run admission webhook to evaluate savings.
 - [GreenScheduled](https://github.com/carbonintensityio/green-scheduler) - An Apache-2.0 Java library adding a `@GreenScheduled` annotation for Spring Boot and Quarkus that shifts jobs to the lowest-carbon hour in a window using the carbonintensity.io API. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PSElectricityMaps](https://github.com/cloudyspells/PSElectricityMaps) - A PowerShell module for retrieving current power grid carbon emissions data with a free Electricity Maps or CO2signal account. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PSWattTime](https://github.com/cloudyspells/PSWattTime) - A PowerShell module for retrieving current power grid carbon emissions data with a free WattTime.org account. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
@@ -109,7 +110,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 - [Energy Rebate Calculator](https://energyrebatecalculator.com/) - A consumer-facing US home energy rebate finder covering HOMES and HEAR programs, heat pumps, and insulation tax credits. *Flagged for review: unrelated to green software engineering.* ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [Kepler](https://github.com/sustainable-computing-io/kepler) - The Kubernetes-based Efficient Power Level Exporter uses eBPF to probe energy-related system stats and exports them as Prometheus metrics. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PowerJoular](https://github.com/joular/powerjoular) - Monitors the power consumption of software and hardware components in real time. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
-- [scaphandre](https://github.com/hubblo-org/scaphandre) - Power measurement for bare metal hosts, Prometheus, and workloads inside Docker containers. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [scaphandre](https://github.com/hubblo-org/scaphandre) - Power measurement for bare-metal hosts, Prometheus, and workloads inside Docker containers. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Vessim](https://vessim.readthedocs.io/en/latest/) - A co-simulation testbed for carbon-aware applications, connecting renewable generation and energy storage simulators to real software and hardware; published at HotCarbon'24. ([source](https://github.com/dos-group/vessim)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### General Purpose — Extensions
@@ -128,15 +129,15 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 
 ### OS — Linux
 
-- [FreeIPMI](https://www.gnu.org/software/freeipmi/) - Reads the power consumption of a bare metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
-- [ipmitool](https://github.com/ipmitool/ipmitool) - Reads the power consumption of a bare metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [FreeIPMI](https://www.gnu.org/software/freeipmi/) - Reads the power consumption of a bare-metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [ipmitool](https://github.com/ipmitool/ipmitool) - Reads the power consumption of a bare-metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PowerAPI](https://powerapi.org) - A Linux software-defined power meter estimating process-scale power consumption in real time. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PowerTOP](https://github.com/fenrus75/powertop) - A Linux tool to diagnose issues with power consumption and power management. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [turbostress](https://github.com/teads/turbostress) - Generates load on a machine and outputs the computer's power metrics for that load. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### OS — Windows
 
-- [powercfg](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options) - A built-in Windows command line tool whose `/energy`, `/batteryreport`, and `/sleepstudy` switches produce HTML or XML reports on energy-efficiency problems, battery wear, and modern-standby quality. ([blog post](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [powercfg](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options) - A built-in Windows command-line tool whose `/energy`, `/batteryreport`, and `/sleepstudy` switches produce HTML or XML reports on energy-efficiency problems, battery wear, and modern-standby quality. ([blog post](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [WedeexApp](https://github.com/Wedeex-DevTeam/WedeexApp) - An MIT-licensed UWP sample app in C# demonstrating the Wedeex API by showing real-time French grid CO2 intensity and Microsoft Surface power draw. ([blog post](https://devblogs.microsoft.com/sustainable-software/we-need-a-yuka-for-electricity-to-ease-the-energy-transition/)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### Web
@@ -173,7 +174,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 
 - [Curso de Desarrollo de software medioambientalmente sostenible](https://www.adrformacion.com/cursos/greensoft/greensoft.html) - A paid 20-hour online Spanish-language course from ADR Formación covering data-centre footprints, green coding, carbon measurement, and nine practical exercises. ![course](https://img.shields.io/badge/course-555?style=flat-square)
 - [Harvard ENVR S-186: Enabling a Sustainable Digital Transformation](https://coursebrowser.dce.harvard.edu/course/enabling-a-sustainable-digital-transformation/) - A course taught online, covering digital carbon footprints, sustainable digital transformation, and digital justice. ![course](https://img.shields.io/badge/course-555?style=flat-square)
-- [MOOC Numérique Responsable](https://gridboy.github.io/MOOC-Numerique-Responsable/) - A free, CC0-licensed catalogue aggregating French-language courses on responsible digital practices, green IT, and responsible AI. ![course](https://img.shields.io/badge/course-555?style=flat-square)
+- [MOOC Numérique Responsable](https://gridboy.github.io/MOOC-Numerique-Responsable/) - A free, CC0-licensed catalog aggregating French-language courses on responsible digital practices, green IT, and responsible AI. ![course](https://img.shields.io/badge/course-555?style=flat-square)
 - [Sustainable Software Engineering by openHPI](https://open.hpi.de/courses/sustainablesoftware2022) - A free two-week self-paced MOOC from the Hasso Plattner Institute on resource-efficient software development, aimed at developers and architects. ![course](https://img.shields.io/badge/course-555?style=flat-square)
 - [The Principles of Sustainable Software Engineering](https://learn.microsoft.com/training/modules/sustainable-software-engineering-overview/) - Microsoft's free beginner-level Learn module covering the six principles of sustainable software engineering across ten self-paced units with an assessment. ![course](https://img.shields.io/badge/course-555?style=flat-square)
 
