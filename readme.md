@@ -156,6 +156,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 - [Fruggr](https://www.fruggr.io) - Evaluates the environmental and social efficiency of web and mobile applications. ![co](https://img.shields.io/badge/co-555?style=flat-square)
 - [GreenFrame.io](https://greenframe.io) - Calculates the carbon footprint of a website from a full user scenario rather than a single page load. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Kastor.green](https://kastor.green/) - Evaluates the ecodesign compliance of websites and web applications against the GR491 standard. ![co](https://img.shields.io/badge/co-555?style=flat-square)
+- [ShiftPress Website Carbon Calculator](https://shiftpress.ai/carbon-check) - A free online estimator that measures a page's transfer size and reports yearly CO₂, with no account required for the check. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [webNRG](https://website-tester.green-coding.io) - A hosted website tester from Green Coding Solutions measuring browser rendering energy alongside network-transfer emissions, reporting CO2 for a typical 10,000 monthly visitors. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Website Carbon Calculator](https://www.websitecarbon.com/) - An online website carbon estimator giving a per-pageview figure and a letter grade. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
