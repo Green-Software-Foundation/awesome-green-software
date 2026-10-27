@@ -49,6 +49,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 - [ML.ENERGY Leaderboard](https://ml.energy/leaderboard) - A public leaderboard from the ML.ENERGY Initiative showing time and energy consumption of generative AI models on GPU inference, covering LLMs, multimodal LLMs, and diffusion models. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [The AI Footprint](https://theaifootprint.com/) - A public leaderboard of electricity used per answer across 266 of 273 tracked generative AI models, computed for every model with the same open formula from published parameter counts and calibrated against measured data, with per-model pages and a stated methodology. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Zeus](https://ml.energy/zeus) - An Apache-2.0 library for measuring and optimizing deep learning energy use across NVIDIA and AMD GPUs, Apple Silicon, Jetson, and CPU/DRAM, with power-limit and batch-size optimizers. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [EcoCompute MLCube](https://github.com/hongping-zh/ecocompute-mlcube) - A reproducible measurement container for LLM inference energy: NVML power sampling, schema-validated `energy.json`, and `vs_fp16_energy_pct` across 360+ configurations. The most valuable contribution is running the container on a GPU we don't have. ([dataset DOI](https://zenodo.org/records/19647290)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### Cloud — AWS
 
