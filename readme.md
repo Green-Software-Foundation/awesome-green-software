@@ -137,6 +137,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 
 ### OS — Linux
 
+- [CO2_RAPL](https://github.com/Institut-du-Numerique-Responsable/CO2_RAPL) - A CC0 Bash script that reads Intel RAPL counters to monitor a Linux server's CPU energy use in real time and estimate the associated CO2 emissions. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [FreeIPMI](https://www.gnu.org/software/freeipmi/) - Reads the power consumption of a bare-metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [ipmitool](https://github.com/ipmitool/ipmitool) - Reads the power consumption of a bare-metal machine through DCMI, the IPMI extension. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [PowerAPI](https://powerapi.org) - A Linux software-defined power meter estimating process-scale power consumption in real time. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
