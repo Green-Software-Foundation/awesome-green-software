@@ -41,6 +41,7 @@ Each entry ends with a kind badge: ![tool](https://img.shields.io/badge/tool-blu
 - [claude-carbon](https://github.com/gwittebolle/claude-carbon) - An MIT-licensed Bash and SQLite tool that tracks the carbon footprint of Claude Code agent sessions, with a live CO2 estimate in the status line, per-model reports, shareable PNG report cards, and a published methodology. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [ebb-ai](https://www.ebb-ai.com) - An Apache-2.0 MCP server exposing nine tools that defer non-urgent LLM jobs to the cleanest grid hour within a deadline across 31 regions, logging per-task carbon receipts to SQLite. ([source](https://github.com/Vitalini/ebb-ai)) ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 - [Experiment Impact Tracker](https://github.com/Breakend/experiment-impact-tracker) - A Python library that calculates the carbon cost of a machine learning job; **unmaintained**, archived October 2025. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
+- [SOMA AI Emission Factors (SAEF)](https://doi.org/10.5281/zenodo.20443585) - An open CC BY 4.0 dataset of carbon and water factors per million tokens for AI inference, by model class and 143 AWS, Azure and Google Cloud regions, with a standard-library Python calculator. The method is a preprint under peer review. ![tool](https://img.shields.io/badge/tool-blue?style=flat-square)
 
 ### AI — Energy
 
